@@ -19,6 +19,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Densha de Go!](games/densha-de-go/README.md) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) | BPS | `B62E5DD0` | `A8ACDDA0` |
 | [Dokodemo Hamster](games/dokodemo-hamster/README.md) (+ Long Names edition, may be buggy) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0) | BPS | `89E7D950` | `F67C5588` (Long Names `22F04AF5`) |
 | [Tane o Maku Tori: The Bird Who Sowed Seeds](games/tane-o-maku-tori/README.md) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) | BPS | `B1CAEC06` | `40EC6A1D` |
+| [Engacho! for WonderSwan](games/engacho/README.md) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) | BPS | `4E467626` | `31F0D8F8` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
