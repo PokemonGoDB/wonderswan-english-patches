@@ -2,7 +2,7 @@
 
 English translation patches for Japanese-only WonderSwan and WonderSwan Color games.
 
-> **Please read:** these translations were made **with AI** (Claude), as a hobby project. A person decided every
+> **Please read:** these translations were made **with AI** (Claude), as a hobby project. A person (me) decided every
 > judgement call (names, sensitive terms, departures from the literal text) and played each game before release.
 > Nobody on the project is a professional translator. Please **don't upload these patches to romhacking sites**
 > (romhacking.net and the like).
