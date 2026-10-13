@@ -29,6 +29,24 @@ DJ KONAMI keeps his attitude: he's a cocky club DJ, so the English is casual and
 * Japanese text: the subtitle images in the ROM itself.
 * Font: a proportional pixel font drawn for our other WonderSwan patches.
 
+**Images** (original on the left, English on the right)
+
+1. DJ KONAMI introduces himself
+
+   ![DJ KONAMI introduces himself](images/01-practice-intro.png)
+
+2. Tutorial: the keys
+
+   ![Tutorial: the keys](images/02-tutorial.png)
+
+3. Practice song (AMBIENT)
+
+   ![Practice song (AMBIENT)](images/03-practice-song.png)
+
+4. DJ battle: the verdict if you lose
+
+   ![DJ battle: the verdict if you lose](images/04-dj-battle.png)
+
 **How to patch**
 
 Apply the BPS to the Japanese ROM "Beatmania for WonderSwan (Japan)" (CRC32 324622C9) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 513EE998. The ROM keeps its size (16 MB), so it runs on the same flash carts as the original. It's a WonderSwan (mono) game, so keep the .ws extension.

@@ -33,6 +33,48 @@ Names follow the VIZ English manga: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, 
 * Names, techniques and places: the VIZ Media English manga. One exception by choice: Lucky Roux, the anime spelling.
 * Fonts: hand-drawn pixel fonts made for this patch; banner lettering in Avenir Next Condensed Demi.
 
+**Images** (original on the left, English on the right)
+
+1. Options menu
+
+   ![Options menu](images/01-options.png)
+
+2. Character select
+
+   ![Character select](images/02-character-select.png)
+
+3. Event Battle: Sanji scolds Luffy
+
+   ![Event Battle: Sanji scolds Luffy](images/03-sanji.png)
+
+4. Tashigi challenges Zoro
+
+   ![Tashigi challenges Zoro](images/04-tashigi-vs-zoro.png)
+
+5. Bon Clay
+
+   ![Bon Clay](images/05-bon-clay.png)
+
+6. Kung-fu Dugong bonus round
+
+   ![Kung-fu Dugong bonus round](images/06-kung-fu-dugongs.png)
+
+7. Stage Select
+
+   ![Stage Select](images/07-stage-select.png)
+
+8. Wanted posters: Mihawk
+
+   ![Wanted posters: Mihawk](images/08-wanted-posters.png)
+
+9. Crocodile in the underground temple
+
+   ![Crocodile in the underground temple](images/09-crocodile.png)
+
+10. Copyright screen
+
+   ![Copyright screen](images/10-copyright.png)
+
 **How to patch**
 
 Apply the BPS to the Japanese ROM "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)" (CRC32 F8A1DD2B) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 A10DA837. The ROM keeps its size (8 MB), so it runs anywhere the original does. Keep the .wsc extension.
