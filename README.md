@@ -21,6 +21,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Tane o Maku Tori: The Bird Who Sowed Seeds](games/tane-o-maku-tori/README.md) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) | BPS | `B1CAEC06` | `40EC6A1D` |
 | [Engacho! for WonderSwan](games/engacho/README.md) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) | BPS | `4E467626` | `31F0D8F8` |
 | [Goraku Ou Tango!](games/goraku-ou-tango/README.md) (puzzles adapted for English) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/goraku-ou-tango-v1.0) | BPS | `00137E86` | `76D6F197` |
+| [Harobots](games/harobots/README.md) (+ special edition with the developers' test menu) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0) | BPS | `AA525C04` | `0311B0F8` (special `796D9DB0`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
