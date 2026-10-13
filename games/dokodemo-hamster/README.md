@@ -1,44 +1,56 @@
 # Dokodemo Hamster (WonderSwan) - AI English translation patch v1.0 (+ Long Names edition, may be buggy)
 
-**Dokodemo Hamster** is BEC's 1999 virtual pet for the original WonderSwan, released only in Japan. A hamster arrives from Hamster Village; you feed it, teach it words, and it writes you letters, learns tricks and chatters in baby talk, chu.
+**Dokodemo Hamster** (どこでもハムスター) is BEC's 1999 virtual pet for the original (monochrome) WonderSwan, released only in Japan. A little hamster arrives from faraway Hamster Village to live with you. You feed it, play with it and teach it words, and it writes you letters, learns tricks and chatters at you in baby talk, chu.
 
 > **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.
 
 **What's translated**
 
-* All of the hamster's talk and letters (about 1,100 messages), menus, items, foods and 20 tricks.
-* 55 built-in English words, an English name-entry grid, and the title logo redrawn as DOKODEMO HAMSTER.
-* Sentences that insert words you taught were reworded so any word fits.
+* All of the hamster's talk and letters (about 1,100 messages), the intro, menus and screen labels (Talk, Food, Mail, Status, Trick List, Remodel, Save...), items, foods, and all 20 tricks (Ninja Vanishing, Moonsault Flip, Parasol Spinning, Juggling...).
+* The words your hamster already knows: 55 built-in English words, in the same categories as the Japanese.
+* Name entry with an English letter grid (capitals, lowercase and symbols), and "Day N" / "Letter N" counters in place of the Japanese ones.
+* Graphics: the title logo is redrawn as DOKODEMO HAMSTER in the original's bouncy style.
 
-**Long Names edition (may be buggy):** names and taught words up to 10 letters instead of 6, with its own save, which isn't compatible with the standard edition's. It's newer and less tested, so play the standard edition first and use this at your own risk.
+The hamster's baby talk (でちゅ) becomes a cute "chu" ("Ham-ham~ Nice to meet you, chu!"). Every sentence that inserts a word you taught was rewritten so any word fits it, so you won't see "a owl".
 
-**How it was made**
+**Two editions**
 
-* Claude translated the script directly from the Japanese in the ROM and did all the hacking.
-* Separate Claude reviewers checked everything against the Japanese, and every message was rendered in an emulator.
-* I made the judgement calls by hand: the baby talk, the logo, puns and trick names.
+* **Standard** (`dokodemo-hamster-en-1.0.bps`): names and taught words up to 6 letters, the same limit as the Japanese save format. A few built-in words were shortened to fit.
+* **Long Names** (`dokodemo-hamster-en-long-1.0.bps`, may be buggy): your name, your hamster's name and the words you teach can be up to 10 letters, and the built-in words use their longer forms (Restaurant, Somersault...). It uses its own save: a standard save won't load in it (the game starts fresh), and the standard edition won't load a Long Names save. Link play still sends the first 6 letters of each name and is untested. It was checked on screen with 10-letter names and words (speech, Status, Save, Mailbox, taught words, save and continue), but it's newer and less tested than the standard edition, so **it may be buggy**: play the standard edition first and use this one at your own risk.
+
+**How it was made: AI translation, independent checks, human decisions**
+
+* Claude translated the script directly from the Japanese in the ROM, and did all the hacking: a narrow 8-pixel English font, the letter grid, the redrawn logo, the new counters and the Long Names edition.
+* A second, independent Claude reviewer checked every line against the Japanese. A polish pass followed, with each change checked by a separate verifier. A final separate review read all 1,111 messages again (about 100 corrected), and a mechanics check tested how taught words drop into sentences (16 reworded).
+* Every message was rendered in an emulator with every glyph logged, in both editions (712 drawn messages each, 0 flagged).
+* The judgement calls were listed with the Japanese, a literal reading and the options, and I decided each one by hand: the baby talk, the logo, puns and Japan-specific references, trick names, and the word limits.
 
 **Changelog**
 
 * **v1.0**: first release.
 
+**Sources consulted**
+
+* Japanese text: the WonderSwan ROM itself.
+* Font: Shinonome 6x12 (public domain), for the 8-pixel English letters.
+
 **Images** (original on the left, English on the right)
 
-1. Title
+1. Title screen
 
-   ![Title](images/01-title.png)
+   ![Title screen](images/01-title.png)
 
-2. Intro: from Hamster Village
+2. Intro: from faraway Hamster Village...
 
-   ![Intro: from Hamster Village](images/02-intro-1.png)
+   ![Intro: from faraway Hamster Village...](images/02-intro-1.png)
 
-3. Intro: words, mail and tricks
+3. Intro: it learns words, writes mail and learns tricks
 
-   ![Intro: words, mail and tricks](images/03-intro-2.png)
+   ![Intro: it learns words, writes mail and learns tricks](images/03-intro-2.png)
 
-4. Intro: a strange little hamster
+4. Intro: a strange, strange little hamster
 
-   ![Intro: a strange little hamster](images/04-intro-3.png)
+   ![Intro: a strange, strange little hamster](images/04-intro-3.png)
 
 5. Your hamster says hello
 
@@ -51,18 +63,27 @@
 
 **How to patch**
 
-Apply the BPS to "Dokodemo Hamster (Japan)" (CRC32 89E7D950) with Floating IPS, beat or ROM Patcher JS. Standard: CRC32 F67C5588. Long Names: CRC32 22F04AF5. Keep the .ws extension. You need your own copy of the Japanese game.
+Apply one of the BPS files to the Japanese ROM "Dokodemo Hamster (Japan)" (CRC32 89E7D950) with Floating IPS, beat or ROM Patcher JS:
+
+* Standard: `dokodemo-hamster-en-1.0.bps`, the result should be CRC32 F67C5588.
+* Long Names (may be buggy): `dokodemo-hamster-en-long-1.0.bps`, the result should be CRC32 22F04AF5.
+
+The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
+
+You must provide your own copy of the original Japanese game to apply it.
 
 **Download:** `dokodemo-hamster-en-1.0.bps`, `dokodemo-hamster-en-long-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0).
 
 **Known issues**
 
-* Not played start to finish by a person. Please tell me what your hamster was doing if you find leftover Japanese, cut text or a crash.
-* Link play is translated but untested.
+* It hasn't been played start to finish by a person. If you find leftover Japanese, cut text or a crash, please tell me where it happened.
+* Link play with another hamster (about 70 lines) is translated but untested, because it needs a second WonderSwan and a link cable.
 
 **Technical notes (for the curious)**
 
-* English uses a new narrow 8-pixel font, so twice as many letters fit in the original 16-pixel cells.
+* The original draws every character in a 16-pixel cell. English letters use a new narrow 8-pixel font, so twice as many fit on a line.
+* The title logo was redrawn and the whole picture re-tiled to fit the original's tile space.
+* Long Names edition: names live in unused RAM and taught words move to a new 14-byte save record; the save signature changes so the two editions never read each other's saves.
 
 **A Note On My Justifications for AI Use**
 

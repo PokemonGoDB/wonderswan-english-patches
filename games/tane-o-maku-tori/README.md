@@ -1,32 +1,42 @@
 # Tane o Maku Tori: The Bird Who Sowed Seeds (WonderSwan) - AI English translation patch v1.0
 
-**Tane o Maku Tori** is T. Suzuki's 1999 game from Bandai's D's Garage 21 contest, for the original WonderSwan held upright, released only in Japan. A hand-lettered picture book tells of a lonely crow, a friend who promises to return when the land is full of flowers, and a seed. Then you play the crow.
+**Tane o Maku Tori** (たねをまく鳥) is a small game by T. Suzuki that came out of Bandai's D's Garage 21 game contest and was released on cartridge in 1999 for the original (monochrome) WonderSwan, only in Japan. You hold the console upright. It opens with a hand-lettered picture book: a crow who was always alone makes a friend from the south, the friend leaves at the end of summer promising to come back when the land is full of flowers, and the crow takes a seed in its beak and flies off. Then you play the crow.
 
 > **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.
 
 **What's translated**
 
-Every word is a picture, and all of them were redrawn:
+There's no text font in this game: every word is a picture. All of these were redrawn:
 
-* The story pages, hand-lettered in English.
-* The title logo (Tane o Maku Tori / The Bird Who Sowed Seeds), menu, stage cards, results and score screens.
-* Left in Japanese: the WonderGate status messages, which only appear with the long-dead mobile adapter.
+* Every page of the picture-book story, hand-lettered in English in the game's shades.
+* The title logo, now "Tane o Maku Tori / The Bird Who Sowed Seeds".
+* The menu, the stage cards and in-game words (STAGE, Game Start, Clear, Game Over, Pause, PTS), the results screens (Score Tally, Time Left, Accuracy), and the National Best and Personal Best score screens.
+* The WonderGate phone screen's labels.
+* Left in Japanese, on purpose: the WonderGate status messages. They only appear with the long-dead WonderGate mobile adapter.
 
-**How it was made**
+The story is written as simple picture-book English, to match the original's gentle tone.
 
-* Claude translated the hand lettering directly from the Japanese in the ROM and did all the hacking.
-* Separate Claude reviewers checked everything against the Japanese, and every page and screen was checked in an emulator from power-on.
-* I made the judgement calls by hand: the lettering, the English title, the story's tone and the logo.
+**How it was made: AI translation, independent checks, human decisions**
+
+* Claude transcribed the vertical hand lettering, translated it, and set the English in a handwriting font in the game's three shades, then rebuilt each page's tiles and recompressed them.
+* A separate Claude review went through the whole patch against the Japanese and found the results screens still in Japanese; they were translated before release.
+* Every story page and screen was checked in an emulator from power-on.
+* The judgement calls were listed with the Japanese, a literal reading and the options, and I decided each one by hand: the lettering style, the English title, two candidate tones for the story, and the logo.
 
 **Changelog**
 
 * **v1.0**: first release.
 
+**Sources consulted**
+
+* Japanese text: the pictures in the ROM itself.
+* Font: Kalam Bold (Indian Type Foundry, SIL Open Font License).
+
 **Images** (original on the left, English on the right)
 
-1. Title
+1. Title screen
 
-   ![Title](images/01-title.png)
+   ![Title screen](images/01-title.png)
 
 2. The crow was always alone
 
@@ -59,17 +69,23 @@ Every word is a picture, and all of them were redrawn:
 
 **How to patch**
 
-Apply the BPS to "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" (CRC32 B1CAEC06) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 40EC6A1D. Keep the .ws extension. You need your own copy of the Japanese game.
+Apply `tane-o-maku-tori-en-1.0.bps` to the Japanese ROM "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" (CRC32 B1CAEC06) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 40EC6A1D.
+
+The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
+
+You must provide your own copy of the original Japanese game to apply it.
 
 **Download:** `tane-o-maku-tori-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0).
 
 **Known issues**
 
-* Not played start to finish by a person. Please tell me where if you find leftover Japanese or a broken picture.
+* It hasn't been played start to finish by a person. If you find leftover Japanese, cut text or a crash, please tell me where it happened.
+* The WonderGate status messages stay Japanese (see above).
 
 **Technical notes (for the curious)**
 
-* Each screen is stored rotated and compressed; the patch redraws it upright and repacks it into free ROM space. Lettering: Kalam Bold (SIL OFL).
+* Every screen is stored rotated 90° and run-length compressed. The patch composes each page upright, replaces the lettering, re-tiles it and compresses it again into free space in the ROM.
+* The English text appears top to bottom with the page, instead of the original's right-to-left wipe that followed the vertical Japanese columns.
 
 **A Note On My Justifications for AI Use**
 
