@@ -29,6 +29,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Ganso Jajamaru-kun](games/jajamaru/README.md) (+ Stage Select edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0) | BPS | `A193458C` | `5B68EAFE` (Stage Select `3A10EC60`) |
 | [Fishing Freaks: Bass Rise for WonderSwan](games/fishing-freaks/README.md) (+ ranking code for leaderboards) | WonderSwan | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.1) | BPS | `A1FB16FC` | `BF700918` |
 | [Hanafuda Shiyouyo](games/hanafuda-shiyouyo/README.md) (Koi-Koi and Hana-Awase, link play) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hanafuda-shiyouyo-v1.0) | BPS | `8E027330` | `496B1FB2` |
+| [Fire Pro Wrestling for WonderSwan](games/fire-pro/README.md) (8 MB patched ROM) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0) | BPS | `F246A68E` | `7E701D9E` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
