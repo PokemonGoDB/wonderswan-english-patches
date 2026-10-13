@@ -1,0 +1,18 @@
+# Tell swanrevival.com to pull the catalog and game pages after every push and release.
+# Needs the SITE_DISPATCH_TOKEN secret: a fine-grained token for PokemonGoDB/swanrevival-site
+# with Contents: read and write.
+name: Notify site
+
+on:
+  push:
+    branches: [main]
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh api repos/PokemonGoDB/swanrevival-site/dispatches -f event_type=patches-updated
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
