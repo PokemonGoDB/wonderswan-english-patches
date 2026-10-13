@@ -1,4 +1,4 @@
-# Fishing Freaks: Bass Rise for WonderSwan - AI English translation patch v1.0
+# Fishing Freaks: Bass Rise for WonderSwan - AI English translation patch v1.1
 
 **Fishing Freaks: Bass Rise for WonderSwan** (フィッシングフリークス バスライズ for WonderSwan) is Bec's 2000 bass-fishing game for the original (monochrome) WonderSwan, released only in Japan and played holding the console vertically. You pick a lake (a farm pond, Kasumigaura, Lake Biwa, Lake Ikehara, Lake Hibara), a season and a time of day, fill your lure box from 16 lure types in several colours, choose tackle and a rig, then cast, work the lure, set the hook and fight the fish. Lecture Mode has a guide who tips you on lures, colours and spots as you fish; Free Mode has free fishing and three tournament types (Most Weight, Biggest Fish, Most Fish) of three rounds each against 20 rival anglers, with prize lures; win all three for the ending. There's also a Lure Manual, a catch log, a link battle for two consoles, and a hidden sound test.
 
@@ -19,7 +19,7 @@ Names and terms: standard English bass-fishing terms for lures and rigs (Popper,
 **Things to know**
 
 * **Sound test:** hold Y1+Y3 and X1+X3 while switching the console on (in the vertical grip: left and right on the Y pad, plus the confirm and cancel buttons).
-* **Fish password:** pressing START on a catch in Catch Data shows a "password for this fish". The original showed 10 kana/kanji symbols, meant to be written down and used outside the game (probably a ranking of the time; I couldn't confirm what); nothing in the game reads it back and it has no use today. The patch shows the same code as 20 hex digits; [`password-table.md`](password-table.md) (also attached to the release) converts it back to the original symbols.
+* **Fish password and ranking code:** pressing START on a catch (right after landing it, or in Catch Data) shows the game's "password for this fish". The original showed 10 kana/kanji symbols, meant to be written down and used outside the game (probably a ranking of the time; I couldn't confirm what); the patch shows the same code as 20 hex digits, and [`password-table.md`](password-table.md) converts it back to the original symbols. New in 1.1, a **Ranking code** of 16 characters appears under it: it holds the whole catch (species, size, weight, lure, colour, lake, season, time, weather), a fingerprint of your name and a check against typos, for online leaderboards. The format and a ready-made decoder ([`ranking/fishcode.js`](ranking/fishcode.js), [`ranking/SPEC.md`](ranking/SPEC.md), with test vectors) are in this folder and attached to the release for anyone who wants to run a leaderboard. Like the original password, it can't prove a catch is real; it's for honour-system boards.
 
 **How it was made: AI translation, independent checks, human decisions**
 
@@ -30,6 +30,7 @@ Names and terms: standard English bass-fishing terms for lures and rigs (Popper,
 
 **Changelog**
 
+* **v1.1**: adds the Ranking code under the fish password, and the website decoder and format spec.
 * **v1.0**: first release.
 
 **Sources consulted**
@@ -92,9 +93,9 @@ Names and terms: standard English bass-fishing terms for lures and rigs (Popper,
 
    ![Lure Manual: colours](images/13-lure-manual.png)
 
-14. Fish password (hex)
+14. Fish password and ranking code
 
-   ![Fish password (hex)](images/14-password.png)
+   ![Fish password and ranking code](images/14-password.png)
 
 15. Link Battle
 
@@ -103,11 +104,11 @@ Names and terms: standard English bass-fishing terms for lures and rigs (Popper,
 
 **How to patch**
 
-Apply `fishing-freaks-en-1.0.bps` to the Japanese ROM "Fishing Freaks - Bass Rise for WonderSwan (Japan)" (CRC32 A1FB16FC) with Floating IPS, beat or ROM Patcher JS; the result should be CRC32 57039F1F. The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
+Apply `fishing-freaks-en-1.1.bps` to the Japanese ROM "Fishing Freaks - Bass Rise for WonderSwan (Japan)" (CRC32 A1FB16FC) with Floating IPS, beat or ROM Patcher JS; the result should be CRC32 BF700918. The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `fishing-freaks-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.0).
+**Download:** `fishing-freaks-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.1).
 
 **Known issues**
 
@@ -120,6 +121,7 @@ You must provide your own copy of the original Japanese game to apply it.
 **Technical notes (for the curious)**
 
 * The game's 12x12 text engine drew one full-width character per 12-pixel cell. The patch keeps a pixel position in the engine's column byte and draws a proportional English font, with a new control code to put the ranking values in one column.
+* The 1.1 ranking code is built by a new routine from the catch record and the name: 10 bytes (version, species, 12-bit size and weight, lure, colour, lake, season, time, weather, a CRC-16 of the name, a CRC-16 check keyed with a constant) shown in Crockford base32. It uses cartridge RAM the game never touches.
 * Names are now one byte per letter (10 letters in the same 11 save bytes as 5 kana).
 * Picture text was redrawn in the LZ-compressed tile resources; pictures that grew when recompressed were moved, and their pointers updated.
 * The catch list's total lines were built in memory from fixed-length copies; the Japanese one copied 6 bytes of program code after the unit, which the Japanese box hid but the English didn't, so the copy was shortened.
