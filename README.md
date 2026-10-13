@@ -28,6 +28,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Gomoku Narabe & Reversi: Touryuumon](games/gomoku-reversi/README.md) (Gomoku, Renju and Reversi) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gomoku-reversi-v1.0) | BPS | `6CD1411E` | `36BF164B` |
 | [Ganso Jajamaru-kun](games/jajamaru/README.md) (+ Stage Select edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0) | BPS | `A193458C` | `5B68EAFE` (Stage Select `3A10EC60`) |
 | [Fishing Freaks: Bass Rise for WonderSwan](games/fishing-freaks/README.md) (+ ranking code for leaderboards) | WonderSwan | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.1) | BPS | `A1FB16FC` | `BF700918` |
+| [Hanafuda Shiyouyo](games/hanafuda-shiyouyo/README.md) (Koi-Koi and Hana-Awase, link play) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hanafuda-shiyouyo-v1.0) | BPS | `8E027330` | `496B1FB2` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
