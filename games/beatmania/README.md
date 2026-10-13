@@ -1,8 +1,8 @@
-# beatmania for WonderSwan (WonderSwan) - AI English translation patch for Practice mode v1.0
+# beatmania for WonderSwan (WonderSwan) - AI English translation patch for Practice mode v1.0 (all 77 lines of it)
 
 **beatmania for WonderSwan** is Konami's 1999 port of the arcade DJ rhythm game, for the original (monochrome) WonderSwan, released only in Japan. You hold the console sideways and scratch and key your way through club tracks. Almost everything in it is already in English: menus, options, song info, results, name entry, records and the staff roll. The one exception is Practice mode, where DJ KONAMI coaches you in Japanese subtitles through the tutorial and two practice songs, then challenges you to a DJ battle.
 
-This patch translates those 77 subtitle lines into English. Nothing else in the game changes.
+This patch translates those 77 subtitle lines into English. Nothing else in the game changes. Let's be honest: this isn't a big one. Konami already did the heavy lifting by writing the rest of the game in English. If Grand Battle was a full set, this is a quick scratch. But if DJ KONAMI has been yelling at you in Japanese since 1999, now you'll know what he was saying.
 
 > **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call and played Practice mode before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.
 
@@ -22,7 +22,7 @@ DJ KONAMI keeps his attitude: he's a cocky club DJ, so the English is casual and
 
 **Changelog**
 
-* **v1.0**: first release.
+* **v1.0**: first release. Probably also the last, since there's nothing left to translate.
 
 **Sources consulted**
 
@@ -58,11 +58,11 @@ You must provide your own copy of the original Japanese game to apply it.
 **Known issues**
 
 * The DJ battle comes before the special song, which seems to unlock at stage 5 or later once all ten songs are cleared. Its lines were checked in English on screen, but nobody has reached it in normal play yet. If you have a save that gets there, tell me how it looks.
-* Each subtitle stays on screen for about 1.3 to 2 seconds, timed to the music as in the original. English lines are longer than the Japanese, so a few go by quickly.
+* Each subtitle stays on screen for about 1.3 to 2 seconds, timed to the music as in the original. English lines are longer than the Japanese, so a few go by quickly. DJ KONAMI doesn't wait for anyone.
 
 **Technical notes (for the curious)**
 
-* Each subtitle is a 128×16 bitmap in a fixed 512-byte slot. The patch redraws each picture in place, so no code, pointers or memory use change.
+* Each subtitle is a 128×16 bitmap in a fixed 512-byte slot. The patch redraws each picture in place, so no code, pointers or memory use change. The whole patch is about 29 KB, for a 16 MB game.
 
 **A Note On My Justifications for AI Use**
 
