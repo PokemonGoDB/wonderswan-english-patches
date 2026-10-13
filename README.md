@@ -26,6 +26,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Glocal Hexcite](games/glocal-hexcite/README.md) (+ Sound Test edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/glocal-hexcite-v1.0) | BPS | `8FCD6D2C` | `F0738013` (Sound Test `887AD11F`) |
 | [Final Lap 2000](games/final-lap-2000/README.md) (already mostly English; pictures and billboards translated) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0) | BPS | `CE2F1A1D` | `53CEAD54` |
 | [Gomoku Narabe & Reversi: Touryuumon](games/gomoku-reversi/README.md) (Gomoku, Renju and Reversi) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gomoku-reversi-v1.0) | BPS | `6CD1411E` | `36BF164B` |
+| [Ganso Jajamaru-kun](games/jajamaru/README.md) (+ Stage Select edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0) | BPS | `A193458C` | `5B68EAFE` (Stage Select `3A10EC60`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
