@@ -22,6 +22,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Engacho! for WonderSwan](games/engacho/README.md) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) | BPS | `4E467626` | `31F0D8F8` |
 | [Goraku Ou Tango!](games/goraku-ou-tango/README.md) (puzzles adapted for English) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/goraku-ou-tango-v1.0) | BPS | `00137E86` | `76D6F197` |
 | [Harobots](games/harobots/README.md) (+ special edition with the developers' test menu) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0) | BPS | `AA525C04` | `0311B0F8` (special `796D9DB0`) |
+| [Hunter x Hunter: Ishi o Tsugu Mono](games/hxh-ishi/README.md) (Rev 2 ROM) | WonderSwan | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1) | BPS | `70AA800E` | `B05CECF4` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
