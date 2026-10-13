@@ -4,14 +4,14 @@
 
 This patch translates it into English.
 
-> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person made every judgement call and played the build before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and it doesn't belong there.
+> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call and played the build before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.
 
 **What's translated**
 
 * All the game's text: every Event Battle scene, all 13 endings, the battle call-outs, the wanted posters and their effects, and the Luffy vs Crocodile finale.
 * Graphics: the title menu, banners, buttons, settings, the Continue screen, the poster screen, the character name tags on select and VS screens, stage names, the Stage Select banner, the Mini-Game result and ranking lines, the link-cable message and the copyright screen. All of them are redrawn in English in the original's colours and layout.
 * Wanted posters: Mihawk's heading 世界最強剣士 now reads "Greatest Swordsman". Nine posters whose artwork printed Bandai's 2002 spellings (PERU, COSA, CENTAURUS...) now show the official names (PELL, KOZA, KENTAUROS...), redrawn from the posters' own lettering.
-* Left as in the original: the title logo stays Japanese, and 絶対正義 ("Absolute Justice") on the Marines' posters is kept because it's part of the artwork.
+* Left original: the title logo stays Japanese, and 絶対正義 ("Absolute Justice") on the Marines' posters is kept because it's part of the artwork and looks cooler.
 
 Names follow the VIZ English manga: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Tashigi, Smoker, Mr. 2 Bon Clay, Miss All Sunday, Sir Crocodile, Portgas D. Ace and Mr. 1 (Daz Bonez). Places: Twin Capes, Whisky Peak, Little Garden, Drum Castle, Nanohana Harbor, Sandora River, Rainbase, Alubarna. Bon Clay keeps his voice: "okama" and Okama Kenpo as in the manga, "moi" for あちし, and "Don't be ridicu-loooous!!".
 
@@ -43,9 +43,9 @@ You must provide your own copy of the original Japanese game to apply it.
 
 **Known issues**
 
-* Link-cable features (poster trading and 1P vs 2P) couldn't be tested here. Their messages are translated but haven't been seen on two consoles.
+* Link-cable features (poster trading and 1P vs 2P) couldn't be tested here, because I don't have two flash carts currently. Their messages are translated but haven't been seen on two consoles.
 * The title logo is still the Japanese one, on purpose.
-* If you find leftover Japanese, cut text or a crash, tell me where it happened.
+* If you find leftover Japanese, cut text or a crash, please tell me where it happened.
 
 **Technical notes (for the curious)**
 
@@ -54,4 +54,10 @@ You must provide your own copy of the original Japanese game to apply it.
 * The ROM doesn't grow: all new text and code sit in space that was blank (FFh) in the original.
 * The developers left some unused scenes in the game: a ROM version screen ("ROM Ver. 0.031 02/05/27"), a character and palette viewer, a link-cable test and two debug battles. They're already in English and no menu reaches them, so the patch leaves them alone.
 
-Translation and hacking: made with AI (Claude), with every judgement call decided by hand. Please don't upload it to romhacking sites. Feedback and bug reports are very welcome!
+**A Note On My Justifications for AI Use**
+
+I have been an avid fan of the Wonderswan system for a very long time now. It was actually a motivating factor for my various attempts to learn Japanese (which have all failed so far). I always wanted to explore the game catalog more, but the lack of English translations made it extremely difficult to do so. Here's the thing: There's a reason many of these games have not been translated yet. It's not just the fact that Japanese > English translation is difficult. There's also the fact that the original developers used all kinds of tricks and technical feats to make these games work. Most games do not have a searchable directory of text that you can just replace with English equivalents. While some are easier than others, translations for some of these would take not only an expert in Japanese > English translation, but also someone with vast game development and programming experience.
+
+I say all that to say: I get why people are apprehensive about AI usage for this type of thing. However, these games have been around for a very long time now and most of them have still not received a translation. I (and others) have chosen to spend our time and money to utilize AI to translate the games and actually make them playable for the wider community. If you don't agree with that, that's completely fine. I am more than happy to remove any of my translations if better, human ran translations are released at a later date. We already decided to skip any games where someone is actively working on a manual translation. While nowhere near what a manual translation effort would be, I do spend a considerable amount of time trying to work through each game's translation. I stress over small details and try my best to make the right calls. And I've probably messed some stuff up, which is why I welcome feedback.
+
+I'm just looking forward to digging through all of these games. It's a great time to be into Wonderswan games.
