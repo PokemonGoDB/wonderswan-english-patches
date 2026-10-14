@@ -31,6 +31,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Hanafuda Shiyouyo](games/hanafuda-shiyouyo/README.md) (Koi-Koi and Hana-Awase, link play) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hanafuda-shiyouyo-v1.0) | BPS | `8E027330` | `496B1FB2` |
 | [Fire Pro Wrestling for WonderSwan](games/fire-pro/README.md) (8 MB patched ROM) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0) | BPS | `F246A68E` | `7E701D9E` |
 | [Buffers Evolution](games/buffers-evolution/README.md) (already English; the hidden WonderGate error box translated) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0) | BPS | `B25A0635` | `378A17BC` |
+| [From TV Animation One Piece: Mezase Kaizoku Ou!](games/kaizoku-ou/README.md) (2 MB patched ROM; link play works with Japanese cartridges) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kaizoku-ou-v1.0) | BPS | `F2E362B8` | `30F6CAAF` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
