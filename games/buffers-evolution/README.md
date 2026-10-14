@@ -1,8 +1,8 @@
 # Buffers Evolution (WonderSwan) - AI English translation patch v1.0
 
-**Buffers Evolution** is Bandai's 1999 side-scrolling racing action game for the original (monochrome) WonderSwan, released only in Japan (December 1999). You pick a beast-like "Buffer" type and an item, then run, jump and slide through ENDURO courses against the clock, or clear S.S. arenas of enemies; RECORD mode keeps your best times, and a hidden WONDERGATE mode once uploaded them through Bandai's Mobile WonderGate phone adapter for national rankings and contests.
+**Buffers Evolution** is Bandai's 1999 side-scrolling action game for the original (monochrome) WonderSwan, released only in Japan (December 1999). You pick a beast-like "Buffer" type and an item, then run, jump and slide through ENDURO courses against the clock, or clear S.S. arenas of enemies; RECORD mode keeps your best times, and a hidden WONDERGATE mode once uploaded them through Bandai's Mobile WonderGate phone adapter for national rankings and contests.
 
-Almost the whole game was already in English: the menus, the races, the results, the records, the trophies and the staff roll. The only Japanese is the WonderGate error box (error number and message). It is the first thing anyone sees in the hidden mode today, because without an adapter the connection always fails. This patch translates it.
+Almost the whole game was already in English: the menus, the courses, the results, the records, the trophies and the staff roll. The only Japanese is the WonderGate error box (error number and message). It is the first thing anyone sees in the hidden mode today, because without an adapter the connection always fails. This patch translates it.
 
 > **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.
 
