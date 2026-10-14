@@ -11,7 +11,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 
 | Game | System | Version | Patch | Original ROM (CRC32) | Patched ROM (CRC32) |
 | --- | --- | --- | --- | --- | --- |
-| [One Piece: Grand Battle Swan Colosseum](games/grand-battle/README.md) | WonderSwan Color | [1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.2) | BPS | `F8A1DD2B` | `A10DA837` |
+| [One Piece: Grand Battle Swan Colosseum](games/grand-battle/README.md) | WonderSwan Color | [1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.3) | BPS | `F8A1DD2B` | `F3DB0917` |
 | [beatmania for WonderSwan](games/beatmania/README.md) (Practice mode) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0) | BPS | `324622C9` | `513EE998` |
 | [Anchorz Field](games/anchorz-field/README.md) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0) | BPS | `425EB893` | `34A7D483` |
 | [Bakusou Dekotora Densetsu for WonderSwan](games/dekotora/README.md) (+ special edition, may be buggy) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.0) | BPS | `392DD813` | `E7B6B96E` (special `37431865`) |
