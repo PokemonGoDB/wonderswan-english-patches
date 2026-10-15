@@ -45,6 +45,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [SD Gundam G Generation: Gather Beat](games/gather-beat/README.md) (Gundam strategy; WonderGate works with Swan Revival) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0) | BPS | `E4EB3AB1` | `C9C1EC3A` |
 | [SD Gundam G Generation: Gather Beat 2](games/gather-beat/README.md) (Gundam strategy; + Stage Select edition; WonderGate works with Swan Revival) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0) | BPS | `4D21A347` | `58494E5B` (Stage Select `D6CF7E7E`) |
 | [Kidou Senshi Gundam Vol. 1: Side 7](games/gundam-vol1-side7/README.md) (Mobile Suit Gundam episodes 1-12; WonderGate works with Swan Revival) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.0) | BPS | `08C0247B` | `9ADAFACD` |
+| [Kidou Senshi Gundam Vol. 2: Jaburo](games/gundam-vol2-jaburo/README.md) (Mobile Suit Gundam episodes 13-30; WonderGate side stories work with Swan Revival) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.0) | BPS | `39A1391A` | `40E63922` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
