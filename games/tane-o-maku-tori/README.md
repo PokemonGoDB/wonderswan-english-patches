@@ -1,4 +1,4 @@
-# Tane o Maku Tori: The Bird Who Sowed Seeds (WonderSwan) - AI English translation patch v1.0
+# Tane o Maku Tori: The Bird Who Sowed Seeds (WonderSwan) - AI English translation patch v1.0 (+ WonderGate edition)
 
 **Tane o Maku Tori** (たねをまく鳥) is a small game by T. Suzuki that came out of Bandai's D's Garage 21 game contest and was released on cartridge in 1999 for the original (monochrome) WonderSwan, only in Japan. You hold the console upright. It opens with a hand-lettered picture book: a crow who was always alone makes a friend from the south, the friend leaves at the end of summer promising to come back when the land is full of flowers, and the crow takes a seed in its beak and flies off. Then you play the crow.
 
@@ -15,6 +15,10 @@ There's no text font in this game: every word is a picture. All of these were re
 * Left in Japanese, on purpose: the WonderGate status messages. They only appear with the long-dead WonderGate mobile adapter.
 
 The story is written as simple picture-book English, to match the original's gentle tone.
+
+**The WonderGate edition**
+
+The WonderGate edition (`tane-o-maku-tori-en-wondergate-1.0.bps`) is the standard patch with the game's hidden WonderGate menu always on: WonderGate is on the title menu from the start, without holding X1 and Y3 while switching the console on. It's for posting scores to the national rankings through [RevivalGate](https://swanrevival.com/revival-gate/), which serves this game's WonderGate features today. Everything else is the standard patch.
 
 **How it was made: AI translation, independent checks, human decisions**
 
@@ -69,13 +73,16 @@ The story is written as simple picture-book English, to match the original's gen
 
 **How to patch**
 
-Apply `tane-o-maku-tori-en-1.0.bps` to the Japanese ROM "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" (CRC32 B1CAEC06) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 40EC6A1D.
+Apply one of the BPS files to the Japanese ROM "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" (CRC32 B1CAEC06) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
+
+* Standard: `tane-o-maku-tori-en-1.0.bps`, the result should be CRC32 40EC6A1D.
+* WonderGate edition (the WonderGate menu from the start): `tane-o-maku-tori-en-wondergate-1.0.bps`, the result should be CRC32 63BC5043.
 
 The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `tane-o-maku-tori-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0).
+**Download:** `tane-o-maku-tori-en-1.0.bps`, `tane-o-maku-tori-en-wondergate-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0).
 
 **Known issues**
 

@@ -1,4 +1,4 @@
-# Tare Panda no GunPey (WonderSwan) - AI English translation patch v1.0 (+ debug edition)
+# Tare Panda no GunPey (WonderSwan) - AI English translation patch v1.0 (+ debug and WonderGate editions)
 
 **Tare Panda no GunPey** (たれぱんだのぐんぺい, "Tarepanda's GunPey") is Bandai's 1999 version of the puzzle game GunPey for the original (monochrome) WonderSwan, starring San-X's Tarepanda, the lazy, flattened panda. It is played with the console held upright and was released only in Japan. You swap panels up and down their columns to join their line pieces into a path from one side of the field to the other; a joined path disappears, and new rows keep pushing up from below. It has five single-player modes, served as dishes on a restaurant menu: an endless game, an observation mode, 100 set puzzles, a story mode in which a tarepanda rolls through nine stages of little scenes, and a game that never ends. There are also two-player link-cable battles and a hidden WonderGate mode that once sent scores to Bandai's national rankings.
 
@@ -19,6 +19,10 @@ Names: San-X spells the character **Tarepanda**, as one word. The mode menu's di
 **The debug edition**
 
 The debug edition (`tare-panda-gunpey-en-debug-1.0.bps`) is the standard patch plus a **Debug** plate at the bottom of the title menu. It opens the developers' hidden menu, which is in English already: PATTERN (a graphics viewer), FACE (the portrait viewer), SOUND (a sound test) and DEMO, which starts the story at any of its nine stages. Nothing in the original reaches this menu. It is a leftover developer tool, plain and unpolished, with hexadecimal numbers and no instructions.
+
+**The WonderGate edition**
+
+The WonderGate edition (`tare-panda-gunpey-en-wondergate-1.0.bps`) is the standard patch with the game's hidden WonderGate menu always on: the WonderGate plate is on the title menu from the start, without holding A, B, Y1 and Y4 while switching the console on. It's for posting scores to the national rankings through [RevivalGate](https://swanrevival.com/revival-gate/), which serves this game's WonderGate features today. Everything else is the standard patch.
 
 **How it was made: AI translation, independent checks, human decisions**
 
@@ -99,16 +103,17 @@ Apply one of the BPS files to the Japanese ROM "Tare Panda no GunPey (Japan)" (C
 
 * Standard: `tare-panda-gunpey-en-1.0.bps`, the result should be CRC32 37A58671.
 * Debug edition: `tare-panda-gunpey-en-debug-1.0.bps`, the result should be CRC32 B9B75EE5.
+* WonderGate edition (the WonderGate menu from the start): `tare-panda-gunpey-en-wondergate-1.0.bps`, the result should be CRC32 E3DE2601.
 
 It's a WonderSwan (mono) game, so keep the .ws extension. You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `tare-panda-gunpey-en-1.0.bps`, `tare-panda-gunpey-en-debug-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0).
+**Download:** `tare-panda-gunpey-en-1.0.bps`, `tare-panda-gunpey-en-debug-1.0.bps`, `tare-panda-gunpey-en-wondergate-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0).
 
 **Known issues**
 
 * It hasn't been played start to finish by a person. Wins, losses, the puzzles and the ending were reached in testing by forcing results, not by clearing every stage. If you find leftover Japanese or anything broken, please tell me where it happened.
 * A few pictures appear only in rare random animations (some portrait moods and most two-player action words). They were checked by drawing them from the ROM in the game's own layout, not seen during play.
-* The WonderGate mode is hidden, as in the original: hold A+B+Y1+Y4 while switching the console on. Bandai's server is long gone. Swan Revival's server supports this game's rankings.
+* The WonderGate mode is hidden, as in the original: hold A+B+Y1+Y4 while switching the console on. The WonderGate edition shows it from the start. Bandai's server is long gone. Swan Revival's server supports this game's rankings.
 
 **Technical notes (for the curious)**
 

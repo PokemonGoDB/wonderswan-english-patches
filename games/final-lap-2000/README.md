@@ -1,4 +1,4 @@
-# Final Lap 2000 (WonderSwan) - AI English translation patch v1.0
+# Final Lap 2000 (WonderSwan) - AI English translation patch v1.0 (+ WonderGate edition)
 
 **Final Lap 2000** (ファイナルラップ2000) is Namco's 2000 Formula racer for the original (monochrome) WonderSwan, published with Bandai and released only in Japan (March 2000). It brings the arcade Final Lap series to a handheld: an Arcade mode against the clock, a World Tour season of 15 rounds plus a special round, Time Trial, a course editor, and link-cable racing and course swapping with a second WonderSwan.
 
@@ -23,7 +23,7 @@ The game shipped with a few English typos. This patch fixes **TELEPHNE NO.** on 
 
 **Hidden WONDER GATE menu**
 
-On the **Ranking** menu, press **Y1, Y3, Y4, Y2** (the Y-pad: up, down, left, right). A **WONDER GATE** entry appears above YOUR RANKING. It was for uploading times to the game's online ranking through the Mobile WonderGate adapter; the service closed long ago, so without the adapter you get the number pad, the name entry, "Connecting..." and Error No. 001. All of it is in English now.
+On the **Ranking** menu, press **Y1, Y3, Y4, Y2** (the Y-pad: up, down, left, right). A **WONDER GATE** entry appears above YOUR RANKING. It was for uploading times to the game's online ranking through the Mobile WonderGate adapter; the service closed long ago, so without the adapter you get the number pad, the name entry, "Connecting..." and Error No. 001. All of it is in English now. The WonderGate edition shows it from the start.
 
 **How it was made: AI translation, independent checks, human decisions**
 
@@ -97,15 +97,22 @@ On the **Ranking** menu, press **Y1, Y3, Y4, Y2** (the Y-pad: up, down, left, ri
    ![Billboard: Klonoa](images/13-billboard-klonoa.png)
 
 
+**The WonderGate edition**
+
+The WonderGate edition (`final-lap-2000-en-wondergate-1.0.bps`) is the standard patch with the game's hidden WonderGate menu always on: WONDER GATE is on the Ranking menu from the start, without entering Y1, Y3, Y4, Y2 there. It's for posting scores to the national rankings through [RevivalGate](https://swanrevival.com/revival-gate/), which serves this game's WonderGate features today. Everything else is the standard patch.
+
 **How to patch**
 
-Apply `final-lap-2000-en-1.0.bps` to the Japanese ROM "Final Lap 2000 (Japan)" (CRC32 CE2F1A1D) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 53CEAD54.
+Apply one of the BPS files to the Japanese ROM "Final Lap 2000 (Japan)" (CRC32 CE2F1A1D) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
+
+* Standard: `final-lap-2000-en-1.0.bps`, the result should be CRC32 53CEAD54.
+* WonderGate edition (the WonderGate menu from the start): `final-lap-2000-en-wondergate-1.0.bps`, the result should be CRC32 3BA04D6B.
 
 The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `final-lap-2000-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0).
+**Download:** `final-lap-2000-en-1.0.bps`, `final-lap-2000-en-wondergate-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0).
 
 **Known issues**
 
