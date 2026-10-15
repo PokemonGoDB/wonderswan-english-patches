@@ -35,6 +35,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [From TV Animation One Piece: Niji no Shima Densetsu](games/one-piece-niji/README.md) (8 MB patched ROM; + Debug Mode edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0) | BPS | `427056C4` | `AD5D5163` (Debug Mode `42912FF4`) |
 | [Pocket Fighter](games/pocket-fighter/README.md) (+ Extras Unlocked edition; WonderGate works with Swan Revival, free) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0) | BPS | `35361250` | `A20ED743` (Extras Unlocked `624C7B55`) |
 | [Another Heaven: Memory of those Days](games/another-heaven/README.md) (horror sound novel; WonderGate works with Swan Revival) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0) | BPS | `D7A0AB74` | `1B7EF909` |
+| [MobileWonderGate](games/mobile-wondergate/README.md) (the Mobile WonderGate adapter's browser and mailer; online with Swan Revival) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) | BPS | `80DE367D` | `6A88E21E` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
