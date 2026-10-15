@@ -31,41 +31,45 @@ Names: your nation is Sharvan; the rivals are Baltz, Bujina, Gibros, Santo Princ
 
 **Images** (original on the left, English on the right)
 
-1. Intro story: page 1
+1. Title screen
 
-   ![Intro story: page 1](images/01-story-intro.png)
+   ![Title screen](images/01-title.png)
 
-2. Intro story: the treaty
+2. Intro story: page 1
 
-   ![Intro story: the treaty](images/02-story-treaty.png)
+   ![Intro story: page 1](images/02-story-intro.png)
 
-3. Title menu
+3. Intro story: the treaty
 
-   ![Title menu](images/03-title-menu.png)
+   ![Intro story: the treaty](images/03-story-treaty.png)
 
-4. The Sharvan National Anchorz Selection Match
+4. Title menu
 
-   ![The Sharvan National Anchorz Selection Match](images/04-selection-match.png)
+   ![Title menu](images/04-title-menu.png)
 
-5. The rules
+5. The Sharvan National Anchorz Selection Match
 
-   ![The rules](images/05-rules.png)
+   ![The Sharvan National Anchorz Selection Match](images/05-selection-match.png)
 
-6. Your adviser
+6. The rules
 
-   ![Your adviser](images/06-adviser.png)
+   ![The rules](images/06-rules.png)
 
-7. Anchor Machine stats
+7. Your adviser
 
-   ![Anchor Machine stats](images/07-anchor-machine.png)
+   ![Your adviser](images/07-adviser.png)
 
-8. In battle
+8. Anchor Machine stats
 
-   ![In battle](images/08-battle.png)
+   ![Anchor Machine stats](images/08-anchor-machine.png)
 
-9. Options
+9. In battle
 
-   ![Options](images/09-options.png)
+   ![In battle](images/09-battle.png)
+
+10. Options
+
+   ![Options](images/10-options.png)
 
 
 **How to patch**

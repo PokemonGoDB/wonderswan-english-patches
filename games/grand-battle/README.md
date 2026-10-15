@@ -36,45 +36,49 @@ Names follow what most fans use online (the One Piece Wiki), not any one publish
 
 **Images** (original on the left, English on the right)
 
-1. Options menu
+1. Title screen
 
-   ![Options menu](images/01-options.png)
+   ![Title screen](images/01-title.png)
 
-2. Character select
+2. Options menu
 
-   ![Character select](images/02-character-select.png)
+   ![Options menu](images/02-options.png)
 
-3. Event Battle: Sanji scolds Luffy
+3. Character select
 
-   ![Event Battle: Sanji scolds Luffy](images/03-sanji.png)
+   ![Character select](images/03-character-select.png)
 
-4. Tashigi challenges Zoro
+4. Event Battle: Sanji scolds Luffy
 
-   ![Tashigi challenges Zoro](images/04-tashigi-vs-zoro.png)
+   ![Event Battle: Sanji scolds Luffy](images/04-sanji.png)
 
-5. Bon Clay
+5. Tashigi challenges Zoro
 
-   ![Bon Clay](images/05-bon-clay.png)
+   ![Tashigi challenges Zoro](images/05-tashigi-vs-zoro.png)
 
-6. Kung-fu Dugong bonus round
+6. Bon Clay
 
-   ![Kung-fu Dugong bonus round](images/06-kung-fu-dugongs.png)
+   ![Bon Clay](images/06-bon-clay.png)
 
-7. Stage Select
+7. Kung-fu Dugong bonus round
 
-   ![Stage Select](images/07-stage-select.png)
+   ![Kung-fu Dugong bonus round](images/07-kung-fu-dugongs.png)
 
-8. Wanted posters: Mihawk
+8. Stage Select
 
-   ![Wanted posters: Mihawk](images/08-wanted-posters.png)
+   ![Stage Select](images/08-stage-select.png)
 
-9. Crocodile in the underground temple
+9. Wanted posters: Mihawk
 
-   ![Crocodile in the underground temple](images/09-crocodile.png)
+   ![Wanted posters: Mihawk](images/09-wanted-posters.png)
 
-10. Copyright screen
+10. Crocodile in the underground temple
 
-   ![Copyright screen](images/10-copyright.png)
+   ![Crocodile in the underground temple](images/10-crocodile.png)
+
+11. Copyright screen
+
+   ![Copyright screen](images/11-copyright.png)
 
 
 **How to patch**

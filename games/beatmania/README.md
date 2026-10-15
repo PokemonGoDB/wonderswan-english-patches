@@ -31,21 +31,25 @@ DJ KONAMI keeps his attitude: he's a cocky club DJ, so the English is casual and
 
 **Images** (original on the left, English on the right)
 
-1. DJ KONAMI introduces himself
+1. Title screen
 
-   ![DJ KONAMI introduces himself](images/01-practice-intro.png)
+   ![Title screen](images/01-title.png)
 
-2. Tutorial: the keys
+2. DJ KONAMI introduces himself
 
-   ![Tutorial: the keys](images/02-tutorial.png)
+   ![DJ KONAMI introduces himself](images/02-practice-intro.png)
 
-3. Practice song (AMBIENT)
+3. Tutorial: the keys
 
-   ![Practice song (AMBIENT)](images/03-practice-song.png)
+   ![Tutorial: the keys](images/03-tutorial.png)
 
-4. DJ battle: the verdict if you lose
+4. Practice song (AMBIENT)
 
-   ![DJ battle: the verdict if you lose](images/04-dj-battle.png)
+   ![Practice song (AMBIENT)](images/04-practice-song.png)
+
+5. DJ battle: the verdict if you lose
+
+   ![DJ battle: the verdict if you lose](images/05-dj-battle.png)
 
 **How to patch**
 

@@ -42,41 +42,45 @@ The developers left a hidden event selector in the game that nothing in the orig
 
 **Images** (original on the left, English on the right)
 
-1. Title menu
+1. Title screen
 
-   ![Title menu](images/01-title-menu.png)
+   ![Title screen](images/01-title.png)
 
-2. The promise to Yukie
+2. Title menu
 
-   ![The promise to Yukie](images/02-yukie.png)
+   ![Title menu](images/02-title-menu.png)
 
-3. Kumi
+3. The promise to Yukie
 
-   ![Kumi](images/03-kumi.png)
+   ![The promise to Yukie](images/03-yukie.png)
 
-4. Pops' parts shop
+4. Kumi
 
-   ![Pops' parts shop](images/04-parts-shop.png)
+   ![Kumi](images/04-kumi.png)
 
-5. Racing a rival
+5. Pops' parts shop
 
-   ![Racing a rival](images/05-race.png)
+   ![Pops' parts shop](images/05-parts-shop.png)
 
-6. Arriving at Shizuoka
+6. Racing a rival
 
-   ![Arriving at Shizuoka](images/06-arrival.png)
+   ![Racing a rival](images/06-race.png)
 
-7. Parts taken from a beaten rival
+7. Arriving at Shizuoka
 
-   ![Parts taken from a beaten rival](images/07-parts-taken.png)
+   ![Arriving at Shizuoka](images/07-arrival.png)
 
-8. Roamer
+8. Parts taken from a beaten rival
 
-   ![Roamer](images/08-roamer.png)
+   ![Parts taken from a beaten rival](images/08-parts-taken.png)
 
-9. The report screen
+9. Roamer
 
-   ![The report screen](images/09-report.png)
+   ![Roamer](images/09-roamer.png)
+
+10. The report screen
+
+   ![The report screen](images/10-report.png)
 
 
 **How to patch**
