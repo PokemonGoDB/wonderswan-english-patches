@@ -39,6 +39,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [GunPey EX](games/gunpey-ex/README.md) (already English; the WonderGate screens, keypad and Color-only warning translated; WonderGate works with Swan Revival) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gunpey-ex-v1.0) | BPS | `0C9CB12C` | `16998248` |
 | [Lode Runner for WonderSwan](games/lode-runner/README.md) (+ Swan Revival Edition: stage sharing, English and Japanese-text) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) | BPS | `E407CABF` | `A88BABE0` (Swan Revival Edition `2EEB7D2A`, Japanese-text `1425CEDE`) |
 | [Sennou Millennium](games/sennou-millennium/README.md) (puzzle battles and 400 puzzles; + special edition with the developers' sound test and opponent select) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0) | BPS | `301436AC` | `4883A851` (special `C6995751`) |
+| [Tare Panda no GunPey](games/tare-panda-gunpey/README.md) (Tarepanda's GunPey; + debug edition with the developers' menu) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0) | BPS | `A5643AA3` | `37A58671` (debug `B9B75EE5`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
