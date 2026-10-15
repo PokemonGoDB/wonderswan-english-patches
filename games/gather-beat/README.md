@@ -1,4 +1,4 @@
-# SD Gundam G Generation: Gather Beat (WonderSwan) - AI English translation patch v1.1
+# SD Gundam G Generation: Gather Beat (WonderSwan) - AI English translation patch v1.2
 
 **SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート) is Bandai's 2000 G Generation strategy game for the WonderSwan, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Two players can fight each other over the link cable. This patch translates it into English. (Gather Beat 2 has its own patch and release.)
 
@@ -30,6 +30,7 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
 **Changelog**
 
+* **v1.2**: names and labels the original wrote in Latin letters (ID in the command menu, STAGE01 in the save list, MAP SELECT, AI) now use the same English font as the text around them instead of the original's taller letters.
 * **v1.1**: link-cable play checked on two linked consoles; the WonderGate requirement message reworded so its last line no longer runs under the page arrow; labels that drew over window frames fixed (the weapon list's "Evade" is now "Eva.", and the unit info's "Effect Yes" sits inside its frame). Gather Beat 2 now has its own release.
 * **v1.0**: first release (together with Gather Beat 2).
 
@@ -64,11 +65,11 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
 **How to patch**
 
-Apply `gather-beat-gb1-en-1.1.bps` to "SD Gundam G-Generation - Gather Beat (Japan)" (CRC32 E4EB3AB1) with Floating IPS, beat or ROM Patcher JS; the result should be CRC32 9CB44071. It's a WonderSwan (mono) game, so keep the .ws extension. The ROM keeps its size (4 MB). Saves from the Japanese version work.
+Apply `gather-beat-gb1-en-1.2.bps` to "SD Gundam G-Generation - Gather Beat (Japan)" (CRC32 E4EB3AB1) with Floating IPS, beat or ROM Patcher JS; the result should be CRC32 F2DF9A5A. It's a WonderSwan (mono) game, so keep the .ws extension. The ROM keeps its size (4 MB). Saves from the Japanese version work.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `gather-beat-gb1-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.1).
+**Download:** `gather-beat-gb1-en-1.2.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.2).
 
 **Known issues**
 
