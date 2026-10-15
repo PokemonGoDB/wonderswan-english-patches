@@ -68,7 +68,7 @@ The Japanese abbreviates the adapter as "WG"; the English writes WonderGate in f
 
 **How to patch**
 
-Apply `buffers-evolution-en-1.0.bps` to the Japanese ROM "Buffers Evolution (Japan)" (CRC32 B25A0635) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 378A17BC.
+Apply `buffers-evolution-en-1.0.bps` to the Japanese ROM "Buffers Evolution (Japan)" (CRC32 B25A0635) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 378A17BC.
 
 The ROM keeps its size (4 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

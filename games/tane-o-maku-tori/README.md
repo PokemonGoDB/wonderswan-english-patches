@@ -69,7 +69,7 @@ The story is written as simple picture-book English, to match the original's gen
 
 **How to patch**
 
-Apply `tane-o-maku-tori-en-1.0.bps` to the Japanese ROM "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" (CRC32 B1CAEC06) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 40EC6A1D.
+Apply `tane-o-maku-tori-en-1.0.bps` to the Japanese ROM "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" (CRC32 B1CAEC06) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 40EC6A1D.
 
 The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

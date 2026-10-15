@@ -106,7 +106,7 @@ The developers left a test menu in the game that nothing in the original can rea
 
 **How to patch**
 
-Apply one of the BPS files to the Japanese ROM "Harobots (Japan)" (CRC32 AA525C04) with Floating IPS, beat or ROM Patcher JS:
+Apply one of the BPS files to the Japanese ROM "Harobots (Japan)" (CRC32 AA525C04) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
 * Standard: `harobots-en-1.0.bps`, the result should be CRC32 0311B0F8.
 * Special edition (Debug on the title menu): `harobots-en-special-1.0.bps`, the result should be CRC32 796D9DB0.

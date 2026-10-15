@@ -104,7 +104,7 @@ Names and terms: standard English bass-fishing terms for lures and rigs (Popper,
 
 **How to patch**
 
-Apply `fishing-freaks-en-1.1.bps` to the Japanese ROM "Fishing Freaks - Bass Rise for WonderSwan (Japan)" (CRC32 A1FB16FC) with Floating IPS, beat or ROM Patcher JS; the result should be CRC32 BF700918. The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
+Apply `fishing-freaks-en-1.1.bps` to the Japanese ROM "Fishing Freaks - Bass Rise for WonderSwan (Japan)" (CRC32 A1FB16FC) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS; the result should be CRC32 BF700918. The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 

@@ -123,7 +123,7 @@ Trading a crew over the link cable (Settings > Send Personal Data on one system,
 
 **How to patch**
 
-Apply `kaizoku-ou-en-1.0.bps` to the Japanese ROM "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)" (CRC32 F2E362B8) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 30F6CAAF.
+Apply `kaizoku-ou-en-1.0.bps` to the Japanese ROM "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)" (CRC32 F2E362B8) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 30F6CAAF.
 
 The patched ROM is **2 MB** (the original is 1 MB): the English needs more room, so the patch doubles the ROM. It's a WonderSwan (mono) game, so keep the .ws extension.
 

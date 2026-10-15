@@ -86,7 +86,7 @@ We searched The Cutting Room Floor, Hardcore Gaming 101, GameFAQs and Japanese c
 
 **How to patch**
 
-Apply `engacho-en-1.0.bps` to the Japanese ROM "Engacho! for WonderSwan (Japan)" (CRC32 4E467626) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 31F0D8F8.
+Apply `engacho-en-1.0.bps` to the Japanese ROM "Engacho! for WonderSwan (Japan)" (CRC32 4E467626) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 31F0D8F8.
 
 The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

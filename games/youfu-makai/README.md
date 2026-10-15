@@ -58,7 +58,7 @@ Names: the hero of part 1 is never named, so he's "the Bodyguard". The two chara
 
 **How to patch**
 
-Apply `youfu-makai-en-1.0.bps` to the Japanese ROM "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)" (CRC32 56E2C069) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 CB5FACF7.
+Apply `youfu-makai-en-1.0.bps` to the Japanese ROM "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)" (CRC32 56E2C069) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 CB5FACF7.
 
 The English ROM is 4 MB (the original is 2 MB), because the English story pages are stored as pictures: use an emulator or a flash cart that takes 32 Mbit WonderSwan ROMs. It's a WonderSwan (mono) game, so keep the .ws extension.
 

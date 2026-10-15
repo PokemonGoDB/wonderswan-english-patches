@@ -103,7 +103,7 @@ Names and terms: the Renju openings use the standard romanised names used in Eng
 
 **How to patch**
 
-Apply `gomoku-reversi-en-1.0.bps` to the Japanese ROM "Gomoku Narabe & Reversi - Touryuumon (Japan)" (CRC32 6CD1411E) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 36BF164B.
+Apply `gomoku-reversi-en-1.0.bps` to the Japanese ROM "Gomoku Narabe & Reversi - Touryuumon (Japan)" (CRC32 6CD1411E) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 36BF164B.
 
 The ROM stays 512 KB. It's a WonderSwan (mono) game, so keep the .ws extension.
 

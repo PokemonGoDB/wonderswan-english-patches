@@ -40,9 +40,11 @@ the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/release
 ## How to patch
 
 1. Get your own copy of the original Japanese ROM. Check its CRC32 against the table: a different revision won't work.
-2. Apply the patch with [Floating IPS](https://www.smwcentral.net/?p=section&a=details&id=11474),
-   beat, or [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). BPS patches check the source ROM and refuse
-   the wrong one.
+2. Patch it in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/): choose the ROM (or the
+   .zip it came in), and it recognises the game, checks the ROM, and saves the English one. Or apply the patch with
+   [Floating IPS](https://www.smwcentral.net/?p=section&a=details&id=11474), beat, or
+   [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). BPS patches check the source ROM and refuse the
+   wrong one.
 3. Keep the file extension: `.wsc` for WonderSwan Color games, `.ws` for WonderSwan games.
 
 No ROMs are distributed here.

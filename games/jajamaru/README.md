@@ -91,7 +91,7 @@ The developers left a stage select in the game that nothing in the original can 
 
 **How to patch**
 
-Apply one of the BPS files to the Japanese ROM "Ganso Jajamaru-kun (Japan)" (CRC32 A193458C) with Floating IPS, beat or ROM Patcher JS:
+Apply one of the BPS files to the Japanese ROM "Ganso Jajamaru-kun (Japan)" (CRC32 A193458C) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
 * Standard: `jajamaru-en-1.0.bps`, the result should be CRC32 5B68EAFE.
 * Stage Select edition (START / STAGE SELECT on the title): `jajamaru-en-special-1.0.bps`, the result should be CRC32 3A10EC60.

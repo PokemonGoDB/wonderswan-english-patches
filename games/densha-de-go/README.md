@@ -67,7 +67,7 @@ The game has no text font at all: every word on screen is a picture. All of thes
 
 **How to patch**
 
-Apply `densha-de-go-en-1.0.bps` to the Japanese ROM "Densha de Go! (Japan)" (CRC32 B62E5DD0) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 A8ACDDA0.
+Apply `densha-de-go-en-1.0.bps` to the Japanese ROM "Densha de Go! (Japan)" (CRC32 B62E5DD0) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 A8ACDDA0.
 
 The ROM keeps its size (4 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

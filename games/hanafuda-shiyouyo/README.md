@@ -107,7 +107,7 @@ Hanafuda has no official English release of this game, so the terms follow commo
 
 **How to patch**
 
-Apply the BPS file to the Japanese ROM "Hanafuda Shiyouyo (Japan)" (CRC32 8E027330) with Floating IPS, beat or ROM Patcher JS: `hanafuda-shiyouyo-en-1.0.bps`, the result should be CRC32 496B1FB2.
+Apply the BPS file to the Japanese ROM "Hanafuda Shiyouyo (Japan)" (CRC32 8E027330) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS: `hanafuda-shiyouyo-en-1.0.bps`, the result should be CRC32 496B1FB2.
 
 The ROM keeps its size (512 KB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

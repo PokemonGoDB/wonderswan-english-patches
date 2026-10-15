@@ -83,7 +83,7 @@ The developers left a sound test in the cartridge that nothing in the original c
 
 **How to patch**
 
-Apply one of the BPS files to the Japanese ROM "Glocal Hexcite (Japan)" (CRC32 8FCD6D2C) with Floating IPS, beat or ROM Patcher JS:
+Apply one of the BPS files to the Japanese ROM "Glocal Hexcite (Japan)" (CRC32 8FCD6D2C) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
 * Standard: `glocal-hexcite-en-1.0.bps`, the result should be CRC32 F0738013.
 * Sound Test edition: `glocal-hexcite-en-special-1.0.bps`, the result should be CRC32 887AD11F.

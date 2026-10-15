@@ -129,7 +129,7 @@ The developers left a debug mode in the game that the retail cartridge always sw
 
 **How to patch**
 
-Apply the BPS to the Japanese ROM "From TV Animation One Piece - Niji no Shima Densetsu (Japan)" (CRC32 427056C4) with Floating IPS, beat or ROM Patcher JS:
+Apply the BPS to the Japanese ROM "From TV Animation One Piece - Niji no Shima Densetsu (Japan)" (CRC32 427056C4) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
 * Standard: `one-piece-niji-en-1.0.bps`, the result should be CRC32 AD5D5163.
 * Special edition (debug mode on): `one-piece-niji-en-special-1.0.bps`, the result should be CRC32 42912FF4.

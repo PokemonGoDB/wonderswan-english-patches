@@ -70,7 +70,7 @@ Names: your nation is Sharvan; the rivals are Baltz, Bujina, Gibros, Santo Princ
 
 **How to patch**
 
-Apply `anchorz-field-en-1.0.bps` to the Japanese ROM "Anchorz Field (Japan)" (CRC32 425EB893) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 34A7D483.
+Apply `anchorz-field-en-1.0.bps` to the Japanese ROM "Anchorz Field (Japan)" (CRC32 425EB893) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 34A7D483.
 
 The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

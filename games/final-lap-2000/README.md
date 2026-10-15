@@ -99,7 +99,7 @@ On the **Ranking** menu, press **Y1, Y3, Y4, Y2** (the Y-pad: up, down, left, ri
 
 **How to patch**
 
-Apply `final-lap-2000-en-1.0.bps` to the Japanese ROM "Final Lap 2000 (Japan)" (CRC32 CE2F1A1D) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 53CEAD54.
+Apply `final-lap-2000-en-1.0.bps` to the Japanese ROM "Final Lap 2000 (Japan)" (CRC32 CE2F1A1D) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 53CEAD54.
 
 The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

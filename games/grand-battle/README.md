@@ -79,7 +79,7 @@ Names follow what most fans use online (the One Piece Wiki), not any one publish
 
 **How to patch**
 
-Apply the BPS to the Japanese ROM "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)" (CRC32 F8A1DD2B) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 F3DB0917. The ROM keeps its size (8 MB), so it runs anywhere the original does. Keep the .wsc extension.
+Apply the BPS to the Japanese ROM "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)" (CRC32 F8A1DD2B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 F3DB0917. The ROM keeps its size (8 MB), so it runs anywhere the original does. Keep the .wsc extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 

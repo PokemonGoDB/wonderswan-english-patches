@@ -63,7 +63,7 @@ The hamster's baby talk (でちゅ) becomes a cute "chu" ("Ham-ham~ Nice to meet
 
 **How to patch**
 
-Apply one of the BPS files to the Japanese ROM "Dokodemo Hamster (Japan)" (CRC32 89E7D950) with Floating IPS, beat or ROM Patcher JS:
+Apply one of the BPS files to the Japanese ROM "Dokodemo Hamster (Japan)" (CRC32 89E7D950) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
 * Standard: `dokodemo-hamster-en-1.0.bps`, the result should be CRC32 F67C5588.
 * Long Names (may be buggy): `dokodemo-hamster-en-long-1.0.bps`, the result should be CRC32 22F04AF5.

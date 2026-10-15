@@ -126,7 +126,7 @@ The Japanese codes cannot be typed on the English keyboard, so the patch accepts
 
 **How to patch**
 
-Apply `fire-pro-en-1.0.bps` to the Japanese ROM "Fire Pro Wrestling for WonderSwan (Japan)" (CRC32 F246A68E) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 7E701D9E.
+Apply `fire-pro-en-1.0.bps` to the Japanese ROM "Fire Pro Wrestling for WonderSwan (Japan)" (CRC32 F246A68E) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 7E701D9E.
 
 The patched ROM is **8 MB** (the original is 4 MB): the English needs more room, so the patch doubles the ROM. It's a WonderSwan (mono) game, so keep the .ws extension.
 

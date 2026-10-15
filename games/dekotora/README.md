@@ -81,7 +81,7 @@ The developers left a hidden event selector in the game that nothing in the orig
 
 **How to patch**
 
-Apply one of the BPS files to the Japanese ROM "Bakusou Dekotora Densetsu for WonderSwan (Japan)" (CRC32 392DD813) with Floating IPS, beat or ROM Patcher JS:
+Apply one of the BPS files to the Japanese ROM "Bakusou Dekotora Densetsu for WonderSwan (Japan)" (CRC32 392DD813) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
 * Standard: `dekotora-en-1.0.bps`, the result should be CRC32 E7B6B96E.
 * Special edition (Event Select, may be buggy): `dekotora-en-special-1.0.bps`, the result should be CRC32 37431865.

@@ -103,7 +103,7 @@ On the **title screen**, press **Up, Up, Down, Down, Right, Left, Right, Left, U
 
 **How to patch**
 
-Apply `goraku-ou-tango-en-1.0.bps` to the Japanese ROM "Goraku Ou Tango! (Japan)" (CRC32 00137E86) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 76D6F197.
+Apply `goraku-ou-tango-en-1.0.bps` to the Japanese ROM "Goraku Ou Tango! (Japan)" (CRC32 00137E86) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 76D6F197.
 
 The ROM keeps its size (1 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 

@@ -109,7 +109,7 @@ These are in the retail cartridge and work the same in English (no special patch
 
 **How to patch**
 
-Apply the BPS file to the Japanese ROM "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)" (CRC32 70AA800E) with Floating IPS, beat or ROM Patcher JS: `hxh-ishi-en-1.1.bps`, the result should be CRC32 B05CECF4. The earlier revision (Rev 1, CRC32 BD6FC68A) isn't supported.
+Apply the BPS file to the Japanese ROM "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)" (CRC32 70AA800E) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS: `hxh-ishi-en-1.1.bps`, the result should be CRC32 B05CECF4. The earlier revision (Rev 1, CRC32 BD6FC68A) isn't supported.
 
 The English ROM is 8 MB (the original is 4 MB) because the translation needed more room: use an emulator or a flash cart that takes 64 Mbit WonderSwan ROMs. It's a WonderSwan (mono) game, so keep the .ws extension.
 
