@@ -1,4 +1,4 @@
-# Kidou Senshi Gundam Vol. 1: Side 7 (WonderSwan Color) - AI English translation patch v1.0
+# Kidou Senshi Gundam Vol. 1: Side 7 (WonderSwan Color) - AI English translation patch v1.1
 
 **Kidou Senshi Gundam Vol. 1: Side 7** (機動戦士ガンダム Vol.1 〜SIDE7〜, "Mobile Suit Gundam Vol. 1: Side 7") is Bandai's 2001 game for the WonderSwan Color, released only in Japan, and the first of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. This one covers episodes 1-12: Zeon's raid on Side 7, Amuro Ray climbing into the Gundam, the White Base's flight to Earth and the fight with Garma Zabi. Each episode is told in story scenes, with mobile-suit battles in between, and the crew's trust in Amuro rises and falls with how he fights.
 
@@ -10,7 +10,7 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
 * The whole script: every story scene and narration, the prologue, the battle chatter and the mission briefings, the ending and the staff credits.
 * Every menu and prompt: the episode select and its maps, weapon help, saving and continuing.
-* Everything drawn as a picture: the 12 episode title cards, the battle labels (commands, weapons and Amuro's mood) and the results screen after each episode.
+* Everything drawn as a picture: the title logo (MOBILE SUIT GUNDAM), the 12 episode title cards, the battle labels (commands, weapons and Amuro's mood) and the results screen after each episode.
 * WonderGate: Sayla's lines on the monitor, the connecting and error screens.
 
 **How it was made: AI translation, independent checks, human decisions**
@@ -19,16 +19,17 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 * Five separate Claude reviewers checked the three games against the Japanese, packet by packet. Their findings were verified and fixed.
 * On screen: every page of every story message was drawn in the game's own box, and every one of the 3,404 English rows was compared pixel for pixel with what it should look like (anything cut short, drawn over or missing would show). Random walks through menus, battles and the map looked for leftover Japanese, with sample screenshots checked by eye. The attract loop, the ending and the staff credits were seen on screen, every graphics resource was examined for lettering, and the screens were compared side by side with the original for alignment.
 * Online: the WonderGate session was played for real against a private copy of Swan Revival's server, on both the original and the English ROM. It unlocks the Gundam Hammer and the Beam Javelin in both, with the same request and reply. The live server was not used for testing.
-* The judgement calls (official English names, ranks and forms of address, catchphrases, the title cards, the logo) were listed with the Japanese and the options, and I decided all 29 by hand over three rounds (for the three volumes together).
+* The judgement calls (official English names, ranks and forms of address, catchphrases, the title cards, the logo) were listed with the Japanese and the options, and I decided all 30 by hand (for the three volumes together).
 * English patches for these games already exist elsewhere. This is an independent translation: those patches were used only to compare which parts of the ROM they change, to make sure no text had been missed. Their English wasn't read or used.
 
 **Things to know**
 
-* The title logo is kept as it is (my call): the game's name is in the logo and on this page.
+* The title logo is redrawn in English (my call, after 1.0): MOBILE SUIT over GUNDAM, in the original logo's colours, outline and slant.
 * The Gundam Hammer and the Javelin come from the WonderGate. The original's WONDERGATE item appears on the title menu as in the Japanese version.
 
 **Changelog**
 
+* **v1.1**: the title logo in English.
 * **v1.0**: first release.
 
 **Sources consulted**
@@ -77,11 +78,11 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
 **How to patch**
 
-Apply `gundam-vol1-side7-en-1.0.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 1 - Side 7 (Japan)" (CRC32 08C0247B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 4 MB ROM with CRC32 9ADAFACD (SHA-1 9427f4a6c9b6de37c205249149c11cc7ee1259ce).
+Apply `gundam-vol1-side7-en-1.1.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 1 - Side 7 (Japan)" (CRC32 08C0247B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 4 MB ROM with CRC32 19AC67B5 (SHA-1 5f3b81c2f7459b602fecb621d288cf4ddf5e640f).
 
 It's a WonderSwan Color game, so keep the .wsc extension. You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `gundam-vol1-side7-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.0).
+**Download:** `gundam-vol1-side7-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1).
 
 **Known issues**
 
