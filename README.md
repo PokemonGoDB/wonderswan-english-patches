@@ -37,6 +37,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Another Heaven: Memory of those Days](games/another-heaven/README.md) (horror sound novel; WonderGate works with Swan Revival) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0) | BPS | `D7A0AB74` | `1B7EF909` |
 | [MobileWonderGate](games/mobile-wondergate/README.md) (the Mobile WonderGate adapter's browser and mailer; online with Swan Revival) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) | BPS | `80DE367D` | `6A88E21E` |
 | [GunPey EX](games/gunpey-ex/README.md) (already English; the WonderGate screens, keypad and Color-only warning translated; WonderGate works with Swan Revival) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gunpey-ex-v1.0) | BPS | `0C9CB12C` | `16998248` |
+| [Lode Runner for WonderSwan](games/lode-runner/README.md) (+ Swan Revival Edition: stage sharing, English and Japanese-text) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) | BPS | `E407CABF` | `A88BABE0` (Swan Revival Edition `2EEB7D2A`, Japanese-text `1425CEDE`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
