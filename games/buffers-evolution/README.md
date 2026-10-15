@@ -1,4 +1,4 @@
-# Buffers Evolution (WonderSwan) - AI English translation patch v1.0
+# Buffers Evolution (WonderSwan) - AI English translation patch v1.0 (+ WonderGate edition)
 
 **Buffers Evolution** is Bandai's 1999 side-scrolling action game for the original (monochrome) WonderSwan, released only in Japan (December 1999). You pick a beast-like "Buffer" type and an item, then run, jump and slide through ENDURO courses against the clock, or clear S.S. arenas of enemies; RECORD mode keeps your best times, and a hidden WONDERGATE mode once uploaded them through Bandai's Mobile WonderGate phone adapter for national rankings and contests.
 
@@ -11,11 +11,15 @@ Almost the whole game was already in English: the menus, the courses, the result
 * **The WonderGate error box:** the "Error No." header and all four messages the game can show: "Check the WonderGate connection or battery." (error 001, what you get without an adapter), "Check the phone connection." (003), "See "Precautions for Use" in the manual." (999) and "Connection lost." (all other errors, such as 005 when the server can't be reached).
 * Everything else was already English in the original and is left alone, including the WONDERGATE title label and every WonderGate menu (MODE SELECT, ACCESS SERVER, CHANGE, VIEW ENDURO / VIEW S.S. / VIEW CONTEST).
 
-**How to reach the WonderGate mode:** hold **A + B + RIGHT** while switching the WonderSwan on. Once a course record is saved, press RIGHT on the title's mode line (ENDURO > S.S. > RECORD > WONDERGATE). The mode also appears without the code once a download has been stored.
+**How to reach the WonderGate mode:** hold **A + B + RIGHT** while switching the WonderSwan on. Once a course record is saved, press RIGHT on the title's mode line (ENDURO > S.S. > RECORD > WONDERGATE). The mode also appears without the code once a download has been stored. The WonderGate edition shows it without the code.
 
 **Terms**
 
 The Japanese abbreviates the adapter as "WG"; the English writes WonderGate in full. 使用上のご注意 ("Precautions for Use") is the usual title of the troubleshooting section of a Japanese instruction leaflet, so the English adds "in the manual".
+
+**The WonderGate edition**
+
+The WonderGate edition (`buffers-evolution-en-wondergate-1.0.bps`) is the standard patch with the game's hidden WonderGate mode always on: WONDERGATE is on the title's mode line without holding A, B and RIGHT while switching the console on (as in the original, the mode line moves once a course record is saved). It's for posting times to the national rankings through [RevivalGate](https://swanrevival.com/revival-gate/), which serves this game's WonderGate features today. Everything else is the standard patch.
 
 **How it was made: AI translation, independent checks, human decisions**
 
@@ -68,13 +72,16 @@ The Japanese abbreviates the adapter as "WG"; the English writes WonderGate in f
 
 **How to patch**
 
-Apply `buffers-evolution-en-1.0.bps` to the Japanese ROM "Buffers Evolution (Japan)" (CRC32 B25A0635) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 378A17BC.
+Apply one of the BPS files to the Japanese ROM "Buffers Evolution (Japan)" (CRC32 B25A0635) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
+
+* Standard: `buffers-evolution-en-1.0.bps`, the result should be CRC32 378A17BC.
+* WonderGate edition (the WonderGate mode without the code): `buffers-evolution-en-wondergate-1.0.bps`, the result should be CRC32 1E355E65.
 
 The ROM keeps its size (4 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `buffers-evolution-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0).
+**Download:** `buffers-evolution-en-1.0.bps`, `buffers-evolution-en-wondergate-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0).
 
 **Known issues**
 
