@@ -1,4 +1,4 @@
-# Kidou Senshi Gundam Vol. 3: A Baoa Qu (WonderSwan Color) - AI English translation patch v1.0
+# Kidou Senshi Gundam Vol. 3: A Baoa Qu (WonderSwan Color) - AI English translation patch v1.1
 
 **Kidou Senshi Gundam Vol. 3: A Baoa Qu** (機動戦士ガンダム Vol.3 -A BAOA QU-, "Mobile Suit Gundam Vol. 3: A Baoa Qu") is Bandai's 2002 game for the WonderSwan Color, released only in Japan, and the last of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. It covers episodes 31-43: the White Base back in space, Solomon, Lalah Sune and the Elmeth, and the final battle at A Baoa Qu. Each episode is told in story scenes, with mobile-suit battles in between; a new game can carry over Amuro's skill from the earlier volumes.
 
@@ -10,7 +10,7 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
 * The whole script: every story scene and narration, the battle chatter and radio calls, the battle report comments, the tips, the epilogue and the staff credits.
 * Every menu and prompt: the map and destination prompts, the event list, saving, quitting and continuing.
-* Everything drawn as a picture: the episode title cards, the battle report panel, the carry-over panel, the event list header and the side-story menu (its headers and the four story names).
+* Everything drawn as a picture: the title logo (MOBILE SUIT GUNDAM), the episode title cards, the battle report panel, the carry-over panel, the event list header and the side-story menu (its headers and the four story names).
 * WonderGate: Sayla's side-story downloads, the phone keypad and the side stories themselves, which Lalah shows you from the title menu.
 
 **How it was made: AI translation, independent checks, human decisions**
@@ -19,18 +19,19 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 * Five separate Claude reviewers checked the three games against the Japanese, packet by packet. Their findings were verified and fixed.
 * On screen: every page of every story message was drawn in the game's own box, and every one of the 7,061 English rows was compared pixel for pixel with what it should look like (anything cut short, drawn over or missing would show). Random walks through menus, battles and the map looked for leftover Japanese, with sample screenshots checked by eye. The attract loop, the ending and the staff credits were seen on screen, every graphics resource was examined for lettering, and the screens were compared side by side with the original for alignment.
 * Online: the WonderGate download was played for real against a private copy of Swan Revival's server, on both the original and the English ROM, and the downloaded side story was played in English. The live server was not used for testing.
-* The judgement calls (official English names, ranks and forms of address, catchphrases, the title cards, the logo) were listed with the Japanese and the options, and I decided all 29 by hand over three rounds (for the three volumes together).
+* The judgement calls (official English names, ranks and forms of address, catchphrases, the title cards, the logo) were listed with the Japanese and the options, and I decided all 30 by hand (for the three volumes together).
 * English patches for these games already exist elsewhere. This is an independent translation: those patches were used only to compare which parts of the ROM they change, to make sure no text had been missed. Their English wasn't read or used.
 
 **Things to know**
 
-* The title logo is kept as it is (my call): the game's name is in the logo and on this page.
+* The title logo is redrawn in English (my call, after 1.0): MOBILE SUIT over GUNDAM, in the original logo's colours, outline and slant.
 * The carry-over reads the earlier volumes' data the same way as the original.
 * The side-story menu (SUBSCENARIO on the title menu) opens after a WonderGate download, and the bonus mode after you clear the game, as in the original.
-* A few pictures stay Japanese because the game never shows them: an unused feature announcement and a second event-list layout.
+* Two sets of pictures the game never shows (a feature announcement and a second event-list layout) are translated too, for anyone who digs them out.
 
 **Changelog**
 
+* **v1.1**: the title logo in English; the two sets of pictures the game never shows (a feature announcement and a second event-list layout) are translated; all four side stories checked on screen.
 * **v1.0**: first release.
 
 **Sources consulted**
@@ -79,15 +80,15 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
 **How to patch**
 
-Apply `gundam-vol3-a-baoa-qu-en-1.0.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)" (CRC32 A9F5BF54) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 8 MB ROM with CRC32 33889AC7 (SHA-1 01c052eef384d825b275d6dd3f1f363cb111ba1b).
+Apply `gundam-vol3-a-baoa-qu-en-1.1.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)" (CRC32 A9F5BF54) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 8 MB ROM with CRC32 E245AF80 (SHA-1 6b3146e8c5b5ea51a7bed47d8afbc607d6f91051).
 
 It's a WonderSwan Color game, so keep the .wsc extension. You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `gundam-vol3-a-baoa-qu-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.0).
+**Download:** `gundam-vol3-a-baoa-qu-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1).
 
 **Known issues**
 
-* It hasn't been played start to finish by a person. The opening, battles, the battle report, the event list, game over, the bonus mode, the WonderGate download, the side-story menu and its first story were played; the text of the other episodes was checked in the game's own box. Only one of the four side stories unlocks with Swan Revival's server, so the other three names in the side-story menu were checked in a preview, not on screen.
+* It hasn't been played start to finish by a person. The opening, battles, the battle report, the event list, game over, the bonus mode, the WonderGate download, the side-story menu and all four side stories were played (Swan Revival's server unlocks one; the other three were unlocked in a test); the text of the other episodes was checked in the game's own box.
 * Bandai's WonderGate server is long gone. Swan Revival's server supports this game's WonderGate features.
 * If you find leftover Japanese or anything broken, please tell me where it happened.
 
