@@ -100,7 +100,10 @@ In 2000 the game's WonderGate option connected to Bandai's server to receive mai
 
 **How to patch**
 
-Apply `ring-infinity-en-1.0.bps` (or the special edition, `ring-infinity-en-special-1.0.bps`) to the Japanese ROM "Ring Infinity (Japan)" (CRC32 14ADBD4B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 59351D40 (special edition ADFD2AC3).
+Apply one of the BPS files to the Japanese ROM "Ring Infinity (Japan)" (CRC32 14ADBD4B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
+
+* Standard: `ring-infinity-en-1.0.bps`, the result should be CRC32 59351D40.
+* Special edition (mails and extra scenario open): `ring-infinity-en-special-1.0.bps`, the result should be CRC32 ADFD2AC3.
 
 The patched ROM is 8 MB (the original is 4 MB): the English text and pictures go in the added half. It's a WonderSwan game, so keep the .ws extension.
 

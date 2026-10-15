@@ -114,9 +114,11 @@ There is also a **Japanese-text** build of the edition: the original Japanese ga
 
 **How to patch**
 
-Apply `lode-runner-en-1.0.bps` to the Japanese ROM "Lode Runner for WonderSwan (Japan)" (CRC32 E407CABF) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 A88BABE0.
+Apply one of the BPS files to the Japanese ROM "Lode Runner for WonderSwan (Japan)" (CRC32 E407CABF) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
-For the Swan Revival Edition, apply `lode-runner-se-en-1.0.bps` to the same Japanese ROM instead (CRC32 2EEB7D2A). For its Japanese-text build, apply `lode-runner-se-ja-1.0.bps` (CRC32 1425CEDE).
+* Standard: `lode-runner-en-1.0.bps`, the result should be CRC32 A88BABE0.
+* Swan Revival Edition: `lode-runner-se-en-1.0.bps`, the result should be CRC32 2EEB7D2A.
+* Swan Revival Edition (Japanese text): `lode-runner-se-ja-1.0.bps`, the result should be CRC32 1425CEDE.
 
 The patched ROM is 512 KB, the same size as the original. It's a WonderSwan (mono) game, so keep the .ws extension.
 

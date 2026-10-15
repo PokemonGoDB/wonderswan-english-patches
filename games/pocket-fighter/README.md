@@ -95,7 +95,10 @@ A second patch opens the six modes of Option > Extra (Training Mode, Sound Test,
 
 **How to patch**
 
-Apply `pocket-fighter-en-1.0.bps` to the Japanese ROM "Pocket Fighter (Japan)" (CRC32 35361250) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 A20ED743. For the Extras Unlocked edition, apply `pocket-fighter-en-extras-1.0.bps` instead (CRC32 624C7B55).
+Apply one of the BPS files to the Japanese ROM "Pocket Fighter (Japan)" (CRC32 35361250) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
+
+* Standard: `pocket-fighter-en-1.0.bps`, the result should be CRC32 A20ED743.
+* Extras Unlocked: `pocket-fighter-en-extras-1.0.bps`, the result should be CRC32 624C7B55.
 
 The patched ROM is 4 MB (the original is 2 MB). It's a WonderSwan (mono) game, so keep the .ws extension.
 
