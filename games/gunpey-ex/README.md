@@ -39,33 +39,37 @@ Bandai's ranking server closed in 2001-2003. Swan Revival (swanrevival.com), the
 
 **Images** (original on the left, English on the right)
 
-1. WonderGate: before connecting
+1. Title screen (the game's own English, unchanged)
 
-   ![WonderGate: before connecting](images/01-wondergate-prompt.png)
+   ![Title screen (the game's own English, unchanged)](images/01-title.png)
 
-2. WonderGate: error 001 (what a player without the adapter sees)
+2. WonderGate: before connecting
 
-   ![WonderGate: error 001 (what a player without the adapter sees)](images/02-error-no-adapter.png)
+   ![WonderGate: before connecting](images/02-wondergate-prompt.png)
 
-3. WonderGate: Endless ranking from a real session
+3. WonderGate: error 001 (what a player without the adapter sees)
 
-   ![WonderGate: Endless ranking from a real session](images/03-ranking-endless.png)
+   ![WonderGate: error 001 (what a player without the adapter sees)](images/03-error-no-adapter.png)
 
-4. WonderGate: Puzzle ranking from a real session
+4. WonderGate: Endless ranking from a real session
 
-   ![WonderGate: Puzzle ranking from a real session](images/04-ranking-puzzle.png)
+   ![WonderGate: Endless ranking from a real session](images/04-ranking-endless.png)
 
-5. WonderGate: connection lost (a real connection error)
+5. WonderGate: Puzzle ranking from a real session
 
-   ![WonderGate: connection lost (a real connection error)](images/05-error-connection-lost.png)
+   ![WonderGate: Puzzle ranking from a real session](images/05-ranking-puzzle.png)
 
-6. WonderGate OPTION: the phone keypad
+6. WonderGate: connection lost (a real connection error)
 
-   ![WonderGate OPTION: the phone keypad](images/06-option-keypad.png)
+   ![WonderGate: connection lost (a real connection error)](images/06-error-connection-lost.png)
 
-7. The warning on a black-and-white WonderSwan
+7. WonderGate OPTION: the phone keypad
 
-   ![The warning on a black-and-white WonderSwan](images/07-color-only-warning.png)
+   ![WonderGate OPTION: the phone keypad](images/07-option-keypad.png)
+
+8. The warning on a black-and-white WonderSwan
+
+   ![The warning on a black-and-white WonderSwan](images/08-color-only-warning.png)
 
 
 **How to patch**
