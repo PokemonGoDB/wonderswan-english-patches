@@ -1,4 +1,4 @@
-# Ring Infinity (WonderSwan) - AI English translation patch v1.0
+# Ring Infinity (WonderSwan) - AI English translation patch v1.1
 
 **Ring Infinity** (リング∞) is a horror sound novel for the WonderSwan, made by MeGAS and released by Bandai with Kadokawa Shoten in Japan in 2000. It continues Koji Suzuki's *Ring*: in the year 2000, Sadako Yamamura's curse spreads again through a videotape passed around a high school, a cursed web page born when that tape reached the Internet, and a nightmare that spreads by being told. Each page shows a photograph above a few lines of prose; read, make the choices (some of them against the clock), and follow three linked stories to their endings, then around the loop that gives the game its ∞. This patch translates it into English.
 
@@ -30,10 +30,11 @@ In 2000 the game's WonderGate option connected to Bandai's server to receive mai
 
 **Special edition**
 
-`ring-infinity-en-special-1.0.bps` puts Read Mail and Read Extra Scenario on the title menu from the start, so the additional scenario and all 31 mails can be read without connecting. Everything else is the standard patch.
+`ring-infinity-en-special-1.1.bps` puts Read Mail and Read Extra Scenario on the title menu from the start, so the additional scenario and all 31 mails can be read without connecting. Everything else is the standard patch.
 
 **Changelog**
 
+* **v1.1**: fixed a few small translation errors.
 * **v1.0**: first release.
 
 **Sources consulted**
@@ -100,16 +101,13 @@ In 2000 the game's WonderGate option connected to Bandai's server to receive mai
 
 **How to patch**
 
-Apply one of the BPS files to the Japanese ROM "Ring Infinity (Japan)" (CRC32 14ADBD4B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
-
-* Standard: `ring-infinity-en-1.0.bps`, the result should be CRC32 59351D40.
-* Special edition (mails and extra scenario open): `ring-infinity-en-special-1.0.bps`, the result should be CRC32 ADFD2AC3.
+Apply `ring-infinity-en-1.1.bps` (or the special edition, `ring-infinity-en-special-1.1.bps`) to the Japanese ROM "Ring Infinity (Japan)" (CRC32 14ADBD4B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 3E655169 (special edition BC3C951B).
 
 The patched ROM is 8 MB (the original is 4 MB): the English text and pictures go in the added half. It's a WonderSwan game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `ring-infinity-en-1.0.bps` and `ring-infinity-en-special-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.0).
+**Download:** `ring-infinity-en-1.1.bps` and `ring-infinity-en-special-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.1).
 
 **Known issues**
 
