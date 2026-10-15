@@ -33,6 +33,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Buffers Evolution](games/buffers-evolution/README.md) (already English; the hidden WonderGate error box translated) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0) | BPS | `B25A0635` | `378A17BC` |
 | [From TV Animation One Piece: Mezase Kaizoku Ou!](games/kaizoku-ou/README.md) (2 MB patched ROM; link play works with Japanese cartridges) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kaizoku-ou-v1.0) | BPS | `F2E362B8` | `30F6CAAF` |
 | [From TV Animation One Piece: Niji no Shima Densetsu](games/one-piece-niji/README.md) (8 MB patched ROM; + Debug Mode edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0) | BPS | `427056C4` | `AD5D5163` (Debug Mode `42912FF4`) |
+| [Pocket Fighter](games/pocket-fighter/README.md) (+ Extras Unlocked edition; WonderGate works with Swan Revival, free) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0) | BPS | `35361250` | `A20ED743` (Extras Unlocked `624C7B55`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
