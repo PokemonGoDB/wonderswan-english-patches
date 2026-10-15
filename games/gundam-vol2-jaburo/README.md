@@ -1,4 +1,4 @@
-# Kidou Senshi Gundam Vol. 2: Jaburo (WonderSwan Color) - AI English translation patch v1.0
+# Kidou Senshi Gundam Vol. 2: Jaburo (WonderSwan Color) - AI English translation patch v1.1
 
 **Kidou Senshi Gundam Vol. 2: Jaburo** (機動戦士ガンダム Vol.2 〜JABURO〜, "Mobile Suit Gundam Vol. 2: Jaburo") is Bandai's 2001 game for the WonderSwan Color, released only in Japan, and the second of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. It covers episodes 13-30: Amuro's reunion with his mother, Ramba Ral and the Black Tri-Stars, the battle of Odessa and the attack on the Federation's headquarters at Jaburo. Each episode is told in story scenes, with mobile-suit battles in between; a new game can carry over Amuro's skill from Vol. 1.
 
@@ -10,26 +10,27 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
 * The whole script: every story scene and narration, the battle chatter and radio calls, the battle report comments, the tips, the game-over lines, the ending and the staff credits.
 * Every menu and prompt: the map and destination prompts, the event lists, saving, quitting and continuing.
-* Everything drawn as a picture: the episode title cards, the battle report panel, the carry-over panel and the bonus-mode panel.
+* Everything drawn as a picture: the title logo (MOBILE SUIT GUNDAM), the episode title cards, the battle report panel, the carry-over panel and the bonus-mode panel.
 * WonderGate: Sayla's side-story downloads, the phone keypad (OK / CANCEL / DEFAULT) and the side stories themselves (Sayla's and Kai's Memories).
 
 **How it was made: AI translation, independent checks, human decisions**
 
 * Claude translated everything directly from the Japanese in the ROM and did all the hacking. The game's text engine draws English with a variable-width font, with the letters, the page breaks and the colours added to the engine; the English text is moved to free space and every reference to it is rewritten. Every picture with words in it was redrawn in the original's lettering.
 * Five separate Claude reviewers checked the three games against the Japanese, packet by packet. Their findings were verified and fixed.
-* On screen: every page of every story message was drawn in the game's own box, and every one of the 7,304 English rows was compared pixel for pixel with what it should look like (anything cut short, drawn over or missing would show). Random walks through menus, battles and the map looked for leftover Japanese, with sample screenshots checked by eye. The attract loop and the ending were seen on screen, every graphics resource was examined for lettering, and the screens were compared side by side with the original for alignment.
+* On screen: every page of every story message was drawn in the game's own box, and every one of the 7,304 English rows was compared pixel for pixel with what it should look like (anything cut short, drawn over or missing would show). Random walks through menus, battles and the map looked for leftover Japanese, with sample screenshots checked by eye. The attract loop, the ending and the staff credits were seen on screen, every graphics resource was examined for lettering, and the screens were compared side by side with the original for alignment.
 * Online: the WonderGate download was played for real against a private copy of Swan Revival's server, on both the original and the English ROM, and the downloaded side story was played in English. The live server was not used for testing.
-* The judgement calls (official English names, ranks and forms of address, catchphrases, the title cards, the logo) were listed with the Japanese and the options, and I decided all 29 by hand over three rounds (for the three volumes together).
+* The judgement calls (official English names, ranks and forms of address, catchphrases, the title cards, the logo) were listed with the Japanese and the options, and I decided all 30 by hand (for the three volumes together).
 * English patches for these games already exist elsewhere. This is an independent translation: those patches were used only to compare which parts of the ROM they change, to make sure no text had been missed. Their English wasn't read or used.
 
 **Things to know**
 
-* The title logo is kept as it is (my call): the game's name is in the logo and on this page.
+* The title logo is redrawn in English (my call, after 1.0): MOBILE SUIT over GUNDAM, in the original logo's colours, outline and slant.
 * The carry-over reads the previous volume's data the same way as the original.
 * The bonus mode (event and sound test) opens after you clear the game, as in the original.
 
 **Changelog**
 
+* **v1.1**: the title logo in English; the staff roll and every character's game-over lines checked on screen.
 * **v1.0**: first release.
 
 **Sources consulted**
@@ -78,15 +79,15 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
 **How to patch**
 
-Apply `gundam-vol2-jaburo-en-1.0.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 2 - Jaburo (Japan)" (CRC32 39A1391A) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 8 MB ROM with CRC32 40E63922 (SHA-1 e03332ebbd3fed88084bc96030c65a9b531e6ed1).
+Apply `gundam-vol2-jaburo-en-1.1.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 2 - Jaburo (Japan)" (CRC32 39A1391A) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 8 MB ROM with CRC32 43BD6D16 (SHA-1 f38c28a858ff27826be3f4df8d8b32012609c3b8).
 
 It's a WonderSwan Color game, so keep the .wsc extension. You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `gundam-vol2-jaburo-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.0).
+**Download:** `gundam-vol2-jaburo-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.1).
 
 **Known issues**
 
-* It hasn't been played start to finish by a person. The opening, battles, the battle report, game over, the bonus mode, the WonderGate download and its side story were played; the text of the other episodes was checked in the game's own box. The staff roll was checked that way too, and the game-over lines of the characters other than Bright were checked by width only.
+* It hasn't been played start to finish by a person. The opening, battles, the battle report, game over, the bonus mode, the WonderGate download and its side story were played; the text of the other episodes was checked in the game's own box. The staff roll and every character's game-over lines were seen on screen with test ROMs.
 * Bandai's WonderGate server is long gone. Swan Revival's server supports this game's WonderGate features.
 * If you find leftover Japanese or anything broken, please tell me where it happened.
 
