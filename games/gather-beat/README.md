@@ -65,7 +65,9 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
 **How to patch**
 
-Apply `gather-beat-gb1-en-1.2.bps` to "SD Gundam G-Generation - Gather Beat (Japan)" (CRC32 E4EB3AB1) with Floating IPS, beat or ROM Patcher JS; the result should be CRC32 F2DF9A5A. It's a WonderSwan (mono) game, so keep the .ws extension. The ROM keeps its size (4 MB). Saves from the Japanese version work.
+Apply `gather-beat-gb1-en-1.2.bps` to the Japanese ROM "SD Gundam G-Generation - Gather Beat (Japan)" (CRC32 E4EB3AB1) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 F2DF9A5A.
+
+It's a WonderSwan (mono) game, so keep the .ws extension. The ROM keeps its size (4 MB). Saves from the Japanese version work.
 
 You must provide your own copy of the original Japanese game to apply it.
 

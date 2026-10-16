@@ -81,10 +81,10 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
 **How to patch**
 
-Apply the BPS file to "SD Gundam G Generation - Gather Beat 2 (Japan)" (CRC32 4D21A347) with Floating IPS, beat or ROM Patcher JS:
+Apply one of the BPS files to the Japanese ROM "SD Gundam G Generation - Gather Beat 2 (Japan)" (CRC32 4D21A347) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
-* `gather-beat-gb2-en-1.2.bps`: the result should be CRC32 5DC527DC.
-* Stage Select edition, `gather-beat-gb2-en-stagesel-1.2.bps`: the result should be CRC32 EBA90D51.
+* Standard: `gather-beat-gb2-en-1.2.bps`, the result should be CRC32 5DC527DC.
+* Stage Select edition (Stage Select on New Game): `gather-beat-gb2-en-stagesel-1.2.bps`, the result should be CRC32 EBA90D51.
 
 Keep the .wsc extension. The ROM keeps its size (8 MB). Saves from the Japanese version work.
 
