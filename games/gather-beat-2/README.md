@@ -1,4 +1,4 @@
-# SD Gundam G Generation: Gather Beat 2 (WonderSwan Color) - AI English translation patch v1.2 (+ Stage Select edition)
+# SD Gundam G Generation: Gather Beat 2 (WonderSwan Color) - AI English translation patch v1.3 (+ Stage Select edition)
 
 **SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)
 
@@ -25,7 +25,7 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
 **Special edition: Stage Select**
 
-`gather-beat-gb2-en-stagesel-1.2.bps` adds the developers' own stage select, which the original leaves unused: New Game opens "Stage Select" over the opening; UP and DOWN choose an entry (the developers' labels ST00, ST01 ... with route tags), A starts it, B goes on with the normal game. It plays each stage's scenes and battle the way the developers' tool sets them up, which is not always the same as reaching the stage in a normal game. Use it for exploring; play the standard patch for the game itself.
+`gather-beat-gb2-en-stagesel-1.3.bps` adds the developers' own stage select, which the original leaves unused: New Game opens "Stage Select" over the opening; UP and DOWN choose an entry (the developers' labels ST00, ST01 ... with route tags), A starts it, B goes on with the normal game. It plays each stage's scenes and battle the way the developers' tool sets them up, which is not always the same as reaching the stage in a normal game. Use it for exploring; play the standard patch for the game itself.
 
 **Notes on the original**
 
@@ -34,6 +34,7 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
 **Changelog**
 
+* **v1.3**: fixes a freeze in battle: every battle in which an attack missed stopped after the MISS! word (thanks to the player who reported it, issue #1). The other battle words (CRITICAL!, I-FIELD ...) now end exactly as in the original too. Nothing else changed; saves from v1.2 work.
 * **v1.2**: names and labels the original wrote in Latin letters (0080 and 0083 in the encyclopedia's series list, F91, ID in the command menu, the WonderGate keypad, Total EXP) now use the same English font as the text around them instead of the original's taller letters.
 * **v1.1**: link-cable Unit Trade checked on two linked consoles; the UNIT TRADE plate redrawn in English (it was still Japanese) and the trade prompt no longer hides "will be" under a unit icon; labels that drew over window frames fixed (the weapon list's "Guard" is now "Def.", the encyclopedia's series list says "Turn A"). Now released separately from the first Gather Beat.
 * **v1.0**: first release (together with the first Gather Beat).
@@ -83,14 +84,14 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
 Apply one of the BPS files to the Japanese ROM "SD Gundam G Generation - Gather Beat 2 (Japan)" (CRC32 4D21A347) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
-* Standard: `gather-beat-gb2-en-1.2.bps`, the result should be CRC32 5DC527DC.
-* Stage Select edition (Stage Select on New Game): `gather-beat-gb2-en-stagesel-1.2.bps`, the result should be CRC32 EBA90D51.
+* Standard: `gather-beat-gb2-en-1.3.bps`, the result should be CRC32 2306E8BE.
+* Stage Select edition (Stage Select on New Game): `gather-beat-gb2-en-stagesel-1.3.bps`, the result should be CRC32 77E9D607.
 
 Keep the .wsc extension. The ROM keeps its size (8 MB). Saves from the Japanese version work.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `gather-beat-gb2-en-1.2.bps`, `gather-beat-gb2-en-stagesel-1.2.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.2).
+**Download:** `gather-beat-gb2-en-1.3.bps`, `gather-beat-gb2-en-stagesel-1.3.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.3).
 
 **Known issues**
 
