@@ -1,4 +1,4 @@
-# Star Hearts: Hoshi to Daichi no Shisha (WonderSwan Color) - AI English translation patch v1.1
+# Star Hearts: Hoshi to Daichi no Shisha (WonderSwan Color) - AI English translation patch v1.2
 
 **Star Hearts: Hoshi to Daichi no Shisha** (スターハーツ ～星と大地の使者～, "Star Hearts: Messenger of the Stars and the Earth") is Bandai's 2001 action RPG for the WonderSwan Color, released only in Japan. You play the child of Inde Village's chief, sent out on the day you come of age to free the land's spirits and fairies from the Evil Emperor Zorg. It is a top-down adventure with magic, animal abilities, weapon "Arts", charms you fit to your gear, a pet that hatches from a meteorite egg and fights other players' pets over the link cable, and an online bazaar on Bandai's WonderGate service.
 
@@ -42,6 +42,7 @@ Like the original, the name screen reacts to some names. Japanese names typed on
 
 **Changelog**
 
+* **v1.2**: fixes the game freezing in story scenes where a character's name tag is set (for example right after Tirawaka's introduction in the Holy Temple). This affected 1.0 and 1.1 in every such scene, 216 events in all; each one was checked in the fixed version. Your in-game saves from v1.1 keep working: just patch again and keep the save file next to the new ROM under the same name.
 * **v1.1**: the title screen's subtitle is redrawn in the style of the Japanese one (cream letters, dark outline, soft shadow).
 * **v1.0**: first release.
 
@@ -107,11 +108,11 @@ Like the original, the name screen reacts to some names. Japanese names typed on
 
 **How to patch**
 
-Apply `star-hearts-en-1.1.bps` to the Japanese ROM "Star Hearts - Hoshi to Daichi no Shisha (Japan)" (CRC32 138D1018) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is an 8 MB ROM with CRC32 C2F3CCBD (SHA-1 0a765180c8f35f5e1123939e25d284aec1a7bc8f).
+Apply `star-hearts-en-1.2.bps` to the Japanese ROM "Star Hearts - Hoshi to Daichi no Shisha (Japan)" (CRC32 138D1018) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is an 8 MB ROM with CRC32 DCAAFE90 (SHA-1 a1e24771dbc388af98781e894fc064fadd83517b).
 
 It's a WonderSwan Color game, so keep the .wsc extension. You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `star-hearts-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.1).
+**Download:** `star-hearts-en-1.2.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2).
 
 **Known issues**
 
