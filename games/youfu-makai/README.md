@@ -1,4 +1,4 @@
-# Chou Denki Card Battle: Youfu Makai (WonderSwan) - AI English translation patch v1.0
+# Chou Denki Card Battle: Youfu Makai (WonderSwan) - AI English translation patch v1.1
 
 **Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.
 
@@ -7,8 +7,9 @@
 **What's translated**
 
 * The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.
-* Every card name, the menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.
-* Graphics: the title logo becomes YOUFU MAKAI with the subtitle "Realm of Demon Cards"; the chapter cards; the brush-lettered result screens (DEFEAT, OUT OF CARDS...); and the attribute emblems as letter badges.
+* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).
+* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.
+* Graphics: the title logo becomes YOUFU MAKAI with the subtitle "Realm of Demon Cards"; the chapter cards; the result screens (VICTORY and DEFEAT hand-lettered into the art in the original's style, OUT OF CARDS, DRAW...); and the attribute emblems as letter badges.
 * The staff credits, romanized.
 
 Names: the hero of part 1 is never named, so he's "the Bodyguard". The two characters who are both read Masami become Masami (the boy) and Lady Masami (the woman in white). Kikuchi's own characters, such as Gyoshiro Shikabane and Setsura Aki, follow his official English editions. The cards are Demon Cards, the binder is the Demon Book, and a duel is a Demon Duel.
@@ -18,10 +19,12 @@ Names: the hero of part 1 is never named, so he's "the Bodyguard". The two chara
 * Claude translated the story and cards directly from the Japanese in the ROM, and did all the hacking: the story is stored as pre-drawn text pictures, so every English page was typeset and rendered into the game's format, along with a new card-name font and the redrawn graphics.
 * A second, independent Claude reviewer checked the text against the Japanese, and a final separate review read the whole patch again; the names and story lines it questioned were corrected.
 * Every story page was rebuilt from the finished ROM and compared on screen, and a random walk through menus, story, decks and battles found no Japanese reaching the screen.
+* For 1.1, two independent Claude reviewers checked every card description against the Japanese, and all 200 card views were opened in the game and compared with the built pictures; a scan of the whole ROM for any other untranslated picture found the victory screen.
 * The judgement calls were listed with the Japanese, a literal reading and the options, and I decided each one by hand: the logo, names and terms from Kikuchi's world, the menu titles, uncertain card readings, and a few deliberately ambiguous lines.
 
 **Changelog**
 
+* **v1.1**: the 200 card descriptions in the Card Craft card view are translated (1.0 left them in Japanese; thanks to the player who reported it), and the card view's text sits a little further left. The victory screen, which 1.0 also missed, now reads VICTORY, and both result screens are hand-lettered into the art in the original's style instead of a black band. Nothing else changes, and 1.0 saves keep working. Apply the 1.1 patch to the original Japanese ROM, not to the 1.0 English ROM.
 * **v1.0**: first release.
 
 **Sources consulted**
@@ -55,21 +58,35 @@ Names: the hero of part 1 is never named, so he's "the Bodyguard". The two chara
 
    ![Erase save data?](images/06-erase-save.png)
 
+7. A card's description (Card Craft, Y pad)
+
+   ![A card's description](images/07-card-view.png)
+
+8. Victory
+
+   ![Victory](images/08-victory.png)
+
+9. Defeat
+
+   ![Defeat](images/09-defeat.png)
+
 
 **How to patch**
 
-Apply `youfu-makai-en-1.0.bps` to the Japanese ROM "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)" (CRC32 56E2C069) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 CB5FACF7.
+Apply `youfu-makai-en-1.1.bps` to the Japanese ROM "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)" (CRC32 56E2C069) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 93B9E8EC.
 
 The English ROM is 4 MB (the original is 2 MB), because the English story pages are stored as pictures: use an emulator or a flash cart that takes 32 Mbit WonderSwan ROMs. It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `youfu-makai-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.0).
+**Download:** `youfu-makai-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1).
 
 **Known issues**
 
 * It hasn't been played start to finish by a person. If you find leftover Japanese, cut text or a crash, please tell me where it happened.
-* A few card names are best guesses at readings that no source confirms.
+* A few card names are best guesses at readings that no source confirms; the same goes for a few names in the card descriptions.
+* Some RetroArch setups crash on the Card Craft screen with the original Japanese game too; Mesen 2 or Mednafen run it correctly.
+* A new game owns only the two starting cards, so only their descriptions can be viewed until you win more.
 
 **Technical notes (for the curious)**
 
