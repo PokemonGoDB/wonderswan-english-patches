@@ -1,4 +1,4 @@
-# Bakusou Dekotora Densetsu for WonderSwan (WonderSwan) - AI English translation patch v1.1 (+ special edition, may be buggy)
+# Bakusou Dekotora Densetsu for WonderSwan (WonderSwan) - AI English translation patch v1.2 (+ special edition, may be buggy)
 
 **Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.
 
@@ -7,8 +7,8 @@
 **What's translated**
 
 * The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.
-* Menus, the name entry (an English letter grid), race HUD labels and song captions, results, the report and save screens, and the ending credits.
-* Graphics: the title logo (BAKUSOU / DEKOTORA DENSETSU, redrawn in the original's brush style) and the side banner (DEKOTORA); the title buttons (ALL JAPAN / VS LINK); the hub, garage, shop and report buttons and headings (208 labels); SHOW / DOWN for rival showdowns; YOU WIN! / YOU LOSE banners.
+* Menus, the name entry (an English letter grid), race HUD labels and the song lines shown during races, results, the report and save screens, and the ending credits.
+* Graphics: the title logo (BAKUSOU / DEKOTORA DENSETSU, redrawn in the original's brush style) and the side banner (DEKOTORA); the title buttons (ALL JAPAN / VS LINK); the hub, garage, shop and report buttons and headings (208 labels); SHOW / DOWN for rival showdowns; YOU WIN! / YOU LOSE banners and WON / LOST on the results.
 * Left as in the original: three kanji on the two-player course map.
 
 Names: the women are Yukie, Kumi (the operator), Aki, Miki, Nami, Megumi and Maki. The expressway bosses run from Tanaka in Kyushu through Kojiro, Ueno, Ishii, Keiko, Shizuka and more, up to Bunjiro in Hokkaido. Pops runs the parts shop, and Roamer is the trucker who first shows you the ropes.
@@ -17,11 +17,11 @@ Names: the women are Yukie, Kumi (the operator), Aki, Miki, Nami, Megumi and Mak
 
 **The special edition: Event Select (may be buggy)**
 
-The developers left a hidden event selector in the game that nothing in the original can reach. The special edition (`dekotora-en-special-1.1.bps`) puts it on the start menu:
+The developers left a hidden event selector in the game that nothing in the original can reach. The special edition (`dekotora-en-special-1.2.bps`) puts it on the start menu:
 
-* **Opening it:** Title screen → ALL JAPAN → the third entry, which reads **Event Select** in the special edition. It needs a saved game. (That entry was View Parts List; the parts list is still in the garage under List.)
+* **Opening it:** Title screen → ALL JAPAN → the third entry, which reads **Event Select** in the special edition. (That entry was View Parts List; the parts list is still in the garage under List.)
 * **Using it:** EVENT NO= appears over a truck-stop picture. UP/DOWN change the number by 1, LEFT/RIGHT by 10 (0-199), and A plays that event: job offers, each region's arrival and rest scenes, rival challenges and races, the endings' openings, and event 199, the staff credits.
-* **Limits:** there's no way back out. B and START do nothing in the original code, so you leave by choosing an event or switching off. Events start out of story order, so it's for viewing scenes, not for playing the story through. About 40 numbers show nothing, event 99 never finishes, and event 148 shows garbage on the original Japanese cartridge too.
+* **Leaving it:** B returns to the start menu. Choosing an event doesn't come back; events start out of story order, so it's for viewing scenes, not for playing the story through. About 40 numbers show nothing, event 99 never finishes, and event 148 shows garbage on the original Japanese cartridge too.
 * **It may be buggy.** It's the developers' leftover tool, not a finished feature. Keep a copy of your save and play the standard edition for the actual game.
 
 **How it was made: AI translation, independent checks, human decisions**
@@ -33,6 +33,16 @@ The developers left a hidden event selector in the game that nothing in the orig
 
 **Changelog**
 
+* **v1.2** (from a playtest):
+  * Special edition: in v1.1, Garage → List opened the event selector instead of the parts list, and leaving it with B froze the game. List is the parts list again, Event Select is only on the start menu, and B leaves it.
+  * Names can be shorter than 4 letters (truck: 8) again: ↓ on the name grid finishes, as in the original (help line START=Aa ↓=Done).
+  * The song lines and the Victory / Defeat box during races are in proper case (races overwrite the font's capital letters, so they were lowercase before).
+  * The menu font's lowercase is redrawn bold to match the game's capitals and numbers, which had looked oversized next to it.
+  * YOU WIN! / YOU LOSE use bold full-height letters; the results show WON / LOST.
+  * Labels on the Results and Arrival screens line up as in the original; Legend / Fame / Money are easier to read.
+  * Parts Taken lists the parts in one column, so long names no longer run under the border art.
+  * The parts list (Garage → List) clears each row fully and long names were shortened to fit (Std Bumper, M-Arm1, BP-Hokusai, Clear off! ...).
+  * Nine cargo names that had been squeezed together are shorter and readable (Tables, Mags, Greens, Udon ...).
 * **v1.1**: the title logo and the side banner are in English, drawn in the original's brush style (BAKUSOU / DEKOTORA DENSETSU on the title, DEKOTORA on the banner that frames most screens); the ending credits spell the title "Bakusou" to match. PUSH START on the title now looks and blinks exactly as in the original (v1.0 drew it in the small font, off centre, and left "'ART" behind when it blinked off).
 * **v1.0**: first release.
 
@@ -83,24 +93,27 @@ The developers left a hidden event selector in the game that nothing in the orig
 
    ![The report screen](images/10-report.png)
 
+11. Race results
+
+   ![Race results](images/11-results.png)
+
 
 **How to patch**
 
 Apply one of the BPS files to the Japanese ROM "Bakusou Dekotora Densetsu for WonderSwan (Japan)" (CRC32 392DD813) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
-* Standard: `dekotora-en-1.1.bps`, the result should be CRC32 DCB0185E.
-* Special edition (Event Select, may be buggy): `dekotora-en-special-1.1.bps`, the result should be CRC32 814AD964.
+* Standard: `dekotora-en-1.2.bps`, the result should be CRC32 53BF9C12.
+* Special edition (Event Select, may be buggy): `dekotora-en-special-1.2.bps`, the result should be CRC32 7B5D5B73.
 
 The English ROM is 4 MB (the original is 2 MB) because the translation needed more room: use an emulator or a flash cart that takes 32 Mbit WonderSwan ROMs. It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `dekotora-en-1.1.bps`, `dekotora-en-special-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.1).
+**Download:** `dekotora-en-1.2.bps`, `dekotora-en-special-1.2.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2).
 
 **Known issues**
 
 * It hasn't been played start to finish by a person. If you find leftover Japanese, cut text or a crash, please tell me where it happened.
-* In the Parts Taken list, a very long part name can run under the border art. It's rare.
 * The two-player VS LINK screens are translated but untested (they need two consoles).
 
 **Technical notes (for the curious)**
@@ -108,7 +121,8 @@ You must provide your own copy of the original Japanese game to apply it.
 * The dialogue now uses a variable-width font, so English fits the original boxes. The ROM was expanded to 4 MB to hold the longer text.
 * The hub, garage, shop and report screens were buttons and headings drawn as pictures; all 208 were redrawn.
 * The English logo needs more picture tiles than the Japanese one, so the logo picture moved to the expanded ROM's free space; the banner was redrawn in the tiles the Japanese lettering freed. PUSH START (English in the original) goes through the game's own 8x8 font copier, not the dialogue engine.
-* The event selector is unused developer code at F000:E005. The special edition swaps the start menu's View Parts List call for the scene setup and the selector.
+* The event selector is unused developer code at F000:E005. The special edition rewrites the start menu's View Parts List branch with a scene setup and the selector (v1.1 had patched the parts-list routine itself, which the garage also uses).
+* During races the HUD graphics overwrite the font's capitals, so race text uses copies of the capitals placed in font slots the race leaves alone.
 
 **A Note On My Justifications for AI Use**
 
