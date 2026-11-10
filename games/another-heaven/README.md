@@ -1,4 +1,4 @@
-# Another Heaven: Memory of those Days (WonderSwan Color) - AI English translation patch v1.0
+# Another Heaven: Memory of those Days (WonderSwan Color) - AI English translation patch v1.1
 
 **Another Heaven ~memory of those days~** (アナザヘヴン 〜memory of those days〜) is a horror sound novel for the WonderSwan Color by Omega Micott and D's Garage 21, licensed by Bandai and released only in Japan in December 2000. It is a tie-in to Joji Iida's film *Another Heaven* (2000): while the film's "Mad Cook" murders shake Tokyo, a second killer, the Pyromaniac, starts burning men from the inside out. You are Koichiro Hasegawa, a young police sergeant teamed with his old classmate, Lieutenant Natsuko Nishitani, and between crime scenes you trade e-mail on your phone with a crime-buff informant and with Makoto, a shy friend from a mailing list. Read the story, answer the mails, make the choices, and follow its many routes and endings on the route chart. This patch translates it into English.
 
@@ -7,9 +7,9 @@
 **What's translated**
 
 * The whole script: every page of narration and dialogue (over 6,000 pages), the 223 e-mails on the phone, all 103 choices, every route and ending, the prologue, the attract demo and the Bonus scenario.
-* Speaker names, the "Day" cards, the chapter names on the route chart (Index) and its completion label, the save notebooks and the START menu notebook, Options, Ringtone and Phone Model, the boot menu (mono mode, erase save) and the save-and-quit message.
+* Speaker names, the "Day" cards, the chapter names on the route chart (Index), its completion label and its "Is this OK? / Move / Cancel" box, the save notebooks and the START menu notebook, Options, Ringtone and Phone Model, the boot menu (mono mode, erase save) and the save-and-quit message.
 * The pictures with words in them, redrawn in their original style: the title logo (ANOTHER HEAVEN), the copyright line, the title menu (colour and mono mode), the handwritten notebooks, the phone frames and button guide, the staff credits, and every WonderGate screen.
-* English text is written left to right in the original's text box instead of the vertical Japanese columns.
+* English text is written left to right in the original's text box instead of the vertical Japanese columns. Speaker names are shown in brackets, [Natsuko], the way the Japanese frames them in 【】.
 
 **Names and terms**
 
@@ -21,7 +21,7 @@ The film's detectives and places keep the film's names (Hayase, Tobitaka, Morozu
 * A separate, independent Claude reviewer read the whole game against the Japanese; its findings were verified and fixed.
 * On screen: every page of the script was drawn in the game's own text box with every character logged (6,234 pages, no Japanese, nothing cut off, e-mails scrolled to the end); a random walk through menus and story in colour and mono mode looking for any Japanese that reached the screen (none; the same check finds it at once on the original); automated play-throughs to three different endings; the full staff roll; the attract demo from power-on; and the menus compared with the Japanese, enlarged, for placement.
 * Online: the WonderGate ranking was played for real against a private copy of Swan Revival's server on both the original and the English ROM, including full-length names and the error screens. The requests, the replies and the hang-up are the same on both.
-* The judgement calls (names, terms, the darker content, wordplay, shortened choices, the redrawn pictures) were listed with the Japanese and the options, and I decided all 72 by hand over three rounds.
+* The judgement calls (names, terms, the darker content, wordplay, shortened choices, the redrawn pictures) were listed with the Japanese and the options, and I decided all 72 by hand over three rounds. Version 1.1 comes from my own reports after playing 1.0 (the font, the speaker brackets, an untranslated box, wording), and was checked again the same way: every page drawn, every e-mail scrolled to the end, and the random walk for Japanese.
 
 **WonderGate**
 
@@ -29,6 +29,7 @@ The game's WonderGate option uploads your best quick-solve time and shows the na
 
 **Changelog**
 
+* **v1.1**: easier-to-read story text: a narrower font without the dark shadow behind the letters. Speaker names are shown in brackets like the Japanese, [Natsuko], so it is clearer who is talking. The page-turn cursor no longer covers the last punctuation mark of a line. The route chart's "Is this OK? / Move / Cancel" box (when you move to a chapter from the Index, or back out of it) is now in English. 91 lines reworded where the English read awkwardly (for example "looked the room over", not "licked").
 * **v1.0**: first release.
 
 **Sources consulted**
@@ -36,7 +37,7 @@ The game's WonderGate option uploads your best quick-solve time and shows the na
 * Japanese text: the WonderSwan Color ROM itself.
 * Names: Joji Iida's film *Another Heaven* (2000) and the TV series *Another Heaven: Eclipse*.
 * WonderGate behaviour: the game's code and Swan Revival's notes on this game.
-* Lettering: a 12-dot proportional font derived from Shinonome (public domain) for the text; Kalam and Crimson Text (SIL Open Font License) for the redrawn pictures.
+* Lettering: a narrow 12-dot proportional font drawn for this project for the text (since 1.1); the 1.0 font, derived from Shinonome (public domain), for a few symbols and for the words lettered into menu pictures; Kalam and Crimson Text (SIL Open Font License) for the redrawn pictures.
 
 **Images** (original on the left, English on the right)
 
@@ -96,16 +97,20 @@ The game's WonderGate option uploads your best quick-solve time and shows the na
 
    ![Staff credits](images/14-credits.png)
 
+15. The route chart's confirm box
+
+   ![The route chart's confirm box](images/15-index-confirm.png)
+
 
 **How to patch**
 
-Apply `another-heaven-en-1.0.bps` to the Japanese ROM "Another Heaven - Memory of those Days (Japan)" (CRC32 D7A0AB74) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 1B7EF909.
+Apply `another-heaven-en-1.1.bps` to the Japanese ROM "Another Heaven - Memory of those Days (Japan)" (CRC32 D7A0AB74) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 6E0D789C (SHA-1 0974ad97e90f9782aadb2231cdba86147c0dc9dd).
 
 The patched ROM stays 4 MB. It's a WonderSwan Color game, so keep the .wsc extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `another-heaven-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0).
+**Download:** `another-heaven-en-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1).
 
 **Known issues**
 
