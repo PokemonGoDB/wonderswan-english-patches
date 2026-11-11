@@ -106,6 +106,17 @@ These are in the retail cartridge and work the same in English (no special patch
 
    ![A letter at the ending](images/15-ending-letter.png)
 
+16. The opening story continues: Gon dreams of being a Hunter like his father
+
+   ![The opening story continues: Gon dreams of being a Hunter like his father](images/16-intro-father.png)
+
+17. The opening story: Gon passes the Hunter Exam
+
+   ![The opening story: Gon passes the Hunter Exam](images/17-intro-exam.png)
+
+18. Encyclopedia category picture: Magical Beasts and Mythical Beasts
+
+   ![Encyclopedia category picture: Magical Beasts and Mythical Beasts](images/18-encyclopedia-beasts.png)
 
 **How to patch**
 

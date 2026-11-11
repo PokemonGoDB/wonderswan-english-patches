@@ -106,6 +106,86 @@ Like the original, the name screen reacts to some names. Japanese names typed on
 
    ![The staff roll](images/13-staff-roll.png)
 
+14. Title screen attract mode: the story begins "Long, long ago, this land of nature was swallowed by a storm of war..."
+
+   ![Title screen attract mode: the story begins "Long, long ago, this land of nature was swallowed by a storm of war..."](images/14-attract-storm-of-war.png)
+
+15. Attract mode: the Geist Empire and its Evil Emperor, Zorg
+
+   ![Attract mode: the Geist Empire and its Evil Emperor, Zorg](images/15-attract-geist-empire.png)
+
+16. Attract mode: a mobile fortress that soared on high
+
+   ![Attract mode: a mobile fortress that soared on high](images/16-attract-mobile-fortress.png)
+
+17. New game: choosing the hero's gender (Boy or Girl)
+
+   ![New game: choosing the hero's gender (Boy or Girl)](images/17-new-game-gender.png)
+
+18. New game: entering the hero's name
+
+   ![New game: entering the hero's name](images/18-new-game-name.png)
+
+19. New game: entering the hero's birthday and blood type
+
+   ![New game: entering the hero's birthday and blood type](images/19-new-game-birthday.png)
+
+20. New game: confirming the hero (age and blood type shown)
+
+   ![New game: confirming the hero (age and blood type shown)](images/20-new-game-confirm.png)
+
+21. Wampa in the tent: "An ill omen... a terribly ill omen..."
+
+   ![Wampa in the tent: "An ill omen... a terribly ill omen..."](images/21-wampa-ill-omen.png)
+
+22. Wampa in the tent: divining whether fortune will be good or ill
+
+   ![Wampa in the tent: divining whether fortune will be good or ill](images/22-wampa-divining.png)
+
+23. Tirawaka at the Holy Temple introduces himself as a messenger
+
+   ![Tirawaka at the Holy Temple introduces himself as a messenger](images/23-tirawaka-introduction.png)
+
+24. Tirawaka speaks of the Evil Emperor, Zorg
+
+   ![Tirawaka speaks of the Evil Emperor, Zorg](images/24-tirawaka-zorg.png)
+
+25. Menu: the Magic list (page 2)
+
+   ![Menu: the Magic list (page 2)](images/25-menu-magic.png)
+
+26. Menu: Animal Abilities
+
+   ![Menu: Animal Abilities](images/26-menu-animal-abilities.png)
+
+27. Menu: Equipment Items
+
+   ![Menu: Equipment Items](images/27-menu-equipment-items.png)
+
+28. Menu: Key Items
+
+   ![Menu: Key Items](images/28-menu-key-items.png)
+
+29. Menu: Talismans
+
+   ![Menu: Talismans](images/29-menu-talismans.png)
+
+30. Menu: the Events list
+
+   ![Menu: the Events list](images/30-menu-events.png)
+
+31. Menu: character status
+
+   ![Menu: character status](images/31-menu-status.png)
+
+32. Menu: the Fairy list
+
+   ![Menu: the Fairy list](images/32-menu-fairy-list.png)
+
+33. Menu: Options (text speed, auto sort)
+
+   ![Menu: Options (text speed, auto sort)](images/33-menu-options.png)
+
 **How to patch**
 
 Apply `star-hearts-en-1.2.bps` to the Japanese ROM "Star Hearts - Hoshi to Daichi no Shisha (Japan)" (CRC32 138D1018) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is an 8 MB ROM with CRC32 DCAAFE90 (SHA-1 a1e24771dbc388af98781e894fc064fadd83517b).

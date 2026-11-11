@@ -77,6 +77,90 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
    ![Sayla's Memories: Casval](images/08-side-story-casval.png)
 
+10. Opening narration of the next episode: "U.C. 0079, October..."
+
+   ![Opening narration of the next episode: "U.C. 0079, October..."](images/09-narration-uc0079-october.png)
+
+11. Narration over White Base: the Zeon forces and the resources shipped to space
+
+   ![Narration over White Base: the Zeon forces and the resources shipped to space](images/10-narration-zeon-mining.png)
+
+12. Narration in the Gundam hangar: the lack of spare parts
+
+   ![Narration in the Gundam hangar: the lack of spare parts](images/11-narration-gundam-hangar.png)
+
+13. Amuro asks what "salt" means: the crew has run out
+
+   ![Amuro asks what "salt" means: the crew has run out](images/12-amuro-salt.png)
+
+14. Bright on the bridge asks why nobody noticed the missing salt
+
+   ![Bright on the bridge asks why nobody noticed the missing salt](images/13-bridge-nobody-noticed.png)
+
+15. Tamura explains the storeroom took a direct hit
+
+   ![Tamura explains the storeroom took a direct hit](images/14-tamura-storeroom.png)
+
+16. Mirai finds a salt lake on the map
+
+   ![Mirai finds a salt lake on the map](images/15-mirai-lake-kan.png)
+
+17. Episode 16 title card
+
+   ![Episode 16 title card](images/16-episode-16-card.png)
+
+18. Uragan reports the Trojan Horse has changed course
+
+   ![Uragan reports the Trojan Horse has changed course](images/17-uragan-trojan-horse.png)
+
+19. M'Quve on keeping his mines secret
+
+   ![M'Quve on keeping his mines secret](images/18-mquve-mines.png)
+
+20. Kikka learns the lake has disappeared
+
+   ![Kikka learns the lake has disappeared](images/19-kikka-lake-vanished.png)
+
+21. Sayla: "Just one... enemy?"
+
+   ![Sayla: "Just one... enemy?"](images/20-sayla-one-enemy.png)
+
+22. Bright asks for the unknown unit's speed, altitude and mass
+
+   ![Bright asks for the unknown unit's speed, altitude and mass](images/21-bright-unknown-unit.png)
+
+23. Hamon speaks to Ramba Ral
+
+   ![Hamon speaks to Ramba Ral](images/22-hamon-ramba-ral.png)
+
+24. The Gundam is launched from the catapult
+
+   ![The Gundam is launched from the catapult](images/23-sayla-launch.png)
+
+25. Battle radar: Ramba Ral spots the white one
+
+   ![Battle radar: Ramba Ral spots the white one](images/24-ramba-ral-radar.png)
+
+26. Bright orders the enemies around the Gundam driven off
+
+   ![Bright orders the enemies around the Gundam driven off](images/25-bright-support-order.png)
+
+27. Fraw offers to go over the manual: a Yes/No choice
+
+   ![Fraw offers to go over the manual: a Yes/No choice](images/26-fraw-manual-choice.png)
+
+28. Controls help: moving and turning
+
+   ![Controls help: moving and turning](images/27-controls-help.png)
+
+29. Fraw tips the player: the ACT gauge speed is a hint
+
+   ![Fraw tips the player: the ACT gauge speed is a hint](images/28-act-gauge-hint.png)
+
+30. Battle radar screen with enemy contact
+
+   ![Battle radar screen with enemy contact](images/29-battle-radar-hud.png)
+
 **How to patch**
 
 Apply `gundam-vol2-jaburo-en-1.1.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 2 - Jaburo (Japan)" (CRC32 39A1391A) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 8 MB ROM with CRC32 43BD6D16 (SHA-1 f38c28a858ff27826be3f4df8d8b32012609c3b8).

@@ -98,6 +98,85 @@ In 2000 the game's WonderGate option connected to Bandai's server to receive mai
 
    ![After a connection: Read Mail and Read Extra Scenario](images/13-extra-scenario.png)
 
+14. Title menu once a bookmark or save exists: Continue Reading is available
+
+   ![Title menu once a bookmark or save exists: Continue Reading is available](images/14-title-menu-saved.png)
+
+15. Confirmation before starting over while saved data exists
+
+   ![Confirmation before starting over while saved data exists](images/15-start-anyway.png)
+
+16. Confirmation before erasing all saved data
+
+   ![Confirmation before erasing all saved data](images/16-erase-confirm.png)
+
+17. Bookmark saved: the prompt to turn off the power
+
+   ![Bookmark saved: the prompt to turn off the power](images/17-turn-off-power.png)
+
+18. WonderGate: the "Connect?" prompt
+
+   ![WonderGate: the "Connect?" prompt](images/18-wondergate-connect.png)
+
+19. WonderGate: the connection-failed message
+
+   ![WonderGate: the connection-failed message](images/19-wondergate-failed.png)
+
+20. A story page with a photo: a video camera
+
+   ![A story page with a photo: a video camera](images/20-camera.png)
+
+21. A story page: a ghostly figure
+
+   ![A story page: a ghostly figure](images/21-ghost.png)
+
+22. A timed choice: whom to talk to
+
+   ![A timed choice: whom to talk to](images/22-choice-who-to-tell.png)
+
+23. A story page with a photo of Nishio
+
+   ![A story page with a photo of Nishio](images/23-nishio-shouts.png)
+
+24. A story page: a videotape in hand
+
+   ![A story page: a videotape in hand](images/24-videotape.png)
+
+25. A choice of three names
+
+   ![A choice of three names](images/25-choice-who-to-show.png)
+
+26. A choice during the phone call: hang up or yell
+
+   ![A choice during the phone call: hang up or yell](images/26-choice-hang-up.png)
+
+27. A story page: a mobile phone ringing
+
+   ![A story page: a mobile phone ringing](images/27-phone-rings.png)
+
+28. A choice: call for help or dive in
+
+   ![A choice: call for help or dive in](images/28-choice-dive-in.png)
+
+29. A story page: the sea and islands seen from the deck
+
+   ![A story page: the sea and islands seen from the deck](images/29-island-sea.png)
+
+30. A story page: the cabin interior
+
+   ![A story page: the cabin interior](images/30-cabin.png)
+
+31. Mail reader: a message with the subject "GOT IT!!"
+
+   ![Mail reader: a message with the subject "GOT IT!!"](images/31-mail-got-it.png)
+
+32. Mail reader: a message about a night-time scare
+
+   ![Mail reader: a message about a night-time scare](images/32-mail-lately.png)
+
+33. Mail reader: a closing message page
+
+   ![Mail reader: a closing message page](images/33-mail-be-careful.png)
 
 **How to patch**
 

@@ -126,6 +126,81 @@ The developers left a debug mode in the game that the retail cartridge always sw
 
    ![GAME OVER](images/21-game-over.png)
 
+22. Logbook menu: confirming an erase
+
+   ![Logbook menu: confirming an erase](images/22-menu-erase-confirm.png)
+
+23. Opening dream: "Hey! Rainbow Island! It really exists!"
+
+   ![Opening dream: "Hey! Rainbow Island! It really exists!"](images/23-dream-rainbow-island.png)
+
+24. On deck: "A mountain?!"
+
+   ![On deck: "A mountain?!"](images/24-deck-mountain.png)
+
+25. Sanji talks about the Dokudamin
+
+   ![Sanji talks about the Dokudamin](images/25-sanji-dokudamin.png)
+
+26. On deck: the Island of the Dancing Crabs
+
+   ![On deck: the Island of the Dancing Crabs](images/26-dancing-crabs-island.png)
+
+27. Zoro: Rainbow Island at last
+
+   ![Zoro: Rainbow Island at last](images/27-zoro-rainbow-island.png)
+
+28. A sea monster roars
+
+   ![A sea monster roars](images/28-sea-monster-boom.png)
+
+29. In town: a shout for DIAS
+
+   ![In town: a shout for DIAS](images/29-town-shout.png)
+
+30. A picture scene with Zoro calling to DIAS
+
+   ![A picture scene with Zoro calling to DIAS](images/30-ship-picture.png)
+
+31. Crew chat menu
+
+   ![Crew chat menu](images/31-crew-chat.png)
+
+32. Bounty Rankings
+
+   ![Bounty Rankings](images/32-ranking.png)
+
+33. Crew chat: a reply about the quest
+
+   ![Crew chat: a reply about the quest](images/33-quest-words.png)
+
+34. Luffy's move list
+
+   ![Luffy's move list](images/34-move-list.png)
+
+35. Friendship Mark details
+
+   ![Friendship Mark details](images/35-mark-info.png)
+
+36. DIAS's engraved marks
+
+   ![DIAS's engraved marks](images/36-engraved-marks.png)
+
+37. Battle: an enemy falls and the Chain bonus grows
+
+   ![Battle: an enemy falls and the Chain bonus grows](images/37-battle-chain.png)
+
+38. Battle result: Renown rises
+
+   ![Battle result: Renown rises](images/38-victory-renown.png)
+
+39. Battle result: Pirate Rank goes up
+
+   ![Battle result: Pirate Rank goes up](images/39-victory-rank.png)
+
+40. Learning a new move
+
+   ![Learning a new move](images/40-learned-move.png)
 
 **How to patch**
 

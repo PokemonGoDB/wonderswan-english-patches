@@ -78,6 +78,86 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
    ![Choosing a side story](images/08-side-story-choice.png)
 
+10. Battle: radio chatter from Tokwan
+
+   ![Battle: radio chatter from Tokwan](images/09-battle-tokwan-cant-dodge.png)
+
+11. Battle: Amuro reports his energy
+
+   ![Battle: Amuro reports his energy](images/10-battle-amuro-energy.png)
+
+12. The battle report: shoot, melee and react scores
+
+   ![The battle report: shoot, melee and react scores](images/11-battle-report.png)
+
+13. The event list
+
+   ![The event list](images/12-event-list.png)
+
+14. The save prompt
+
+   ![The save prompt](images/13-save-prompt.png)
+
+15. The quit prompt
+
+   ![The quit prompt](images/14-quit-prompt.png)
+
+16. The map: setting a destination
+
+   ![The map: setting a destination](images/15-map-destination.png)
+
+17. The map: events found
+
+   ![The map: events found](images/16-map-events-found.png)
+
+18. The map: confirming the destination
+
+   ![The map: confirming the destination](images/17-map-confirm.png)
+
+19. Episode narration: the date
+
+   ![Episode narration: the date](images/18-narration-december.png)
+
+20. Episode narration: launched from Jaburo
+
+   ![Episode narration: launched from Jaburo](images/19-narration-jaburo.png)
+
+21. Episode narration: the decoy Trojan Horse
+
+   ![Episode narration: the decoy Trojan Horse](images/20-narration-decoy.png)
+
+22. Episode narration: carrying out the role
+
+   ![Episode narration: carrying out the role](images/21-narration-role.png)
+
+23. Tokwan reports the combat range
+
+   ![Tokwan reports the combat range](images/22-tokwan-combat-range.png)
+
+24. Char: "Good work"
+
+   ![Char: "Good work"](images/23-char-good-work.png)
+
+25. Char gives the order to chase
+
+   ![Char gives the order to chase](images/24-char-chase.png)
+
+26. Char: "Assemble the pilots!"
+
+   ![Char: "Assemble the pilots!"](images/25-assemble-pilots.png)
+
+27. Episode 31 title card
+
+   ![Episode 31 title card](images/26-episode-31-card.png)
+
+28. Marker reports the pursuing ship
+
+   ![Marker reports the pursuing ship](images/27-marker-pursuing.png)
+
+29. The bridge: the pursuing ship will catch up in 20 minutes
+
+   ![The bridge: the pursuing ship will catch up in 20 minutes](images/28-bridge-catch-us.png)
+
 **How to patch**
 
 Apply `gundam-vol3-a-baoa-qu-en-1.1.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)" (CRC32 A9F5BF54) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 8 MB ROM with CRC32 E245AF80 (SHA-1 6b3146e8c5b5ea51a7bed47d8afbc607d6f91051).
