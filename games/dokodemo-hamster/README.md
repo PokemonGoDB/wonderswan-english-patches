@@ -60,6 +60,89 @@ The hamster's baby talk (でちゅ) becomes a cute "chu" ("Ham-ham~ Nice to meet
 
    ![Name entry](images/06-name-entry.png)
 
+7. Title menu: New Game and Continue
+
+   ![Title menu: New Game and Continue](images/07-title-menu.png)
+
+8. The Talk menu
+
+   ![The Talk menu](images/08-talk-menu.png)
+
+9. Asking the hamster to learn a word
+
+   ![Asking the hamster to learn a word](images/09-teach-prompt.png)
+
+10. Teaching a word: what is it?
+
+   ![Teaching a word: what is it?](images/10-word-category.png)
+
+11. Teaching a word: what kind of person?
+
+   ![Teaching a word: what kind of person?](images/11-kind-of-person.png)
+
+12. The hamster reacts to an idol
+
+   ![The hamster reacts to an idol](images/12-idol-reply.png)
+
+13. Teaching a word: kind of thing
+
+   ![Teaching a word: kind of thing](images/13-thing-kind.png)
+
+14. Teaching a word: kind of creature
+
+   ![Teaching a word: kind of creature](images/14-creature-kind.png)
+
+15. The hamster guesses it might be a rival
+
+   ![The hamster guesses it might be a rival](images/15-rival-reply.png)
+
+16. Teaching a word: where did you go?
+
+   ![Teaching a word: where did you go?](images/16-place-question.png)
+
+17. Teaching a word: when do you do that?
+
+   ![Teaching a word: when do you do that?](images/17-action-question.png)
+
+18. The hamster's opinion of the action
+
+   ![The hamster's opinion of the action](images/18-action-reply.png)
+
+19. Pick Food
+
+   ![Pick Food](images/19-pick-food.png)
+
+20. The mail menu
+
+   ![The mail menu](images/20-new-mail.png)
+
+21. Ham-Ham Mail: the letter list
+
+   ![Ham-Ham Mail: the letter list](images/21-mail-list.png)
+
+22. The System menu
+
+   ![The System menu](images/22-system-menu.png)
+
+23. Status: fullness and happiness
+
+   ![Status: fullness and happiness](images/23-status.png)
+
+24. The Trick List
+
+   ![The Trick List](images/24-trick-list.png)
+
+25. Remodel: choosing a cage
+
+   ![Remodel: choosing a cage](images/25-remodel-cage.png)
+
+26. Remodel: choosing a hut
+
+   ![Remodel: choosing a hut](images/26-remodel-hut.png)
+
+27. Save the game?
+
+   ![Save the game?](images/27-save-prompt.png)
 
 **How to patch**
 
