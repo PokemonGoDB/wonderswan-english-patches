@@ -104,6 +104,93 @@ Hanafuda has no official English release of this game, so the terms follow commo
 
    ![Link play: choosing the dealer (You and Rival)](images/16-link-dealer.png)
 
+17. Main menu: 1-Player Game
+
+   ![Main menu: 1-Player Game](images/17-main-menu-1-player.png)
+
+18. Game Select with Hana-Awase highlighted
+
+   ![Game Select with Hana-Awase highlighted](images/18-game-select-hana-awase.png)
+
+19. Koi-Koi settings: Length set to 12 Rounds
+
+   ![Koi-Koi settings: Length set to 12 Rounds](images/19-koikoi-length-12.png)
+
+20. Koi-Koi settings: Moon/Flower points
+
+   ![Koi-Koi settings: Moon/Flower points](images/20-koikoi-moon-flower.png)
+
+21. Hana-Awase settings: Length set to 12 Rounds
+
+   ![Hana-Awase settings: Length set to 12 Rounds](images/21-hana-length-12.png)
+
+22. Hana-Awase settings: Rain Set (Voids Yaku)
+
+   ![Hana-Awase settings: Rain Set (Voids Yaku)](images/22-hana-rain-set.png)
+
+23. Hana-Awase: picking a card to choose the dealer
+
+   ![Hana-Awase: picking a card to choose the dealer](images/23-hana-pick-card.png)
+
+24. Hana-Awase: the dealer order is shown
+
+   ![Hana-Awase: the dealer order is shown](images/24-hana-dealer-order.png)
+
+25. Koi-Koi: a yaku popup for the player
+
+   ![Koi-Koi: a yaku popup for the player](images/25-koikoi-popup-player.png)
+
+26. Koi-Koi: Moon Viewing
+
+   ![Koi-Koi: Moon Viewing](images/26-koikoi-moon-viewing.png)
+
+27. Koi-Koi: Boar-Deer-Butterfly
+
+   ![Koi-Koi: Boar-Deer-Butterfly](images/27-koikoi-boar-deer-butterfly.png)
+
+28. Koi-Koi: Rainy Four Lights
+
+   ![Koi-Koi: Rainy Four Lights](images/28-koikoi-rainy-four-lights.png)
+
+29. Koi-Koi: Oya-Ken
+
+   ![Koi-Koi: Oya-Ken](images/29-koikoi-oya-ken.png)
+
+30. Koi-Koi: the cards COM has captured
+
+   ![Koi-Koi: the cards COM has captured](images/30-koikoi-com-cards.png)
+
+31. Hana-Awase: Blue Ribbons
+
+   ![Hana-Awase: Blue Ribbons](images/31-hana-blue-ribbons.png)
+
+32. Hana-Awase: Pine, Paulownia & Moon
+
+   ![Hana-Awase: Pine, Paulownia & Moon](images/32-hana-pine-paulownia-moon.png)
+
+33. Hana-Awase: Sugawara
+
+   ![Hana-Awase: Sugawara](images/33-hana-sugawara.png)
+
+34. Hana-Awase: Five Lights
+
+   ![Hana-Awase: Five Lights](images/34-hana-five-lights.png)
+
+35. Hana-Awase: Paulownia Set
+
+   ![Hana-Awase: Paulownia Set](images/35-hana-paulownia-set.png)
+
+36. Hana-Awase: Moon Viewing
+
+   ![Hana-Awase: Moon Viewing](images/36-hana-moon-viewing.png)
+
+37. You Lose
+
+   ![You Lose](images/37-you-lose.png)
+
+38. Draw
+
+   ![Draw](images/38-draw.png)
 
 **How to patch**
 

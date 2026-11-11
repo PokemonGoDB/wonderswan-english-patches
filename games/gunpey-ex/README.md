@@ -71,6 +71,41 @@ Bandai's ranking server closed in 2001-2003. Swan Revival (swanrevival.com), the
 
    ![The warning on a black-and-white WonderSwan](images/08-color-only-warning.png)
 
+9. WonderGate: error 003, check the phone connection
+
+   ![WonderGate: error 003, check the phone connection](images/09-error-check-phone.png)
+
+10. WonderGate: error 999, read the precautions in the manual
+
+   ![WonderGate: error 999, read the precautions in the manual](images/10-error-read-manual.png)
+
+11. WonderGate: Stage mode ranking (test values)
+
+   ![WonderGate: Stage mode ranking (test values)](images/11-ranking-stage.png)
+
+12. WonderGate: Time Attack (2 min) ranking (test values)
+
+   ![WonderGate: Time Attack (2 min) ranking (test values)](images/12-ranking-time-attack-2min.png)
+
+13. WonderGate: Time Attack (5 min) ranking (test values)
+
+   ![WonderGate: Time Attack (5 min) ranking (test values)](images/13-ranking-time-attack-5min.png)
+
+14. WonderGate OPTION: the OK key selected on the phone keypad
+
+   ![WonderGate OPTION: the OK key selected on the phone keypad](images/14-option-key-ok.png)
+
+15. WonderGate OPTION: the C key selected
+
+   ![WonderGate OPTION: the C key selected](images/15-option-key-clear.png)
+
+16. WonderGate OPTION: the hang-up key selected
+
+   ![WonderGate OPTION: the hang-up key selected](images/16-option-key-hangup.png)
+
+17. WonderGate OPTION: DELETE asks "REALLY?" with YES and NO
+
+   ![WonderGate OPTION: DELETE asks "REALLY?" with YES and NO](images/17-option-delete-really.png)
 
 **How to patch**
 

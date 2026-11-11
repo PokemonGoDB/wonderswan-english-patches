@@ -103,6 +103,81 @@ The developers left a test menu in the game that nothing in the original can rea
 
    ![Special edition: the title menu with Debug](images/16-special-edition.png)
 
+17. The opening: the winner reacts
+
+   ![The opening: the winner reacts](images/17-opening-first-reaction.png)
+
+18. The opening: a friend wishes for a Haro
+
+   ![The opening: a friend wishes for a Haro](images/18-opening-wish-for-haro.png)
+
+19. The opening: a rival is spotted
+
+   ![The opening: a rival is spotted](images/19-opening-mitsuo.png)
+
+20. The opening: a taunt about hunting for a Haro
+
+   ![The opening: a taunt about hunting for a Haro](images/20-opening-junkyard.png)
+
+21. The opening: Noboru is called out in the hall
+
+   ![The opening: Noboru is called out in the hall](images/21-opening-noboru-called.png)
+
+22. Item list: support items
+
+   ![Item list: support items](images/22-items-support.png)
+
+23. Robo Set: choosing robots for battle
+
+   ![Robo Set: choosing robots for battle](images/23-robo-set.png)
+
+24. Status, page 2: registered robots
+
+   ![Status, page 2: registered robots](images/24-status-robots.png)
+
+25. Status, page 4: experience and ability types
+
+   ![Status, page 4: experience and ability types](images/25-status-abilities.png)
+
+26. Parts: slots for a Haro
+
+   ![Parts: slots for a Haro](images/26-parts-slots.png)
+
+27. Parts: an item's description
+
+   ![Parts: an item's description](images/27-parts-item-info.png)
+
+28. Combinize: picking a support item
+
+   ![Combinize: picking a support item](images/28-combinize-items.png)
+
+29. The shop: confirming a purchase
+
+   ![The shop: confirming a purchase](images/29-shop-confirm.png)
+
+30. The dojo: choosing a training course
+
+   ![The dojo: choosing a training course](images/30-dojo-courses.png)
+
+31. The dojo: confirming a three-step course
+
+   ![The dojo: confirming a three-step course](images/31-dojo-course-confirm.png)
+
+32. The save screen
+
+   ![The save screen](images/32-save-screen.png)
+
+33. The link machine menu
+
+   ![The link machine menu](images/33-link-machine.png)
+
+34. Mini-game guide: the Attack game
+
+   ![Mini-game guide: the Attack game](images/34-guide-attack.png)
+
+35. Mini-game guide: the Beam Coat game
+
+   ![Mini-game guide: the Beam Coat game](images/35-guide-beam-coat.png)
 
 **How to patch**
 

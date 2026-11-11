@@ -140,6 +140,88 @@ You must provide your own copy of the original Japanese game to apply it.
 * The Swan Revival Edition adds about 4.4 KB of code. It reuses the game's own WonderGate routines (connect, send, receive, hang-up, error screens) for a new upload request and a richer stage list. The player's name is kept in EEPROM words the game never uses.
 * The Japanese-text edition's new screens use 85 characters cut from the game's own lettering, so they match the original screens.
 
+**Images** (original on the left, English on the right)
+
+1. Story: Chapter 1, Discovery
+
+   ![Story: Chapter 1, Discovery](images/15-story-chapter-1.png)
+
+2. Story: Chapter 2, Wonder
+
+   ![Story: Chapter 2, Wonder](images/16-story-chapter-2.png)
+
+3. Story: Chapter 3, Mystery
+
+   ![Story: Chapter 3, Mystery](images/17-story-chapter-3.png)
+
+4. Story: Chapter 4, Solitude
+
+   ![Story: Chapter 4, Solitude](images/18-story-chapter-4.png)
+
+5. Story: Chapter 5, Ordeal
+
+   ![Story: Chapter 5, Ordeal](images/19-story-chapter-5.png)
+
+6. Story Mode: putting on the diving suit?
+
+   ![Story Mode: putting on the diving suit?](images/20-diving-suit-prompt.png)
+
+7. Story Mode: New Game or Continue
+
+   ![Story Mode: New Game or Continue](images/21-story-new-or-continue.png)
+
+8. Story Mode: overwrite the save data with autosaves?
+
+   ![Story Mode: overwrite the save data with autosaves?](images/22-story-autosave-prompt.png)
+
+9. Original Map: choosing a map
+
+   ![Original Map: choosing a map](images/23-original-map-choose.png)
+
+10. Original Map: no map data to load
+
+   ![Original Map: no map data to load](images/24-original-map-no-data.png)
+
+11. Map Edit: New Map, Continue or Use a Built-in Map
+
+   ![Map Edit: New Map, Continue or Use a Built-in Map](images/25-map-edit-options.png)
+
+12. Map Edit: choosing a built-in map
+
+   ![Map Edit: choosing a built-in map](images/26-map-edit-builtin.png)
+
+13. Map Edit: choosing the sound for a map
+
+   ![Map Edit: choosing the sound for a map](images/27-map-edit-sound.png)
+
+14. Data I/O: Send Data or Receive Data
+
+   ![Data I/O: Send Data or Receive Data](images/28-data-io-link.png)
+
+15. DOWN LOAD: Connect or Phone Number
+
+   ![DOWN LOAD: Connect or Phone Number](images/29-download-menu.png)
+
+16. DOWN LOAD: connecting
+
+   ![DOWN LOAD: connecting](images/30-download-connecting.png)
+
+17. Phone number keypad: a new number being entered
+
+   ![Phone number keypad: a new number being entered](images/31-keypad-entry.png)
+
+18. Option: viewing the Original Map save data
+
+   ![Option: viewing the Original Map save data](images/32-option-view-data.png)
+
+19. Option: confirm deleting the Story Mode save data
+
+   ![Option: confirm deleting the Story Mode save data](images/33-option-delete-confirm.png)
+
+20. Ending: friends arrive on the beach
+
+   ![Ending: friends arrive on the beach](images/34-ending-surfers.png)
+
 **A Note On My Justifications for AI Use**
 
 I have been an avid fan of the Wonderswan system for a very long time now. It was actually a motivating factor for my various attempts to learn Japanese (which have all failed so far). I always wanted to explore the game catalog more, but the lack of English translations made it extremely difficult to do so. Here's the thing: There's a reason many of these games have not been translated yet. It's not just the fact that Japanese > English translation is difficult. There's also the fact that the original developers used all kinds of tricks and technical feats to make these games work. Most games do not have a searchable directory of text that you can just replace with English equivalents. While some are easier than others, translations for some of these would take not only an expert in Japanese > English translation, but also someone with vast game development and programming experience.
