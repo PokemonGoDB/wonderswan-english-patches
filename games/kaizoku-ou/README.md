@@ -120,6 +120,85 @@ Trading a crew over the link cable (Settings > Send Personal Data on one system,
 
    ![Link cable](images/20-link.png)
 
+21. Prologue narration over the Shanks and Luffy picture
+
+   ![Prologue narration over the Shanks and Luffy picture](images/21-prologue-narration.png)
+
+22. Narration: ten years after parting from Shanks
+
+   ![Narration: ten years after parting from Shanks](images/22-ten-years-later.png)
+
+23. Luffy talking on the board before setting out
+
+   ![Luffy talking on the board before setting out](images/23-perfect-day-to-set-sail.png)
+
+24. Luffy spots a dolphin on the sea board
+
+   ![Luffy spots a dolphin on the sea board](images/24-dolphin-jumps.png)
+
+25. The board screen with its command bar: Move, Item, Crew, Info
+
+   ![The board screen with its command bar: Move, Item, Crew, Info](images/25-board-command-bar.png)
+
+26. Crew menu: choosing a character to swap out
+
+   ![Crew menu: choosing a character to swap out](images/26-swap-crew.png)
+
+27. Crew Info: bounty, defence and HP
+
+   ![Crew Info: bounty, defence and HP](images/27-crew-info.png)
+
+28. Placing a route card on the board, with the rotate hint
+
+   ![Placing a route card on the board, with the rotate hint](images/28-route-card-rotate.png)
+
+29. Mode Select: the Strongest Pirate Tournament speech bubble
+
+   ![Mode Select: the Strongest Pirate Tournament speech bubble](images/29-mode-select-tournament.png)
+
+30. Player Setup: entering a crew name
+
+   ![Player Setup: entering a crew name](images/30-enter-crew-name.png)
+
+31. Player Setup: entering a ship name
+
+   ![Player Setup: entering a ship name](images/31-enter-ship-name.png)
+
+32. Tournament: setting a fighter's stats
+
+   ![Tournament: setting a fighter's stats](images/32-tournament-set-stats.png)
+
+33. Tournament: choosing a job
+
+   ![Tournament: choosing a job](images/33-tournament-choose-job.png)
+
+34. Tournament: the battle order screen
+
+   ![Tournament: the battle order screen](images/34-tournament-battle-order.png)
+
+35. Tournament: the versus screen, Pirates against Rookie Pirates
+
+   ![Tournament: the versus screen, Pirates against Rookie Pirates](images/35-tournament-versus.png)
+
+36. Tournament: match 1 begins
+
+   ![Tournament: match 1 begins](images/36-tournament-match-begins.png)
+
+37. Tournament: a stat change message
+
+   ![Tournament: a stat change message](images/37-tournament-stat-change.png)
+
+38. Carddass: prompt to switch to the horizontal screen
+
+   ![Carddass: prompt to switch to the horizontal screen](images/38-carddass-switch-screen.png)
+
+39. Carddass: choosing the number of players
+
+   ![Carddass: choosing the number of players](images/39-carddass-player-count.png)
+
+40. Carddass: place the console on the play area, then press START
+
+   ![Carddass: place the console on the play area, then press START](images/40-carddass-place-console.png)
 
 **How to patch**
 

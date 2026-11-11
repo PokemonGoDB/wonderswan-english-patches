@@ -106,6 +106,85 @@ The special edition (`sennou-millennium-en-special-1.0.bps`) is the standard pat
 
    ![Special edition: the sound test and the opponent select](images/16-special-edition.png)
 
+17. The Records menu
+
+   ![The Records menu](images/17-records-menu.png)
+
+18. Endless Link records
+
+   ![Endless Link records](images/18-endless-link-records.png)
+
+19. Senknow-Do records: the four courses
+
+   ![Senknow-Do records: the four courses](images/19-senknow-do-records.png)
+
+20. Link & Fight records
+
+   ![Link & Fight records](images/20-link-fight-records.png)
+
+21. Erase confirmation on the Records menu
+
+   ![Erase confirmation on the Records menu](images/21-erase-confirm.png)
+
+22. WonderGate: setting the phone number
+
+   ![WonderGate: setting the phone number](images/22-wondergate-phone-default.png)
+
+23. WonderGate: adapter error message
+
+   ![WonderGate: adapter error message](images/23-wondergate-error.png)
+
+24. Waiting for a link-cable partner
+
+   ![Waiting for a link-cable partner](images/24-waiting-for-link.png)
+
+25. Story intro: the Senknow Stadium text
+
+   ![Story intro: the Senknow Stadium text](images/25-story-arena.png)
+
+26. Story: choosing a partner
+
+   ![Story: choosing a partner](images/26-choose-partner.png)
+
+27. Mecha Senknow: the Job screen
+
+   ![Mecha Senknow: the Job screen](images/27-mecha-senknow-job.png)
+
+28. Senknow-Do trial: the fail stamp
+
+   ![Senknow-Do trial: the fail stamp](images/28-trial-fail.png)
+
+29. Peak course: the clear-every-piece goal
+
+   ![Peak course: the clear-every-piece goal](images/29-peak-course.png)
+
+30. The certificate for reaching the top dan
+
+   ![The certificate for reaching the top dan](images/30-master-certificate.png)
+
+31. Megabolt
+
+   ![Megabolt](images/31-megabolt.png)
+
+32. The lose screen
+
+   ![The lose screen](images/32-lose-screen.png)
+
+33. After a loss: keep fighting, new partner or quit
+
+   ![After a loss: keep fighting, new partner or quit](images/33-lose-menu.png)
+
+34. Fight Senknow results
+
+   ![Fight Senknow results](images/34-fight-results.png)
+
+35. Ending: congratulations from the stadium manager
+
+   ![Ending: congratulations from the stadium manager](images/35-ending-stadium-manager.png)
+
+36. The staff roll
+
+   ![The staff roll](images/36-staff-roll.png)
 
 **How to patch**
 

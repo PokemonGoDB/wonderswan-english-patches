@@ -92,6 +92,73 @@ A second patch opens the six modes of Option > Extra (Training Mode, Sound Test,
 
    ![WonderGate: digital card download in a real session](images/11-wondergate-digital-card.png)
 
+12. Card Battle story intro: Ryu on the road
+
+   ![Card Battle story intro: Ryu on the road](images/12-card-battle-intro-ryu.png)
+
+13. Card Battle story intro: who Ryu hopes to meet
+
+   ![Card Battle story intro: who Ryu hopes to meet](images/13-card-battle-intro-tessa.png)
+
+14. Card Battle story intro: Ryu's quote
+
+   ![Card Battle story intro: Ryu's quote](images/14-card-battle-intro-quote.png)
+
+15. Opening scene, Felicia: her musical
+
+   ![Opening scene, Felicia: her musical](images/15-opening-felicia-musical.png)
+
+16. Opening scene, Felicia: a wish for a movie
+
+   ![Opening scene, Felicia: a wish for a movie](images/16-opening-felicia-movie.png)
+
+17. Rival meeting: Sakura challenges Ryu
+
+   ![Rival meeting: Sakura challenges Ryu](images/17-rival-sakura-ryu.png)
+
+18. Rival meeting: Sakura names her stakes
+
+   ![Rival meeting: Sakura names her stakes](images/18-rival-sakura-wager.png)
+
+19. Rival meeting: Zangief meets Felicia
+
+   ![Rival meeting: Zangief meets Felicia](images/19-rival-zangief-felicia.png)
+
+20. Rival meeting: Zangief and Felicia, a reply
+
+   ![Rival meeting: Zangief and Felicia, a reply](images/20-rival-zangief-reply.png)
+
+21. Rival meeting: Zangief and Felicia, an exclamation
+
+   ![Rival meeting: Zangief and Felicia, an exclamation](images/21-rival-felicia-eek.png)
+
+22. Ending: a shopping trip
+
+   ![Ending: a shopping trip](images/22-ending-ken-shopping.png)
+
+23. Ending: a surprised question
+
+   ![Ending: a surprised question](images/23-ending-ken-who.png)
+
+24. Ending: a win in a snowy town
+
+   ![Ending: a win in a snowy town](images/24-ending-snowy-win.png)
+
+25. Ending: a circus act
+
+   ![Ending: a circus act](images/25-ending-circus.png)
+
+26. Ending: a plan for a keychain
+
+   ![Ending: a plan for a keychain](images/26-ending-ibuki-keychain.png)
+
+27. Ending: a graveyard dialogue
+
+   ![Ending: a graveyard dialogue](images/27-ending-graveyard.png)
+
+28. Ending: leading the way
+
+   ![Ending: leading the way](images/28-ending-graveyard-follow.png)
 
 **How to patch**
 

@@ -69,6 +69,33 @@ The WonderGate edition (`buffers-evolution-en-wondergate-1.0.bps`) is the standa
 
    ![VIEW ENDURO after a real online session (unchanged: already English)](images/07-view-enduro-online.png)
 
+8. Title screen with the ENDURO mode selected
+
+   ![Title screen with the ENDURO mode selected](images/08-title-enduro.png)
+
+9. Stage and course select, with best time and item slots
+
+   ![Stage and course select, with best time and item slots](images/09-stage-select.png)
+
+10. Course map for Stage A, Course 1, from START to FINISH
+
+   ![Course map for Stage A, Course 1, from START to FINISH](images/10-course-map.png)
+
+11. In the race, with the running time at the top right
+
+   ![In the race, with the running time at the top right](images/11-race.png)
+
+12. Results: the top five times and the technique percentage
+
+   ![Results: the top five times and the technique percentage](images/12-results.png)
+
+13. WONDERGATE MODE SELECT with the VIEW menus (test server reply)
+
+   ![WONDERGATE MODE SELECT with the VIEW menus (test server reply)](images/13-wg-mode-select.png)
+
+14. Error 400: Connection lost.
+
+   ![Error 400: Connection lost.](images/14-error-400.png)
 
 **How to patch**
 
