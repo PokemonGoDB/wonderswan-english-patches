@@ -76,6 +76,98 @@ This patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their
 
    ![The staff credits](images/08-credits.png)
 
+10. Cutscene: refugees on Side 7 hear that Zeon is attacking the colony
+
+   ![Cutscene: refugees on Side 7 hear that Zeon is attacking the colony](images/09-refugees-colony.png)
+
+11. Cutscene: Amuro thinks back to hiding inside the escape capsule
+
+   ![Cutscene: Amuro thinks back to hiding inside the escape capsule](images/10-amuro-escape-capsule.png)
+
+12. Cutscene: Hayato asks Amuro whether this is because of his father
+
+   ![Cutscene: Hayato asks Amuro whether this is because of his father](images/11-hayato-asks-amuro.png)
+
+13. Cutscene: Amuro sees a Zaku for the first time
+
+   ![Cutscene: Amuro sees a Zaku for the first time](images/12-amuro-sees-zaku.png)
+
+14. Cutscene: Fraw calls out among the wreckage
+
+   ![Cutscene: Fraw calls out among the wreckage](images/13-fraw-family.png)
+
+15. Cutscene: Amuro reads a Federation technical manual
+
+   ![Cutscene: Amuro reads a Federation technical manual](images/14-technical-manual.png)
+
+16. Cutscene: Paolo on Operation V
+
+   ![Cutscene: Paolo on Operation V](images/15-operation-v.png)
+
+17. Cutscene: Tem points to Lift 3 and urges the Gundam to move
+
+   ![Cutscene: Tem points to Lift 3 and urges the Gundam to move](images/16-tem-lift-3.png)
+
+18. Cutscene: Amuro recalls fleeing to the port with Fraw
+
+   ![Cutscene: Amuro recalls fleeing to the port with Fraw](images/17-amuro-fleeing.png)
+
+19. Cutscene: Amuro recalls clutching top-secret Federation papers
+
+   ![Cutscene: Amuro recalls clutching top-secret Federation papers](images/18-secret-papers.png)
+
+20. Cutscene: Amuro realises it is the Federation's secret weapon
+
+   ![Cutscene: Amuro realises it is the Federation's secret weapon](images/19-secret-weapon.png)
+
+21. Cutscene: Gene urges a quick finish to the enemy
+
+   ![Cutscene: Gene urges a quick finish to the enemy](images/20-gene-hurry.png)
+
+22. Cutscene: Amuro wonders if the enemy has seen him and if he has any weapons
+
+   ![Cutscene: Amuro wonders if the enemy has seen him and if he has any weapons](images/21-amuro-seen.png)
+
+23. Cutscene: Gene reports the enemy mobile suit standing up
+
+   ![Cutscene: Gene reports the enemy mobile suit standing up](images/22-gene-chief.png)
+
+24. Cutscene: the RX-78 Gundam, Amuro in the cockpit
+
+   ![Cutscene: the RX-78 Gundam, Amuro in the cockpit](images/23-gundam-cockpit.png)
+
+25. Battle map view: Gene closes in on a damaged target
+
+   ![Battle map view: Gene closes in on a damaged target](images/24-map-gene-attacks.png)
+
+26. Battle: weapon help for the Vulcan (accuracy, power, armor damage)
+
+   ![Battle: weapon help for the Vulcan (accuracy, power, armor damage)](images/25-weapon-help-vulcan.png)
+
+27. Battle: radar view with Amuro's armor and energy readouts
+
+   ![Battle: radar view with Amuro's armor and energy readouts](images/26-battle-radar.png)
+
+28. Battle: Vulcan selected against a Zaku
+
+   ![Battle: Vulcan selected against a Zaku](images/27-battle-vulcan-zaku.png)
+
+29. Battle: Amuro discovers the Beam Saber
+
+   ![Battle: Amuro discovers the Beam Saber](images/28-beam-saber.png)
+
+30. Battle map: Ral says this is Zeon's first battle on Earth
+
+   ![Battle map: Ral says this is Zeon's first battle on Earth](images/29-ral-first-battle-on-earth.png)
+
+31. Cutscene: Ral orders Acoes and Cozun to fall back
+
+   ![Cutscene: Ral orders Acoes and Cozun to fall back](images/30-ral-fall-back.png)
+
+32. The Save Point screen: save data or continue without saving
+
+   ![The Save Point screen: save data or continue without saving](images/31-save-point.png)
+
 **How to patch**
 
 Apply `gundam-vol1-side7-en-1.1.bps` to the Japanese ROM "Kidou Senshi Gundam Vol. 1 - Side 7 (Japan)" (CRC32 08C0247B) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is a 4 MB ROM with CRC32 19AC67B5 (SHA-1 5f3b81c2f7459b602fecb621d288cf4ddf5e640f).

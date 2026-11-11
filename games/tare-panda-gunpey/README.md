@@ -96,6 +96,89 @@ The WonderGate edition (`tare-panda-gunpey-en-wondergate-1.0.bps`) is the standa
 
    ![Debug edition: the Debug plate and the developers' menu (both English)](images/13-special-edition.png)
 
+14. Title screen: the start prompt
+
+   ![Title screen: the start prompt](images/14-title-press-start.png)
+
+15. The records menu
+
+   ![The records menu](images/15-records-menu.png)
+
+16. Records: the erase-data prompt
+
+   ![Records: the erase-data prompt](images/16-erase-data.png)
+
+17. A records page: Tarepanda, observed
+
+   ![A records page: Tarepanda, observed](images/17-record-page-observed.png)
+
+18. High scores: Tarepanda, stacked
+
+   ![High scores: Tarepanda, stacked](images/18-high-scores-stacked.png)
+
+19. Story mode: the round begins
+
+   ![Story mode: the round begins](images/19-story-game-start.png)
+
+20. Story mode: a round, the panda in a grumpy mood
+
+   ![Story mode: a round, the panda in a grumpy mood](images/20-story-round-grumpy.png)
+
+21. The all-clear bonus: Treat
+
+   ![The all-clear bonus: Treat](images/21-bonus-treat.png)
+
+22. Story mode: the continue countdown
+
+   ![Story mode: the continue countdown](images/22-continue.png)
+
+23. A failed round
+
+   ![A failed round](images/23-failed.png)
+
+24. Game over
+
+   ![Game over](images/24-game-over.png)
+
+25. Puzzle mode: the all-clear picture
+
+   ![Puzzle mode: the all-clear picture](images/25-congratulations.png)
+
+26. Story: the Tarepanda distribution map
+
+   ![Story: the Tarepanda distribution map](images/26-story-distribution-map.png)
+
+27. Story: Hello
+
+   ![Story: Hello](images/27-story-hello.png)
+
+28. Story: Adrift
+
+   ![Story: Adrift](images/28-story-adrift.png)
+
+29. Story: Greetings
+
+   ![Story: Greetings](images/29-story-greetings.png)
+
+30. Story: Kindness
+
+   ![Story: Kindness](images/30-story-kindness.png)
+
+31. Story: Drowning
+
+   ![Story: Drowning](images/31-story-drowning.png)
+
+32. WonderGate: the menu
+
+   ![WonderGate: the menu](images/32-wondergate-menu.png)
+
+33. WonderGate: the options, with the pictured phone
+
+   ![WonderGate: the options, with the pictured phone](images/33-wondergate-options.png)
+
+34. WonderGate: an error screen
+
+   ![WonderGate: an error screen](images/34-wondergate-error.png)
 
 **How to patch**
 
