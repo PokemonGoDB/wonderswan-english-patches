@@ -64,6 +64,85 @@ The game has no text font at all: every word on screen is a picture. All of thes
 
    ![Continue?](images/08-continue.png)
 
+9. Settings: difficulty, controls and the two meters
+
+   ![Settings: difficulty, controls and the two meters](images/09-settings-menu.png)
+
+10. Departure board: Keihin-Tohoku line, Shinagawa to Yokohama
+
+   ![Departure board: Keihin-Tohoku line, Shinagawa to Yokohama](images/10-keihin-tohoku-board.png)
+
+11. Route strip: Shinagawa to Yokohama
+
+   ![Route strip: Shinagawa to Yokohama](images/11-keihin-tohoku-route.png)
+
+12. Departure board: Tokaido line, Kyoto to Osaka
+
+   ![Departure board: Tokaido line, Kyoto to Osaka](images/12-tokaido-board.png)
+
+13. Route strip: Kyoto to Osaka
+
+   ![Route strip: Kyoto to Osaka](images/13-tokaido-route.png)
+
+14. Departure board: Yamanote line, Shibuya to Tokyo
+
+   ![Departure board: Yamanote line, Shibuya to Tokyo](images/14-yamanote-board.png)
+
+15. Route strip: Shibuya to Tokyo
+
+   ![Route strip: Shibuya to Tokyo](images/15-yamanote-route.png)
+
+16. Pause menu: Continue or Quit
+
+   ![Pause menu: Continue or Quit](images/16-pause-menu.png)
+
+17. Departure message when the train starts to move
+
+   ![Departure message when the train starts to move](images/17-depart-message.png)
+
+18. Warning shown if the train has not left the platform
+
+   ![Warning shown if the train has not left the platform](images/18-pull-forward.png)
+
+19. Trackside sign: Proceed signal
+
+   ![Trackside sign: Proceed signal](images/19-proceed-signal.png)
+
+20. Trackside sign: Downhill gradient
+
+   ![Trackside sign: Downhill gradient](images/20-downhill-sign.png)
+
+21. Trackside sign: Stop at the station
+
+   ![Trackside sign: Stop at the station](images/21-stop-sign.png)
+
+22. Trackside sign: Speed limit 70
+
+   ![Trackside sign: Speed limit 70](images/22-speed-limit-sign.png)
+
+23. Trackside sign: Level track
+
+   ![Trackside sign: Level track](images/23-level-sign.png)
+
+24. Warning: station entry overspeed
+
+   ![Warning: station entry overspeed](images/24-station-overspeed.png)
+
+25. Automatic brake after a missed stop
+
+   ![Automatic brake after a missed stop](images/25-ats-brake.png)
+
+26. Results after an overrun: penalty seconds
+
+   ![Results after an overrun: penalty seconds](images/26-penalty-results.png)
+
+27. Time is up
+
+   ![Time is up](images/27-times-up.png)
+
+28. The conductor: "A train can't stop on a dime."
+
+   ![The conductor: "A train can't stop on a dime."](images/28-conductor-advice.png)
 
 **How to patch**
 

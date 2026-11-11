@@ -70,6 +70,65 @@ Names: the hero of part 1 is never named, so he's "the Bodyguard". The two chara
 
    ![Defeat](images/09-defeat.png)
 
+10. The disclaimer shown at power-on
+
+   ![The disclaimer shown at power-on](images/10-disclaimer.png)
+
+11. Scenario: choosing a part of the story
+
+   ![Scenario: choosing a part of the story](images/11-scenario-part.png)
+
+12. New Game or Continue
+
+   ![New Game or Continue](images/12-new-game-continue.png)
+
+13. Chapter title card: Part One
+
+   ![Chapter title card: Part One](images/13-chapter-card.png)
+
+14. A story page
+
+   ![A story page](images/14-story-opening.png)
+
+15. A story page
+
+   ![A story page](images/15-story-bodyguard.png)
+
+16. A story page
+
+   ![A story page](images/16-story-lizard.png)
+
+17. A story page
+
+   ![A story page](images/17-story-rules.png)
+
+18. Versus screen: Bodyguard against the Gate Keeper
+
+   ![Versus screen: Bodyguard against the Gate Keeper](images/18-vs-gate-keeper.png)
+
+19. The battle rules shown before the deck screen
+
+   ![The battle rules shown before the deck screen](images/19-battle-rules.png)
+
+20. A card's description: Clay Doll
+
+   ![A card's description: Clay Doll](images/20-card-clay-doll.png)
+
+21. Those in the Way (opponent list)
+
+   ![Those in the Way (opponent list)](images/21-those-in-the-way.png)
+
+22. Worthy Rival: whoever presses A first takes the first move
+
+   ![Worthy Rival: whoever presses A first takes the first move](images/22-worthy-rival.png)
+
+23. Save data erased
+
+   ![Save data erased](images/23-save-erased.png)
+
+24. In battle: choosing a card (Clay Doll)
+
+   ![In battle: choosing a card (Clay Doll)](images/24-battle-hand-clay-doll.png)
 
 **How to patch**
 

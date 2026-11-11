@@ -123,6 +123,85 @@ The Japanese codes cannot be typed on the English keyboard, so the patch accepts
 
    ![Staff credits](images/18-credits.png)
 
+19. Master of Ring menu: Master, Free, Ranking
+
+   ![Master of Ring menu: Master, Free, Ranking](images/19-master-of-ring-menu.png)
+
+20. Master of Ring: the stage 2 card
+
+   ![Master of Ring: the stage 2 card](images/20-stage-2-card.png)
+
+21. Master of Ring: booking a title match?
+
+   ![Master of Ring: booking a title match?](images/21-title-match-prompt.png)
+
+22. Choosing which match slot to book
+
+   ![Choosing which match slot to book](images/22-match-slot-prompt.png)
+
+23. Match Making with the first bout booked
+
+   ![Match Making with the first bout booked](images/23-match-making-booked.png)
+
+24. One Night Match: the versus card
+
+   ![One Night Match: the versus card](images/24-one-night-special-match.png)
+
+25. Attendance: the DEEP IN THE RED stamp
+
+   ![Attendance: the DEEP IN THE RED stamp](images/25-deep-in-the-red.png)
+
+26. Ranking: best attendance for a stage
+
+   ![Ranking: best attendance for a stage](images/26-stage-ranking.png)
+
+27. Ranking: event records for a venue
+
+   ![Ranking: event records for a venue](images/27-venue-ranking.png)
+
+28. Free mode: choosing the title
+
+   ![Free mode: choosing the title](images/28-which-title.png)
+
+29. Special stage setup
+
+   ![Special stage setup](images/29-special-stage.png)
+
+30. Free mode: choosing the venue
+
+   ![Free mode: choosing the venue](images/30-which-venue.png)
+
+31. One Night Tournament: the bracket
+
+   ![One Night Tournament: the bracket](images/31-tournament-bracket.png)
+
+32. Tournament winner
+
+   ![Tournament winner](images/32-tournament-winner.png)
+
+33. Open League: wrestler entry
+
+   ![Open League: wrestler entry](images/33-league-entry.png)
+
+34. Elimination Match: Survival or Round Robin
+
+   ![Elimination Match: Survival or Round Robin](images/34-match-format.png)
+
+35. Elimination Match: team select
+
+   ![Elimination Match: team select](images/35-team-select.png)
+
+36. Elimination Match: the batting order
+
+   ![Elimination Match: the batting order](images/36-elimination-order.png)
+
+37. Edit: wrestler data (load, save, delete)
+
+   ![Edit: wrestler data (load, save, delete)](images/37-edit-wrestler-data.png)
+
+38. Options
+
+   ![Options](images/38-options.png)
 
 **How to patch**
 

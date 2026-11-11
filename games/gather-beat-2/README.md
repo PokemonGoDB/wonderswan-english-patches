@@ -79,6 +79,73 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
    ![Link-cable Unit Trade](images/08-gb2-unit-trade.png)
 
+9. Intro caption: U.C. 0079 October, Earth Orbit
+
+   ![Intro caption: U.C. 0079 October, Earth Orbit](images/09-intro-date-caption.png)
+
+10. Dialogue on the map: "Don't give up!"
+
+   ![Dialogue on the map: "Don't give up!"](images/10-dialogue-dont-give-up.png)
+
+11. Special command: Don't Give Up! (Def. Up)
+
+   ![Special command: Don't Give Up! (Def. Up)](images/11-special-command-def-up.png)
+
+12. Unit info: Ball Early Prototype
+
+   ![Unit info: Ball Early Prototype](images/12-unit-info-ball.png)
+
+13. Unit details with weapon list
+
+   ![Unit details with weapon list](images/13-unit-weapons-ball.png)
+
+14. Pilot status page
+
+   ![Pilot status page](images/14-pilot-status.png)
+
+15. Unit info: Shuttle
+
+   ![Unit info: Shuttle](images/15-unit-info-shuttle.png)
+
+16. Terrain info: Space
+
+   ![Terrain info: Space](images/16-terrain-info-space.png)
+
+17. System menu on the map
+
+   ![System menu on the map](images/17-system-menu.png)
+
+18. Save slot list
+
+   ![Save slot list](images/18-save-slots.png)
+
+19. Game saved
+
+   ![Game saved](images/19-game-saved.png)
+
+20. End Turn confirmation
+
+   ![End Turn confirmation](images/20-end-turn-confirm.png)
+
+21. Full map with turn and unit counts
+
+   ![Full map with turn and unit counts](images/21-full-map-turn-count.png)
+
+22. Units list
+
+   ![Units list](images/22-unit-list.png)
+
+23. Options: confirm attack and battle text
+
+   ![Options: confirm attack and battle text](images/23-options.png)
+
+24. Battle: Attack, Fight, Evade, Guard
+
+   ![Battle: Attack, Fight, Evade, Guard](images/24-battle-command-panel.png)
+
+25. Battle: weapon list
+
+   ![Battle: weapon list](images/25-battle-weapon-list.png)
 
 **How to patch**
 

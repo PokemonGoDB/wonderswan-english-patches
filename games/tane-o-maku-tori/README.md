@@ -70,6 +70,57 @@ The WonderGate edition (`tane-o-maku-tori-en-wondergate-1.0.bps`) is the standar
 
    ![Alone once again](images/08-story-7.png)
 
+9. The main menu: Story, Endless, Versus, Best Scores
+
+   ![The main menu: Story, Endless, Versus, Best Scores](images/09-main-menu.png)
+
+10. Personal Best: scores for Story and the three Endless levels
+
+   ![Personal Best: scores for Story and the three Endless levels](images/10-personal-best.png)
+
+11. Story: the crow is all alone once again
+
+   ![Story: the crow is all alone once again](images/11-story-alone-again.png)
+
+12. Story: "I know!"
+
+   ![Story: "I know!"](images/12-story-i-know.png)
+
+13. Story: "If the hills, fields and towns fill up with flowers, my friend will surely come back to me."
+
+   ![Story: "If the hills, fields and towns fill up with flowers, my friend will surely come back to me."](images/13-story-flowers-hills.png)
+
+14. Story: the crow takes a seed in its beak
+
+   ![Story: the crow takes a seed in its beak](images/14-story-took-a-seed.png)
+
+15. The stage 1 title card
+
+   ![The stage 1 title card](images/15-stage-1-card.png)
+
+16. Game Start banner as a round begins
+
+   ![Game Start banner as a round begins](images/16-game-start.png)
+
+17. Gameplay: a lightning flash over the poles
+
+   ![Gameplay: a lightning flash over the poles](images/17-gameplay-lightning.png)
+
+18. Gameplay: seeds fall down the poles while the crossbars shift
+
+   ![Gameplay: seeds fall down the poles while the crossbars shift](images/18-gameplay-poles.png)
+
+19. Game Over
+
+   ![Game Over](images/19-game-over-tower.png)
+
+20. Game Over over a city background
+
+   ![Game Over over a city background](images/20-game-over-city.png)
+
+21. The Results screen: Total Score, Accuracy, Play Time
+
+   ![The Results screen: Total Score, Accuracy, Play Time](images/21-results.png)
 
 **How to patch**
 

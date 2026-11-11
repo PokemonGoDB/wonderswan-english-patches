@@ -101,6 +101,65 @@ The game's WonderGate option uploads your best quick-solve time and shows the na
 
    ![The route chart's confirm box](images/15-index-confirm.png)
 
+16. Lieutenant Natsuko Nishitani is introduced in the office scene
+
+   ![Lieutenant Natsuko Nishitani is introduced in the office scene](images/16-natsuko-intro.png)
+
+17. Narration about the serial arson murders, over a city backdrop
+
+   ![Narration about the serial arson murders, over a city backdrop](images/17-arson-case-narration.png)
+
+18. Narration over an office-building backdrop
+
+   ![Narration over an office-building backdrop](images/18-office-building.png)
+
+19. Chief Yanagimachi arrives in the meeting room
+
+   ![Chief Yanagimachi arrives in the meeting room](images/19-chief-arrives.png)
+
+20. The chief looks the room over
+
+   ![The chief looks the room over](images/20-chief-chameleon-eyes.png)
+
+21. A second e-mail from UG, about Chizuru Kashiwagi
+
+   ![A second e-mail from UG, about Chizuru Kashiwagi](images/21-mail-from-ug.png)
+
+22. Dialogue over a view from a car window
+
+   ![Dialogue over a view from a car window](images/22-car-window.png)
+
+23. Inspector Sakaki confronts Natsuko
+
+   ![Inspector Sakaki confronts Natsuko](images/23-inspector-sakaki.png)
+
+24. Detective dialogue over a yellow silhouette scene
+
+   ![Detective dialogue over a yellow silhouette scene](images/24-two-detectives.png)
+
+25. A photograph shown during the detectives' conversation
+
+   ![A photograph shown during the detectives' conversation](images/25-photo-evidence.png)
+
+26. E-mail from Makoto about a sculpture in Shinjuku
+
+   ![E-mail from Makoto about a sculpture in Shinjuku](images/26-mail-makoto-sculpture.png)
+
+27. Koichi's reply to Makoto
+
+   ![Koichi's reply to Makoto](images/27-mail-to-makoto.png)
+
+28. E-mail from Makoto
+
+   ![E-mail from Makoto](images/28-mail-makoto-friend.png)
+
+29. Arriving at the museum, with the fountain description
+
+   ![Arriving at the museum, with the fountain description](images/29-museum-fountain.png)
+
+30. Narration over the Apollo statue
+
+   ![Narration over the Apollo statue](images/30-apollo-statue.png)
 
 **How to patch**
 

@@ -97,6 +97,81 @@ The developers left a hidden event selector in the game that nothing in the orig
 
    ![Race results](images/11-results.png)
 
+12. Title menu: Continue, New Game, View Parts List
+
+   ![Title menu: Continue, New Game, View Parts List](images/12-title-menu.png)
+
+13. Choosing Continue with no save data
+
+   ![Choosing Continue with no save data](images/13-no-save-data.png)
+
+14. Entering the player name
+
+   ![Entering the player name](images/14-name-entry.png)
+
+15. Entering the truck name
+
+   ![Entering the truck name](images/15-truck-name-entry.png)
+
+16. The opening scene outside the company building
+
+   ![The opening scene outside the company building](images/16-first-dialogue.png)
+
+17. A dialogue with a choice of replies
+
+   ![A dialogue with a choice of replies](images/17-dialogue-choice.png)
+
+18. The main menu: Depart, Cargo, Garage, Shop, Report
+
+   ![The main menu: Depart, Cargo, Garage, Shop, Report](images/18-main-menu.png)
+
+19. Pick Cargo: the cargo list
+
+   ![Pick Cargo: the cargo list](images/19-pick-cargo.png)
+
+20. Pick Cargo: a cargo item selected
+
+   ![Pick Cargo: a cargo item selected](images/20-cargo-selected.png)
+
+21. The route map of Japan with the Goal marked
+
+   ![The route map of Japan with the Goal marked](images/21-route-map.png)
+
+22. A driver explains how to change lanes
+
+   ![A driver explains how to change lanes](images/22-roamer-intro.png)
+
+23. The versus screen before the race
+
+   ![The versus screen before the race](images/23-versus-screen.png)
+
+24. The Garage menu: Parts, Truck, List, Exit
+
+   ![The Garage menu: Parts, Truck, List, Exit](images/24-garage-menu.png)
+
+25. Swap Parts: choosing a part to change
+
+   ![Swap Parts: choosing a part to change](images/25-swap-parts.png)
+
+26. Tune: choosing a tuning option
+
+   ![Tune: choosing a tuning option](images/26-tune-menu.png)
+
+27. Tune: a tuning option with its gauge
+
+   ![Tune: a tuning option with its gauge](images/27-tune-gauges.png)
+
+28. Racing: the song line "Goodbye, Tokyo" along the bottom
+
+   ![Racing: the song line "Goodbye, Tokyo" along the bottom](images/28-race-song-1.png)
+
+29. Racing: the song line "Free of dad's hand"
+
+   ![Racing: the song line "Free of dad's hand"](images/29-race-song-2.png)
+
+30. The Report screen with Save, Autosave and Quit Game
+
+   ![The Report screen with Save, Autosave and Quit Game](images/30-report-save.png)
 
 **How to patch**
 

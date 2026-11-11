@@ -96,6 +96,49 @@ On the **Ranking** menu, press **Y1, Y3, Y4, Y2** (the Y-pad: up, down, left, ri
 
    ![Billboard: Klonoa](images/13-billboard-klonoa.png)
 
+14. Link play: communication error, back to the title screen
+
+   ![Link play: communication error, back to the title screen](images/14-link-error.png)
+
+15. Course Edit, Exchange: the course has been exchanged
+
+   ![Course Edit, Exchange: the course has been exchanged](images/15-exchange-complete.png)
+
+16. WonderGate: connecting
+
+   ![WonderGate: connecting](images/16-wondergate-connecting.png)
+
+17. WonderGate: session finished, see the ranking
+
+   ![WonderGate: session finished, see the ranking](images/17-wondergate-finished.png)
+
+18. WonderGate: adapter battery low, stay connected?
+
+   ![WonderGate: adapter battery low, stay connected?](images/18-wondergate-battery-low.png)
+
+19. WonderGate: Error No. 003, check the phone connection
+
+   ![WonderGate: Error No. 003, check the phone connection](images/19-wondergate-error-003.png)
+
+20. WonderGate: Error No. 008, out of the service area
+
+   ![WonderGate: Error No. 008, out of the service area](images/20-wondergate-error-008.png)
+
+21. WonderGate: Error No. 400, request error
+
+   ![WonderGate: Error No. 400, request error](images/21-wondergate-error-400.png)
+
+22. WonderGate: Error No. 503, server under maintenance
+
+   ![WonderGate: Error No. 503, server under maintenance](images/22-wondergate-error-503.png)
+
+23. Billboard beside the track: Tekken Card Challenge
+
+   ![Billboard beside the track: Tekken Card Challenge](images/23-billboard-tekken.png)
+
+24. Billboard beside the track: Kosodate Quiz Dokodemo My Angel
+
+   ![Billboard beside the track: Kosodate Quiz Dokodemo My Angel](images/24-billboard-my-angel.png)
 
 **The WonderGate edition**
 

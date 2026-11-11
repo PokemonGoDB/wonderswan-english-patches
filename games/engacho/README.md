@@ -83,6 +83,85 @@ We searched The Cutting Room Floor, Hardcore Gaming 101, GameFAQs and Japanese c
 
    ![Options](images/10-options.png)
 
+11. Training: the status bar names the creature you are learning about
+
+   ![Training: the status bar names the creature you are learning about](images/11-training-stage.png)
+
+12. The school corridor: the Music Hall door
+
+   ![The school corridor: the Music Hall door](images/12-corridor-music-hall.png)
+
+13. The school corridor: the Gym Hall door
+
+   ![The school corridor: the Gym Hall door](images/13-corridor-gym-hall.png)
+
+14. Study Hall: stage select
+
+   ![Study Hall: stage select](images/14-study-hall-select.png)
+
+15. Study Hall: stage intro with the step limit
+
+   ![Study Hall: stage intro with the step limit](images/15-study-hall-intro.png)
+
+16. Gym Hall: stage intro
+
+   ![Gym Hall: stage intro](images/16-gym-hall-intro.png)
+
+17. Lunch Hall: stage intro
+
+   ![Lunch Hall: stage intro](images/17-lunch-hall-intro.png)
+
+18. Final Hall: stage intro
+
+   ![Final Hall: stage intro](images/18-final-hall-intro.png)
+
+19. VS COM: the Duel Hall corridor
+
+   ![VS COM: the Duel Hall corridor](images/19-duel-hall-corridor.png)
+
+20. VS COM: Duel Hall stage select
+
+   ![VS COM: Duel Hall stage select](images/20-duel-hall-select.png)
+
+21. VS COM: Duel Hall stage intro
+
+   ![VS COM: Duel Hall stage intro](images/21-duel-hall-intro.png)
+
+22. Special mode: Golden Hall stage select
+
+   ![Special mode: Golden Hall stage select](images/22-golden-hall-select.png)
+
+23. Special mode: Golden Hall stage intro
+
+   ![Special mode: Golden Hall stage intro](images/23-golden-hall-intro.png)
+
+24. The hidden Exam Hall corridor (developer test rooms)
+
+   ![The hidden Exam Hall corridor (developer test rooms)](images/24-exam-hall-corridor.png)
+
+25. Exam Hall: stage select
+
+   ![Exam Hall: stage select](images/25-exam-hall-select.png)
+
+26. Exam Hall: stage intro with a 512-step limit
+
+   ![Exam Hall: stage intro with a 512-step limit](images/26-exam-hall-intro.png)
+
+27. Options: the controls and match-length settings after changing them
+
+   ![Options: the controls and match-length settings after changing them](images/27-options-match.png)
+
+28. Options: the sound test
+
+   ![Options: the sound test](images/28-options-sound-test.png)
+
+29. Options: clearing the save data asks for confirmation
+
+   ![Options: clearing the save data asks for confirmation](images/29-options-clear-confirm.png)
+
+30. Options: save data cleared
+
+   ![Options: save data cleared](images/30-options-cleared.png)
 
 **How to patch**
 

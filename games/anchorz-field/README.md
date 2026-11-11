@@ -71,6 +71,85 @@ Names: your nation is Sharvan; the rivals are Baltz, Bujina, Gibros, Santo Princ
 
    ![Options](images/10-options.png)
 
+11. Intro story: the nations form "Anchorz" teams
+
+   ![Intro story: the nations form "Anchorz" teams](images/11-intro-land-grab.png)
+
+12. Intro story: the anchor machine and its FIRE!! sound effect
+
+   ![Intro story: the anchor machine and its FIRE!! sound effect](images/12-intro-fire.png)
+
+13. Intro story: the curtain rises on the land-grab war
+
+   ![Intro story: the curtain rises on the land-grab war](images/13-intro-curtain.png)
+
+14. Choosing a save file
+
+   ![Choosing a save file](images/14-load-menu.png)
+
+15. The Versus menu
+
+   ![The Versus menu](images/15-versus-menu.png)
+
+16. Practice stage intro card
+
+   ![Practice stage intro card](images/16-practice-stage.png)
+
+17. Versus: choosing the map
+
+   ![Versus: choosing the map](images/17-vs-map.png)
+
+18. Versus: player 1 chooses a machine
+
+   ![Versus: player 1 chooses a machine](images/18-vs-choose-machine.png)
+
+19. Offer to review the rules
+
+   ![Offer to review the rules](images/19-rules-review.png)
+
+20. The rules: when an anchor is lost
+
+   ![The rules: when an anchor is lost](images/20-rules-lost-anchors.png)
+
+21. Mission Orders before the battle
+
+   ![Mission Orders before the battle](images/21-mission-orders.png)
+
+22. Adviser: choosing an anchor
+
+   ![Adviser: choosing an anchor](images/22-choose-anchor.png)
+
+23. Adviser: choosing a charge
+
+   ![Adviser: choosing a charge](images/23-choose-charge.png)
+
+24. Adviser: the wall at the back of our territory
+
+   ![Adviser: the wall at the back of our territory](images/24-wall-at-back.png)
+
+25. Enemy turn begins
+
+   ![Enemy turn begins](images/25-enemy-turn.png)
+
+26. Score after a turn
+
+   ![Score after a turn](images/26-score-result.png)
+
+27. Adviser: anchors that land in a river
+
+   ![Adviser: anchors that land in a river](images/27-river-rules.png)
+
+28. Adviser: wind and the anchor type
+
+   ![Adviser: wind and the anchor type](images/28-wind.png)
+
+29. Adviser: the turn is over
+
+   ![Adviser: the turn is over](images/29-turn-over.png)
+
+30. Adviser: using Area Marking
+
+   ![Adviser: using Area Marking](images/30-area-marking.png)
 
 **How to patch**
 

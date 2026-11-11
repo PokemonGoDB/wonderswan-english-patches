@@ -62,6 +62,77 @@ Characters, mobile suits, ships and places use Bandai's current official English
 
    ![A link-cable battle: the defender's choice](images/05-gb1-link-battle.png)
 
+6. Link menu: Link Cable, WonderGate, WonderWave
+
+   ![Link menu: Link Cable, WonderGate, WonderWave](images/06-link-menu.png)
+
+7. Mission objective shown on the map: "Victory: Defeat all enemies"
+
+   ![Mission objective shown on the map: "Victory: Defeat all enemies"](images/07-mission-objective.png)
+
+8. The map system menu: Save, End Turn, Mission, Units
+
+   ![The map system menu: Save, End Turn, Mission, Units](images/08-system-menu.png)
+
+9. End-turn confirmation
+
+   ![End-turn confirmation](images/09-end-turn-prompt.png)
+
+10. Saving: choosing a slot
+
+   ![Saving: choosing a slot](images/10-save-slots.png)
+
+11. Save confirmation: "Saved."
+
+   ![Save confirmation: "Saved."](images/11-save-done.png)
+
+12. Terrain information: accuracy and defense modifiers
+
+   ![Terrain information: accuracy and defense modifiers](images/12-terrain-info.png)
+
+13. Unit status window: pilot, level, HP, SP, effect and stacking
+
+   ![Unit status window: pilot, level, HP, SP, effect and stacking](images/13-unit-status.png)
+
+14. The unit list
+
+   ![The unit list](images/14-unit-list.png)
+
+15. Battle: Attack, Fight, Evade, Guard
+
+   ![Battle: Attack, Fight, Evade, Guard](images/15-battle-menu.png)
+
+16. Battle: the weapon list with pilot name
+
+   ![Battle: the weapon list with pilot name](images/16-weapon-list.png)
+
+17. Battle dialogue before a strike
+
+   ![Battle dialogue before a strike](images/17-battle-dialogue.png)
+
+18. Dialogue after the enemy is hit
+
+   ![Dialogue after the enemy is hit](images/18-pilot-dialogue.png)
+
+19. Story dialogue on the mission-clear screen
+
+   ![Story dialogue on the mission-clear screen](images/19-mission-clear.png)
+
+20. Backstage: the Command Room
+
+   ![Backstage: the Command Room](images/20-command-room.png)
+
+21. Backstage: ship and unit assignment screen
+
+   ![Backstage: ship and unit assignment screen](images/21-ship-assignment.png)
+
+22. Backstage: the Hangar menu
+
+   ![Backstage: the Hangar menu](images/22-hangar-supply.png)
+
+23. Backstage: the MS Garage
+
+   ![Backstage: the MS Garage](images/23-ms-garage.png)
 
 **How to patch**
 
