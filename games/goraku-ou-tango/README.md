@@ -100,6 +100,77 @@ On the **title screen**, press **Up, Up, Down, Down, Right, Left, Right, Left, U
 
    ![The ending](images/11-ending.png)
 
+12. Deleting a save file: choosing a file
+
+   ![Deleting a save file: choosing a file](images/12-delete-file.png)
+
+13. The opening: the photo, first text box
+
+   ![The opening: the photo, first text box](images/13-opening-photo.png)
+
+14. The opening: dialogue with a portrait
+
+   ![The opening: dialogue with a portrait](images/14-opening-spoiled.png)
+
+15. The opening: the date caption
+
+   ![The opening: the date caption](images/15-opening-date.png)
+
+16. The opening: the map and the 7 ruins
+
+   ![The opening: the map and the 7 ruins](images/16-opening-map.png)
+
+17. The opening: the expedition begins
+
+   ![The opening: the expedition begins](images/17-opening-expedition.png)
+
+18. Stage card before a puzzle: Greece & Rome 1-1
+
+   ![Stage card before a puzzle: Greece & Rome 1-1](images/18-stage-card.png)
+
+19. Puzzle: Writing Tools
+
+   ![Puzzle: Writing Tools](images/19-puzzle-writing-tools.png)
+
+20. Puzzle: Accessories
+
+   ![Puzzle: Accessories](images/20-puzzle-accessories.png)
+
+21. Puzzle: Insects
+
+   ![Puzzle: Insects](images/21-puzzle-insects.png)
+
+22. Puzzle: Cities of Tohoku
+
+   ![Puzzle: Cities of Tohoku](images/22-puzzle-cities-tohoku.png)
+
+23. Story scene: a villain speaks
+
+   ![Story scene: a villain speaks](images/23-story-crystal-plates.png)
+
+24. Story scene: a cave-in
+
+   ![Story scene: a cave-in](images/24-story-rumble.png)
+
+25. Story scene: a quoted inscription
+
+   ![Story scene: a quoted inscription](images/25-story-final-hour.png)
+
+26. Story scene: a pun on a villain's name
+
+   ![Story scene: a pun on a villain's name](images/26-story-ornan-death.png)
+
+27. The ending: dialogue
+
+   ![The ending: dialogue](images/27-ending-dialogue.png)
+
+28. The ending: the adventure is over
+
+   ![The ending: the adventure is over](images/28-ending-adventure-over.png)
+
+29. The ending: THE END
+
+   ![The ending: THE END](images/29-ending-the-end.png)
 
 **How to patch**
 

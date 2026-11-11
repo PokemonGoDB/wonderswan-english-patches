@@ -81,6 +81,86 @@ The developers left a sound test in the cartridge that nothing in the original c
 
    ![Sound Test edition: How to Play with Sound Test](images/14-sound-test-edition.png)
 
+15. Two-Player Battle: rounds and alternate play
+
+   ![Two-Player Battle: rounds and alternate play](images/15-two-player-settings.png)
+
+16. Tonpei loses a match: "Lost by a score like this?"
+
+   ![Tonpei loses a match: "Lost by a score like this?"](images/16-tonpei-defeated.png)
+
+17. Bearnga introduces himself before the match
+
+   ![Bearnga introduces himself before the match](images/17-bearnga-intro.png)
+
+18. Misha greets you as the only girl in the Hexer Gang
+
+   ![Misha greets you as the only girl in the Hexer Gang](images/18-misha-intro.png)
+
+19. Challenge the Hexers: rival 5, Pascowl
+
+   ![Challenge the Hexers: rival 5, Pascowl](images/19-pascowl-rival-menu.png)
+
+20. Pascowl admits a total defeat
+
+   ![Pascowl admits a total defeat](images/20-pascowl-defeated.png)
+
+21. Arara urges you to earn every title
+
+   ![Arara urges you to earn every title](images/21-arara-welcome.png)
+
+22. Arara tells you that you move first in puzzle 23
+
+   ![Arara tells you that you move first in puzzle 23](images/22-puzzle-first-move.png)
+
+23. The Help menu
+
+   ![The Help menu](images/23-help-menu.png)
+
+24. Powan explains the start: each player is dealt 18 pieces
+
+   ![Powan explains the start: each player is dealt 18 pieces](images/24-powan-pieces-dealt.png)
+
+25. Powan explains the +2 FREE and +4 FREE cards
+
+   ![Powan explains the +2 FREE and +4 FREE cards](images/25-powan-free-cards.png)
+
+26. Powan explains rotating a piece with the B Button
+
+   ![Powan explains rotating a piece with the B Button](images/26-powan-rotate-piece.png)
+
+27. Powan on Arara's Puzzles: they come in handy in real games
+
+   ![Powan on Arara's Puzzles: they come in handy in real games](images/27-puzzle-rules-practice.png)
+
+28. Other Tips: Alternate
+
+   ![Other Tips: Alternate](images/28-tips-alternate.png)
+
+29. Other Tips: Undo
+
+   ![Other Tips: Undo](images/29-tips-undo.png)
+
+30. Other Tips: Reset
+
+   ![Other Tips: Reset](images/30-tips-reset.png)
+
+31. Staff: programming and graphics
+
+   ![Staff: programming and graphics](images/31-staff-programming.png)
+
+32. Staff: publisher
+
+   ![Staff: publisher](images/32-staff-publisher.png)
+
+33. Help Messages: a note from TAKA
+
+   ![Help Messages: a note from TAKA](images/33-messages-taka.png)
+
+34. Help Messages: the closing note asks if you beat Pascowl
+
+   ![Help Messages: the closing note asks if you beat Pascowl](images/34-messages-pascowl.png)
+
 **How to patch**
 
 Apply one of the BPS files to the Japanese ROM "Glocal Hexcite (Japan)" (CRC32 8FCD6D2C) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:

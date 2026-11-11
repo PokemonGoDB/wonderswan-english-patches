@@ -100,6 +100,85 @@ Names and terms: the Renju openings use the standard romanised names used in Eng
 
    ![Staff credits](images/16-credits.png)
 
+17. The message shown on a blank or reset save
+
+   ![The message shown on a blank or reset save](images/17-save-reset-message.png)
+
+18. Main menu with Reversi chosen
+
+   ![Main menu with Reversi chosen](images/18-menu-reversi.png)
+
+19. Tournament: New Game or Continue
+
+   ![Tournament: New Game or Continue](images/19-tournament-new-or-continue.png)
+
+20. Match Setup for Reversi, with layout No. 6
+
+   ![Match Setup for Reversi, with layout No. 6](images/20-reversi-setup.png)
+
+21. The Reversi pause menu
+
+   ![The Reversi pause menu](images/21-reversi-pause-menu.png)
+
+22. Gomoku tournament: playing White and winning
+
+   ![Gomoku tournament: playing White and winning](images/22-gomoku-white-wins.png)
+
+23. Tournament: the opponent is thinking
+
+   ![Tournament: the opponent is thinking](images/23-thinking.png)
+
+24. A Renju foul: double three
+
+   ![A Renju foul: double three](images/24-renju-double-three.png)
+
+25. A Renju foul: double four
+
+   ![A Renju foul: double four](images/25-renju-double-four.png)
+
+26. Reversi: White has no move and passes
+
+   ![Reversi: White has no move and passes](images/26-reversi-white-passes.png)
+
+27. Reversi: Black loses
+
+   ![Reversi: Black loses](images/27-reversi-black-loses.png)
+
+28. Reversi: a draw
+
+   ![Reversi: a draw](images/28-reversi-draw.png)
+
+29. Reversi tournament: White wins
+
+   ![Reversi tournament: White wins](images/29-reversi-white-wins.png)
+
+30. Tournament: all nine opponents beaten
+
+   ![Tournament: all nine opponents beaten](images/30-tournament-all-won.png)
+
+31. The Gomoku ending: Congratulations
+
+   ![The Gomoku ending: Congratulations](images/31-ending-gomoku-congratulations.png)
+
+32. The Gomoku ending: a Gomoku master
+
+   ![The Gomoku ending: a Gomoku master](images/32-ending-gomoku-master.png)
+
+33. The Reversi ending: Congratulations
+
+   ![The Reversi ending: Congratulations](images/33-ending-reversi-congratulations.png)
+
+34. The Reversi ending: a Reversi master
+
+   ![The Reversi ending: a Reversi master](images/34-ending-reversi-master.png)
+
+35. Staff credits: graphics, planning and sound
+
+   ![Staff credits: graphics, planning and sound](images/35-credits-graphics.png)
+
+36. Staff credits: cooperation and copyright
+
+   ![Staff credits: cooperation and copyright](images/36-credits-cooperation.png)
 
 **How to patch**
 

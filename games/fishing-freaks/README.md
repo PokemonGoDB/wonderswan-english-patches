@@ -101,6 +101,77 @@ Names and terms: standard English bass-fishing terms for lures and rigs (Popper,
 
    ![Link Battle](images/15-link-battle.png)
 
+16. Lure Manual: the topic menu (Colors, Rigs, Lures)
+
+   ![Lure Manual: the topic menu (Colors, Rigs, Lures)](images/16-manual-menu.png)
+
+17. Lure Manual: choosing a rig to read about
+
+   ![Lure Manual: choosing a rig to read about](images/17-manual-rigs-list.png)
+
+18. Lure Manual: the Drop Shot page
+
+   ![Lure Manual: the Drop Shot page](images/18-manual-drop-shot.png)
+
+19. Lure Manual: choosing a lure type to read about
+
+   ![Lure Manual: choosing a lure type to read about](images/19-manual-lures-list.png)
+
+20. Lure Manual: Floating and Suspend lure types
+
+   ![Lure Manual: Floating and Suspend lure types](images/20-manual-floating-suspend.png)
+
+21. Load Data with no save data
+
+   ![Load Data with no save data](images/21-load-no-save.png)
+
+22. The guide asks where to fish
+
+   ![The guide asks where to fish](images/22-lecture-choose-spot.png)
+
+23. The guide asks you to put lures in the box
+
+   ![The guide asks you to put lures in the box](images/23-lecture-put-lures.png)
+
+24. The Lure Box
+
+   ![The Lure Box](images/24-lure-box.png)
+
+25. Color Select for a lure
+
+   ![Color Select for a lure](images/25-color-select.png)
+
+26. The guide asks you to choose tackle and lures
+
+   ![The guide asks you to choose tackle and lures](images/26-tackle-prompt.png)
+
+27. Tackle Select: reel and usable lures
+
+   ![Tackle Select: reel and usable lures](images/27-tackle-select.png)
+
+28. Lure advice before heading out
+
+   ![Lure advice before heading out](images/28-spot-advice.png)
+
+29. On the water: Cast, Move, Lure and Catches menu
+
+   ![On the water: Cast, Move, Lure and Catches menu](images/29-fishing-menu-cast.png)
+
+30. Link Battle: checking for an opponent
+
+   ![Link Battle: checking for an opponent](images/30-link-checking.png)
+
+31. Link Battle: error screen when no opponent is found
+
+   ![Link Battle: error screen when no opponent is found](images/31-link-error.png)
+
+32. Sound test: Opening and title
+
+   ![Sound test: Opening and title](images/32-sound-test-opening.png)
+
+33. Sound test: Tournament lost / Game over
+
+   ![Sound test: Tournament lost / Game over](images/33-sound-test-game-over.png)
 
 **How to patch**
 

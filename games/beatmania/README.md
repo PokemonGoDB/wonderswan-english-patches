@@ -51,6 +51,86 @@ DJ KONAMI keeps his attitude: he's a cocky club DJ, so the English is casual and
 
    ![DJ battle: the verdict if you lose](images/05-dj-battle.png)
 
+6. Practice mode: "If you want to be a DJ,"
+
+   ![Practice mode: "If you want to be a DJ,"](images/06-dj-offer.png)
+
+7. Practice mode: "First, how to use the gear."
+
+   ![Practice mode: "First, how to use the gear."](images/07-how-to-use-gear.png)
+
+8. Tutorial: "and the turntable,"
+
+   ![Tutorial: "and the turntable,"](images/08-turntable.png)
+
+9. Tutorial: "Go to the OPTION menu"
+
+   ![Tutorial: "Go to the OPTION menu"](images/09-option-menu.png)
+
+10. Key drill: "Try playing the left key."
+
+   ![Key drill: "Try playing the left key."](images/10-left-key.png)
+
+11. Key drill: "It's Y1, the leftmost button."
+
+   ![Key drill: "It's Y1, the leftmost button."](images/11-y1-button.png)
+
+12. Key drill: "press the matching key,"
+
+   ![Key drill: "press the matching key,"](images/12-matching-key.png)
+
+13. Key drill feedback: "Cool!"
+
+   ![Key drill feedback: "Cool!"](images/13-cool.png)
+
+14. Tutorial: "Now for a combination:"
+
+   ![Tutorial: "Now for a combination:"](images/14-combination.png)
+
+15. Tutorial: "Next up: scratching."
+
+   ![Tutorial: "Next up: scratching."](images/15-scratching.png)
+
+16. Scratch drill: "If you spin it too far,"
+
+   ![Scratch drill: "If you spin it too far,"](images/16-spin-too-far.png)
+
+17. Tutorial: "Finally, a combination:"
+
+   ![Tutorial: "Finally, a combination:"](images/17-keys-and-scratch.png)
+
+18. Tutorial: "That's it for the basics."
+
+   ![Tutorial: "That's it for the basics."](images/18-basics-done.png)
+
+19. Third practice stage: "All right, next step."
+
+   ![Third practice stage: "All right, next step."](images/19-next-step.png)
+
+20. Third practice stage: "This song has no scratching."
+
+   ![Third practice stage: "This song has no scratching."](images/20-no-scratching.png)
+
+21. Third practice stage: "I'll play it first to show you,"
+
+   ![Third practice stage: "I'll play it first to show you,"](images/21-ill-play-first.png)
+
+22. Third practice stage: "you can press START"
+
+   ![Third practice stage: "you can press START"](images/22-press-start.png)
+
+23. After the demo: "Too bad."
+
+   ![After the demo: "Too bad."](images/23-too-bad.png)
+
+24. After the demo: "in FREE PLAY too,"
+
+   ![After the demo: "in FREE PLAY too,"](images/24-free-play.png)
+
+25. After the demo: "so practice it there as well."
+
+   ![After the demo: "so practice it there as well."](images/25-practice-there.png)
+
 **How to patch**
 
 Apply the BPS to the Japanese ROM "Beatmania for WonderSwan (Japan)" (CRC32 324622C9) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 513EE998. The ROM keeps its size (16 MB), so it runs on the same flash carts as the original. It's a WonderSwan (mono) game, so keep the .ws extension.

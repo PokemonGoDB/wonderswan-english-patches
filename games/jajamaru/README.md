@@ -88,6 +88,85 @@ The developers left a stage select in the game that nothing in the original can 
 
    ![Stage Select edition: the title menu](images/11-special-title-menu.png)
 
+12. Enemy introduction: Kurobee
+
+   ![Enemy introduction: Kurobee](images/12-enemy-kurobee.png)
+
+13. Enemy introduction: Kakutan
+
+   ![Enemy introduction: Kakutan](images/13-enemy-kakutan.png)
+
+14. Enemy introduction: Onigiri
+
+   ![Enemy introduction: Onigiri](images/14-enemy-onigiri.png)
+
+15. Map: Graveyard
+
+   ![Map: Graveyard](images/15-map-graveyard.png)
+
+16. Enemy introduction: Karakassa
+
+   ![Enemy introduction: Karakassa](images/16-enemy-karakassa.png)
+
+17. Enemy introduction: Hedobon
+
+   ![Enemy introduction: Hedobon](images/17-enemy-hedobon.png)
+
+18. Boss introduction: Orb Dangler
+
+   ![Boss introduction: Orb Dangler](images/18-boss-orb-dangler.png)
+
+19. Enemy introduction: Noppera
+
+   ![Enemy introduction: Noppera](images/19-enemy-noppera.png)
+
+20. Enemy introduction: Chochin
+
+   ![Enemy introduction: Chochin](images/20-enemy-chochin.png)
+
+21. Enemy introduction: Nekomata
+
+   ![Enemy introduction: Nekomata](images/21-enemy-nekomata.png)
+
+22. Boss introduction: Pestmaru
+
+   ![Boss introduction: Pestmaru](images/22-boss-pestmaru.png)
+
+23. Map: Giant Ship
+
+   ![Map: Giant Ship](images/23-map-giant-ship.png)
+
+24. Enemy introduction: Kappa
+
+   ![Enemy introduction: Kappa](images/24-enemy-kappa.png)
+
+25. Enemy introduction: Maomei
+
+   ![Enemy introduction: Maomei](images/25-enemy-maomei.png)
+
+26. Enemy introduction: Daruma
+
+   ![Enemy introduction: Daruma](images/26-enemy-daruma.png)
+
+27. Boss introduction: Fireball Daruma
+
+   ![Boss introduction: Fireball Daruma](images/27-boss-fireball-daruma.png)
+
+28. Map: Ancient Tomb
+
+   ![Map: Ancient Tomb](images/28-map-ancient-tomb.png)
+
+29. Enemy introduction: Yukinko
+
+   ![Enemy introduction: Yukinko](images/29-enemy-yukinko.png)
+
+30. Enemy introduction: Nuppeppo
+
+   ![Enemy introduction: Nuppeppo](images/30-enemy-nuppeppo.png)
+
+31. Enemy introduction: Dotchin
+
+   ![Enemy introduction: Dotchin](images/31-enemy-dotchin.png)
 
 **How to patch**
 

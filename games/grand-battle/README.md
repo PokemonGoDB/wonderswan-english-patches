@@ -80,6 +80,85 @@ Names follow what most fans use online (the One Piece Wiki), not any one publish
 
    ![Copyright screen](images/11-copyright.png)
 
+12. The main menu: Event Battle, Grand Battle, Options, Treasure
+
+   ![The main menu: Event Battle, Grand Battle, Options, Treasure](images/12-main-menu.png)
+
+13. Grand Battle: choosing the mode
+
+   ![Grand Battle: choosing the mode](images/13-grand-battle-mode.png)
+
+14. The Treasure menu with Mini-Game
+
+   ![The Treasure menu with Mini-Game](images/14-treasure-menu.png)
+
+15. Game Settings: computer level, time limit, erase data, sound test
+
+   ![Game Settings: computer level, time limit, erase data, sound test](images/15-game-settings.png)
+
+16. The Battle Ranking screen
+
+   ![The Battle Ranking screen](images/16-battle-ranking.png)
+
+17. Wanted Posters: reading a poster effect
+
+   ![Wanted Posters: reading a poster effect](images/17-poster-effect.png)
+
+18. Mini-Game: the Disciples count at the end of the round
+
+   ![Mini-Game: the Disciples count at the end of the round](images/18-mini-game-result.png)
+
+19. The Disciple Ranking
+
+   ![The Disciple Ranking](images/19-disciple-ranking.png)
+
+20. Event Battle: location card, Drum Castle
+
+   ![Event Battle: location card, Drum Castle](images/20-drum-castle.png)
+
+21. Event Battle: Luffy answers Sanji
+
+   ![Event Battle: Luffy answers Sanji](images/21-luffy-hungry.png)
+
+22. Event Battle: Zoro at Whisky Peak
+
+   ![Event Battle: Zoro at Whisky Peak](images/22-zoro-huh.png)
+
+23. Event Battle: Usopp and the broken seat
+
+   ![Event Battle: Usopp and the broken seat](images/23-usopp-wrecked.png)
+
+24. Event Battle: Chopper
+
+   ![Event Battle: Chopper](images/24-chopper-not-food.png)
+
+25. Event Battle: versus screen, Chopper and Sanji
+
+   ![Event Battle: versus screen, Chopper and Sanji](images/25-vs-chopper-sanji.png)
+
+26. Event Battle: Smoker at Marine HQ
+
+   ![Event Battle: Smoker at Marine HQ](images/26-smoker-whip.png)
+
+27. Event Battle: Marine versus screen, Tashigi and Smoker
+
+   ![Event Battle: Marine versus screen, Tashigi and Smoker](images/27-vs-marine.png)
+
+28. Event Battle: Baroque Works versus screen, Mr.2 and Nami
+
+   ![Event Battle: Baroque Works versus screen, Mr.2 and Nami](images/28-vs-baroque-works.png)
+
+29. Event Battle: Usopp introduces himself
+
+   ![Event Battle: Usopp introduces himself](images/29-usopp-king.png)
+
+30. Event Battle: Miss All Sunday at Whisky Peak
+
+   ![Event Battle: Miss All Sunday at Whisky Peak](images/30-miss-all-sunday.png)
+
+31. Event Battle: Chopper guards Drum Castle
+
+   ![Event Battle: Chopper guards Drum Castle](images/31-chopper-castle.png)
 
 **How to patch**
 
