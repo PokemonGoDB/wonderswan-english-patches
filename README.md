@@ -47,6 +47,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Kidou Senshi Gundam Vol. 1: Side 7](games/gundam-vol1-side7/README.md) (Mobile Suit Gundam episodes 1-12; WonderGate works with Swan Revival) | WonderSwan Color | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) | BPS | `08C0247B` | `19AC67B5` |
 | [Kidou Senshi Gundam Vol. 2: Jaburo](games/gundam-vol2-jaburo/README.md) (Mobile Suit Gundam episodes 13-30; WonderGate side stories work with Swan Revival) | WonderSwan Color | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.1) | BPS | `39A1391A` | `43BD6D16` |
 | [Kidou Senshi Gundam Vol. 3: A Baoa Qu](games/gundam-vol3-a-baoa-qu/README.md) (Mobile Suit Gundam episodes 31-43; WonderGate side stories work with Swan Revival) | WonderSwan Color | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1) | BPS | `A9F5BF54` | `E245AF80` |
+| [Dicing Knight.](games/dicing-knight/README.md) (action roguelike, mostly English already; the four Japanese captions) | WonderSwan Color | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1) | BPS | `D28DC930` | `3CFAF6B3` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
