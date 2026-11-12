@@ -16,10 +16,6 @@ Nearly all of the game is already in English: the menus, the item names and the 
 * **File labels:** the save files and the eight data files have English labels (DK Save, DK Map, DK Data 1-6, DK Music, DK SFX). Only a WonderWitch file manager shows them; the game never draws them.
 * **Left as the developer wrote it:** the rest of the game's English, including GOODLUCK!!, UROBOROS, FOURTUNE, LOTTEN MAGIUS, MISSING LINQUE, DAWN OF HERBAY and SELECT YOUR MASQUER.
 
-**Content note**
-
-The picture shown after floor 1,000 of the bonus dungeon is the original art: the heroine bathing, nude. The patch changes only its caption. It is not among the screenshots here.
-
 **Sound test**
 
 The original has a hidden sound test, and it works in the patched game: on the main menu press Y1 sixteen times, at an unhurried pace. X1 and X3 choose a track, A plays it, B leaves.
@@ -32,7 +28,7 @@ The original has a hidden sound test, and it works in the patched game: on the m
   * 74 screens were captured on the original and on the English game side by side (boot, menus, the lottery, orbs, the dungeon, pause, results, death, the bonus ending, the R'lyeh scene), and a reviewer went through all of them for leftover Japanese and for alignment;
   * the intro and the title's idle loop were captured with no input;
   * a freeze check played more than two million frames of the same random button presses on the original and the English game, with no stall the original does not have.
-* The judgement calls (the wording of each caption, the princess's name, which of the developer's spellings to fix, the ending picture, the file labels) were listed with the options, and I decided all 14 by hand.
+* The judgement calls (the wording of each caption, the princess's name, which of the developer's spellings to fix, the file labels) were listed with the options, and I decided all 14 by hand.
 
 **Changelog**
 
