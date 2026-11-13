@@ -1,4 +1,4 @@
-# Lode Runner for WonderSwan (WonderSwan) - AI English translation patch v1.0 (+ Swan Revival Edition)
+# Lode Runner for WonderSwan (WonderSwan) - AI English translation patch v1.0 (+ Swan Revival Edition, Color Edition by Gio)
 
 **Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.
 
@@ -31,6 +31,27 @@ There is also a **Japanese-text** build of the edition: the original Japanese ga
 
 > **Note:** Upload and the new Download list need Swan Revival's stage-sharing service. Until it is live, they show the game's own "could not connect" errors. Everything else works offline.
 
+**Color Edition, colorized by Gio (optional)**
+
+[Gio-74](https://github.com/mariovirgili/WonderSwanColor-AI_Translation) has colorized this translation for the WonderSwan Color. The colorization is entirely Gio's work, and all the credit for it goes to Gio. The English text and pictures are this project's v1.0 patches, unchanged; Gio's patches add only the color.
+
+There are two Color Edition patches, both Gio's v0.9:
+
+* **Color Edition:** the standard English patch, in color.
+* **Swan Revival Color Edition:** the English Swan Revival Edition, in color.
+
+What Gio colored:
+
+* **Stages:** the gold, ladders, bricks (also while they are dug and grow back), steel blocks and the deep-blue background each have their own colors. The hero (in the diving suit too), the guards and the sea creatures have their own palettes.
+* **Title screen:** gold LODE RUNNER letters on blue-grey rock over a blue brick floor, with the hero and the guard in color.
+* **Menus and windows:** a terracotta brick background and navy windows.
+* **Story pictures:** drawn in deep-blue ink.
+* The game's own fades still work, because the colors follow the original shades every frame.
+
+Each Color Edition patch contains the translation too: apply it to the original Japanese ROM, not to an already patched one. The result is a WonderSwan Color game. It needs a WonderSwan Color or SwanCrystal, or an emulator set to WonderSwan Color.
+
+Gio made the colorization with AI (Claude) and shares it as it is, on the same terms as the translation: please don't upload it to romhacking sites.
+
 **How it was made: AI translation, independent checks, human decisions**
 
 * Claude found and rendered every picture in the ROM: 87 screen maps in 10 tile sets, plus the story script. It wrote the English, then lettered it into new tiles that the game loads alongside each screen.
@@ -47,12 +68,14 @@ There is also a **Japanese-text** build of the edition: the original Japanese ga
 **Changelog**
 
 * **v1.0**: first release, with the Swan Revival Edition (English and Japanese-text) 1.0.
+* **Color Edition v0.9** (added 2026-11-13): Gio's colorization of the v1.0 English patch and of the English Swan Revival Edition, as two extra patches. The translation itself is still v1.0.
 
 **Sources consulted**
 
 * Japanese text: the WonderSwan ROM itself.
 * WonderGate behaviour: the game's code and Swan Revival's notes on this game.
 * Lettering: Shinonome 12-dot (public domain) for the English text; the title logo is hand-drawn; the Japanese-text edition's new screens use the game's own lettering.
+* Color Edition: Gio's v0.9 release and its notes (README and HowItsMade). Colorization by [Gio-74](https://github.com/mariovirgili/WonderSwanColor-AI_Translation).
 
 **Images** (1-9: original on the left, English on the right; 10-14: Swan Revival Edition, English on the left, Japanese-text on the right)
 
@@ -119,12 +142,14 @@ Apply one of the BPS files to the Japanese ROM "Lode Runner for WonderSwan (Japa
 * Standard: `lode-runner-en-1.0.bps`, the result should be CRC32 A88BABE0.
 * Swan Revival Edition: `lode-runner-se-en-1.0.bps`, the result should be CRC32 2EEB7D2A.
 * Swan Revival Edition (Japanese text): `lode-runner-se-ja-1.0.bps`, the result should be CRC32 1425CEDE.
+* Color Edition (colorized by Gio): `lode-runner-en-color-0.9.bps`, the result should be CRC32 86208283.
+* Swan Revival Color Edition (colorized by Gio): `lode-runner-se-en-color-0.9.bps`, the result should be CRC32 00405449.
 
-The patched ROM is 512 KB, the same size as the original. It's a WonderSwan (mono) game, so keep the .ws extension.
+The patched ROM is 512 KB, the same size as the original. It's a WonderSwan (mono) game, so keep the .ws extension. The two Color Editions are WonderSwan Color games: give those the .wsc extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `lode-runner-en-1.0.bps`, `lode-runner-se-en-1.0.bps` and `lode-runner-se-ja-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0).
+**Download:** `lode-runner-en-1.0.bps`, `lode-runner-se-en-1.0.bps`, `lode-runner-se-ja-1.0.bps`, `lode-runner-en-color-0.9.bps` and `lode-runner-se-en-color-0.9.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0).
 
 **Known issues**
 
@@ -133,14 +158,17 @@ You must provide your own copy of the original Japanese game to apply it.
 * A few screens were checked only in a test viewer, not in a real session: "Receiving" and some adapter and phone errors.
 * The Swan Revival Edition's sharing was tested against a private copy of the planned service, not the live one.
 * The Japanese-text edition's new Japanese was written by AI and checked by an AI reviewer, not by a native speaker.
+* Color Edition (from Gio's notes): the stage's blocks are recolored a few at a time (a full screen takes about a quarter of a second), so when a stage appears or scrolls, some blocks can show their plain color for a moment. Screens other than the title, the menus, the story pictures and the stages use the menu colors.
+* For this project, the Color Edition was checked only at its start: both patches give the CRC32s above, differ from the v1.0 builds only in the color code, its tables and the header's color flag, and were played from the title into the first Story Mode stage. Gio's own testing covered the title, the menus, Story Mode, Select Mode and the stages.
 
 **Technical notes (for the curious)**
 
 * All of the game's Japanese is compressed pictures: tile sets plus screen maps, with no font or text strings. The patch hooks the game's map copy routine, so each translated screen loads its own English tiles next to the original ones.
 * The Swan Revival Edition adds about 4.4 KB of code. It reuses the game's own WonderGate routines (connect, send, receive, hang-up, error screens) for a new upload request and a richer stage list. The player's name is kept in EEPROM words the game never uses.
 * The Japanese-text edition's new screens use 85 characters cut from the game's own lettering, so they match the original screens.
+* The Color Edition (Gio's work) hooks the game's VBlank handler. It switches the WonderSwan Color into color mode and, every frame, turns the game's mono shades and palettes into color palettes through a color table for each kind of screen. On the stages and the title, a table gives each tile its own palette, and a second hook after the sprite list copy does the same for the hero, the guards and the sea creatures. The code and tables sit in space that is free in the Japanese ROM and in both English patches.
 
-**Images** (original on the left, English on the right)
+**Images** (original on the left, English on the right; 21-27: the Color Edition on the right)
 
 1. Story: Chapter 1, Discovery
 
@@ -221,6 +249,34 @@ You must provide your own copy of the original Japanese game to apply it.
 20. Ending: friends arrive on the beach
 
    ![Ending: friends arrive on the beach](images/34-ending-surfers.png)
+
+21. Color Edition (colorized by Gio): title screen
+
+   ![Color Edition (colorized by Gio): title screen](images/35-color-title.png)
+
+22. Color Edition (colorized by Gio): main menu
+
+   ![Color Edition (colorized by Gio): main menu](images/36-color-main-menu.png)
+
+23. Color Edition (colorized by Gio): Story Mode
+
+   ![Color Edition (colorized by Gio): Story Mode](images/37-color-story.png)
+
+24. Color Edition (colorized by Gio): a stage, with a guard
+
+   ![Color Edition (colorized by Gio): a stage, with a guard](images/38-color-stage-guard.png)
+
+25. Color Edition (colorized by Gio): putting on the diving suit?
+
+   ![Color Edition (colorized by Gio): putting on the diving suit?](images/39-color-diving-suit-prompt.png)
+
+26. Color Edition (colorized by Gio): a stage in the diving suit
+
+   ![Color Edition (colorized by Gio): a stage in the diving suit](images/40-color-stage.png)
+
+27. Swan Revival Color Edition (colorized by Gio): title screen
+
+   ![Swan Revival Color Edition (colorized by Gio): title screen](images/41-color-swan-revival-title.png)
 
 **A Note On My Justifications for AI Use**
 
