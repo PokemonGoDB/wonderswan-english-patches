@@ -53,6 +53,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Wild Card](games/wild-card/README.md) (Square's card-driven adventure; + Debug Edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) | BPS | `D9401F0A` | `DCB75E51` (Debug Edition `34766ABA`) |
 | [Chaos Gear: Michibikareshi Mono](games/chaos-gear/README.md) (strategy with cards, castles and four warring powers) | WonderSwan | [1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3) | BPS | `27B3CC18` | `66BDB34A` |
 | [Cardcaptor Sakura: Sakura to Fushigi na Clow Card](games/cardcaptor-sakura/README.md) (weekly life sim and card battles through the first anime season; 4 MB patched ROM) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/cardcaptor-sakura-v1.0) | BPS | `7F3A14C0` | `C11D3CEA` |
+| [Medarot Perfect Edition](games/medarot/README.md) (robot-collecting RPG; Kabuto and Kuwagata versions, each with cartoon or fan names; 2 MB patched ROM) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) | BPS | `12FB8B28` (Kabuto), `2B40745D` (Kuwagata) | `375E929E` / fan names `D9CF3C8B` (Kabuto), `A10D783A` / fan names `2C14DE6F` (Kuwagata) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
