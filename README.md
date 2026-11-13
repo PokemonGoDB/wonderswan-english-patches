@@ -50,6 +50,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Dicing Knight.](games/dicing-knight/README.md) (action roguelike, mostly English already; the four Japanese captions) | WonderSwan Color | [1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1) | BPS | `D28DC930` | `3CFAF6B3` |
 | [Armored Unit](games/armored-unit/README.md) (turn-based space combat; story and battle messages) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/armored-unit-v1.0) | BPS | `C11639AF` | `B2D98B01` |
 | [Digimon Adventure 02: Digital Partner](games/digital-partner/README.md) (virtual pet with a word-chain battle game rebuilt for English; + Long Words edition) | WonderSwan | [1.8](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/digital-partner-v1.8) | BPS | `B5E675AE` | `88CFF1A6` (Long Words `B6426E83`) |
+| [Wild Card](games/wild-card/README.md) (Square's card-driven adventure; + Debug Edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) | BPS | `D9401F0A` | `DCB75E51` (Debug Edition `34766ABA`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
