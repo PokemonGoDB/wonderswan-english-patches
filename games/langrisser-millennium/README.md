@@ -112,7 +112,6 @@ Apply `langrisser-millennium-en-1.0.bps` (or the Test Stage edition, `langrisser
 * The screens listed above under "What was not seen on screen" were checked only in the text and the code.
 * It was tested in an emulator only, not on a real WonderSwan.
 * The treasure-map picture in one route B ending keeps its drawn lettering ("BEOW…").
-* In the branch where Macaera has died, Zion still thanks "Shem, Macaera" before the last battle, exactly as the Japanese does.
 
 **Technical notes (for the curious)**
 
