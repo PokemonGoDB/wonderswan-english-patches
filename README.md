@@ -57,6 +57,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Naruto: Konoha Ninpouchou](games/naruto-konoha-ninpouchou/README.md) (seal-card RPG; + Debug Menu edition; 8 MB patched ROM) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0) | BPS | `71556E6A` | `11D3625F` (Debug Menu `AABA651B`) |
 | [Uzumaki: Denshi Kaiki Hen](games/uzumaki-denshi-kaiki-hen/README.md) (horror picture novel from Junji Ito's manga; played with the console held upright) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) | BPS | `812020EF` | `9B24E923` |
 | [Langrisser Millennium WS: The Last Century](games/langrisser-millennium/README.md) (tactical RPG; + Test Stage edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0) | BPS | `9E0854E2` | `66242FE6` (Test Stage `527761BF`) |
+| [Tanjou Debut for WonderSwan](games/tanjou-debut/README.md) (idol-raising simulation; + Original Quiz edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0) | BPS | `8B74F59A` | `E4034CDD` (Original Quiz `4CB3DAEE`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
