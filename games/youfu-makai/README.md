@@ -1,4 +1,4 @@
-# Chou Denki Card Battle: Youfu Makai (WonderSwan) - AI English translation patch v1.2
+# Chou Denki Card Battle: Youfu Makai (WonderSwan) - AI English translation patch v1.3
 
 **Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.
 
@@ -21,10 +21,12 @@ Names: the hero of part 1 is never named, so he's "the Bodyguard". The two chara
 * Every story page was rebuilt from the finished ROM and compared on screen, and a random walk through menus, story, decks and battles found no Japanese reaching the screen.
 * For 1.1, two independent Claude reviewers checked every card description against the Japanese, and all 200 card views were opened in the game and compared with the built pictures; a scan of the whole ROM for any other untranslated picture found the victory screen.
 * For 1.2, the crash a player filmed was reproduced on the patch and on the original Japanese game, traced to the game's start-up save check, and the fix was checked with the same button presses, a 2,000-step random walk on the deck screen, and blank, written and older saves.
+* For 1.3, the screenshots a player sent were reproduced on the patch, the Deck screen's 13 small effect captions were found and redrawn, and all 100 special cards were opened on the Deck screen and compared with the original. The save repair was checked on 31 save-memory images (blank, random, valid saves, and saves started under 1.0 / 1.1), each with button presses and a 2,000-step random walk on the Deck screen, plus Continue in every part and a battle from a repaired save.
 * The judgement calls were listed with the Japanese, a literal reading and the options, and I decided each one by hand: the logo, names and terms from Kikuchi's world, the menu titles, uncertain card readings, and a few deliberately ambiguous lines.
 
 **Changelog**
 
+* **v1.3**: the Deck screen's special-effect panels are in English (thanks to the player who sent screenshots). Under the card list, the two panels show what a special (SP) card does; in 1.2 they still showed a kanji or cut-up pieces of another caption ("Reve / rse 1"). They now read Own, Foe or All (whose cards the card flips, followed by the badge of the kind it flips, if any) and Reverse (reverses the field flow), in letters as tall as the original's. The save check at start-up also does more: save memory holding random bytes, as some older emulators start with, crashed Card Craft in 1.2 and now gets the game's default save; and a save started under 1.0 or 1.1 without the starter deck (30 Clay Dolls), which crashed in Card Craft and on Scenario -> Continue, is repaired when the game starts: it gets the starter deck and working Continue positions and keeps everything else. A valid save is never changed. Apply the 1.3 patch to the original Japanese ROM, not to an English ROM.
 * **v1.2**: fixes a crash in Card Craft. On a new game, taking a second card out of the deck turned the screen to garbage and restarted the game (thanks to the player who sent a video). The cause is in the original game: it accepts save memory that has never been written as a valid save, so on emulators and flash carts a new game started without its starter deck (the deck showed 30 Clay Dolls), and the Japanese game crashes the same way. The patch now writes the game's own default save when the save memory is blank, so a new game starts with the real starter deck: 30 cards, 15 different ones, two of each. The deck screen's list has a row for every card in the game, so on a new game it opens on empty rows; scroll down to reach your cards. Nothing else changes from 1.1, and existing saves are not touched (see Known issues). Apply the 1.2 patch to the original Japanese ROM, not to an English ROM.
 * **v1.1**: the 200 card descriptions in the Card Craft card view are translated (1.0 left them in Japanese; thanks to the player who reported it), and the card view's text sits a little further left. The victory screen, which 1.0 also missed, now reads VICTORY, and both result screens are hand-lettered into the art in the original's style instead of a black band. Nothing else changes, and 1.0 saves keep working. Apply the 1.1 patch to the original Japanese ROM, not to the 1.0 English ROM.
 * **v1.0**: first release.
@@ -132,22 +134,27 @@ Names: the hero of part 1 is never named, so he's "the Bodyguard". The two chara
 
    ![In battle: choosing a card (Ichi-no-Ji)](images/24-battle-hand-ichi-no-ji.png)
 
+25. Deck screen: special cards (Foe, Reverse; new in 1.3)
+
+   ![Deck screen: special cards (Foe, Reverse; new in 1.3)](images/25-deck-special-cards.png)
+
 **How to patch**
 
-Apply `youfu-makai-en-1.2.bps` to the Japanese ROM "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)" (CRC32 56E2C069) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 AD600B55.
+Apply `youfu-makai-en-1.3.bps` to the Japanese ROM "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)" (CRC32 56E2C069) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 6B22E5D1.
 
 The English ROM is 4 MB (the original is 2 MB), because the English story pages are stored as pictures: use an emulator or a flash cart that takes 32 Mbit WonderSwan ROMs. It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `youfu-makai-en-1.2.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.2).
+**Download:** `youfu-makai-en-1.3.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3).
 
 **Known issues**
 
 * It hasn't been played start to finish by a person. If you find leftover Japanese, cut text or a crash, please tell me where it happened.
 * A few card names are best guesses at readings that no source confirms; the same goes for a few names in the card descriptions.
-* Saves from 1.0 and 1.1 keep working. But if your deck shows 30 Clay Dolls and you have already played on that save, it started without the starter deck and can still crash in Card Craft: choose To Nothing on the main menu (it reads Reset when selected) and answer Yes, once, to get the starter deck. This erases that save's progress.
-* The 1.2 fix was checked in a Mednafen-based emulator only. If Card Craft still crashes for you, please tell me which emulator or flash cart you use.
+* Saves from 1.0, 1.1 and 1.2 keep working. A save started under 1.0 or 1.1 without the starter deck (the deck showed 30 Clay Dolls) is repaired when the game starts: the deck becomes the starter deck and the rest of the save is kept.
+* The 1.3 changes were checked in a Mednafen-based emulator only, with saves placed in memory, not loaded from an emulator's save file. If Card Craft still crashes for you, please tell me which emulator or flash cart you use.
+* The Deck screen's effect panels were not seen in a link battle.
 * With 29 cards in the deck, B does nothing until the deck holds 30 again (the original behaves the same).
 
 **Technical notes (for the curious)**
