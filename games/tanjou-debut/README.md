@@ -117,12 +117,12 @@
 
 Apply one of the two BPS files to the Japanese ROM **Tanjou Debut for WonderSwan (Japan).ws** (2,097,152 bytes, CRC32 `8B74F59A`, SHA-256 `47be2e0e51a960c1ade1bef4d990e084209d381c83dd2f612a4abe9af3bdf77e`) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. Both results are 2,097,152 bytes.
 
-* `tanjou-debut-en-1.0.bps` (standard edition): the result should have CRC32 `E4034CDD` (SHA-256 `95e8cf36832d7652146859ac16888b724e5a77c671cfe27ad041fca149698f0a`). **Choose this one if you want the quiz to work in English.** It is the one I'd start with.
-* `tanjou-debut-en-original-quiz-1.0.bps` (Original Quiz edition): the result should have CRC32 `4CB3DAEE` (SHA-256 `d0c870149cc424b2a599bcc7d2a2693a4c6b9699187cf173646f4c8b88dc7639`). **Choose this one if you want the questions as literal as possible, with the kanji drawn on screen.** It stays closer to the Japanese questions; the four questions about kanji show the kanji they ask about.
+* Standard: `tanjou-debut-en-1.0.bps`, the result should have CRC32 `E4034CDD` (SHA-256 `95e8cf36832d7652146859ac16888b724e5a77c671cfe27ad041fca149698f0a`). **Choose this one if you want the quiz to work in English.** It is the one I'd start with.
+* Original Quiz edition: `tanjou-debut-en-original-quiz-1.0.bps`, the result should have CRC32 `4CB3DAEE` (SHA-256 `d0c870149cc424b2a599bcc7d2a2693a4c6b9699187cf173646f4c8b88dc7639`). **Choose this one if you want the questions as literal as possible, with the kanji drawn on screen.** It stays closer to the Japanese questions; the four questions about kanji show the kanji they ask about.
 
 It's a monochrome WonderSwan game, so keep the .ws extension. You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** [v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0)
+**Download:** `tanjou-debut-en-1.0.bps`, `tanjou-debut-en-original-quiz-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0).
 
 **Known issues**
 
