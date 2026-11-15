@@ -1,4 +1,4 @@
-# Chaos Gear: Michibikareshi Mono (WonderSwan) - AI English translation patch v1.3
+# Chaos Gear: Michibikareshi Mono (WonderSwan) - AI English translation patch v1.4
 
 **Chaos Gear: Michibikareshi Mono** (カオスギア 導かれし者) is a strategy game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. You play a Chaos Gainer, a being summoned into a world where four powers (the Empire, the Mana Kingdom, the Gaia tribes and the Eleal Brigade) fight over castles and over chaos gear, the substance only Chaos Gainers can produce. You build up your main tower and its facilities, plan, hire units and deploy them, collect cards in a Binder, and send your army into battle on the map.
 
@@ -21,16 +21,17 @@ This patch translates it into English.
 **How it was made: AI translation, independent checks, human decisions**
 
 * Claude worked out the game's text format (Shift-JIS text in a table, shown in the game's own boxes), wrote the English for the game's strings (the checks below cover 1,324 catalogued strings) and rebuilt the ROM from them.
-* Checks on the final build (QA run t25, 9 of 9 checks passed):
+* Checks on the final build (QA run t26, 9 of 9 checks passed):
   * the string check found 0 problems in 1,324 strings (width, bytes, escapes, untranslated);
   * 958 non-story strings were each drawn by the game in a test build and none was flagged;
   * random presses over 217 saved states drew no Japanese on the English build (the same detector does find Japanese on the original);
-  * 203 screens were captured on both the original and the English build and reviewed for English and for alignment, with independent Claude reviewers for the later changes;
+  * 208 screens were captured on both the original and the English build and reviewed for English and for alignment, with independent Claude reviewers for the later changes;
   * the attract mode, the endings and a random-press hang test were also run.
 * 58 decision items (terms, names, wording, lettering, the Plan / Scheme question and more) were laid out with pictures and options, and I decided every one.
 
 **Changelog**
 
+* **v1.4**: three menus that were still in Japanese are now in English (thanks to the player who sent screenshots): the command menu of a unit on the map (Move / Attack / Tactic / Wait or Heal / Data), the Forces plate, and the Next / View Binder menu after a stage win. They are pictures, which the automatic check for leftover Japanese cannot see, and no test had reached them: none had a force of the player's own in the action phase, or a stage won with forces on the field. Both are now part of the screen tour. Nothing else changes from 1.3: the full tour of screens differs only on these. Saves keep working. Apply the 1.4 patch to the original Japanese ROM, not to an English ROM.
 * **v1.3**: first release on this page. Earlier builds were not published here.
 
 **Sources consulted**
@@ -84,17 +85,25 @@ This patch translates it into English.
 
    ![Staff credits](images/11-staff-credits.png)
 
+12. A unit's command menu on the map (new in 1.4)
+
+   ![A unit's command menu on the map (new in 1.4)](images/12-unit-command-menu.png)
+
+13. The menu after a stage win (new in 1.4)
+
+   ![The menu after a stage win (new in 1.4)](images/13-after-stage-menu.png)
+
 **How to patch**
 
 Apply the BPS file to the Japanese ROM "Chaos Gear - Michibikareshi Mono (Japan)" (CRC32 27B3CC18) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
 
-* `chaos-gear-en-1.3.bps`, the result should be CRC32 66BDB34A.
+* `chaos-gear-en-1.4.bps`, the result should be CRC32 A041F407.
 
 The patched ROM is 2 MB, the same size as the original. It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `chaos-gear-en-1.3.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3).
+**Download:** `chaos-gear-en-1.4.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.4).
 
 **Known issues**
 
@@ -104,6 +113,7 @@ You must provide your own copy of the original Japanese game to apply it.
 * Chapters 2 to 5 were not played to their own wins; their cards were seen by writing to the game's memory.
 * A few messages were seen only in test builds, not in play: the name messages "obtained", "castle built" and "Main Tower leveled up".
 * The Game Over banner was not seen on screen in this build; only its picture was checked. Of the 31 castle name panels of chapters 2 to 5, only two were seen on screen; the others share the same code.
+* The unit command menu's Heal entry (shown in place of Wait for some units) was checked as a drawn picture, not seen in play.
 * Some plates and menus could not be reached in play (the Standby and Card plates were seen only through test routes) and were checked as drawn pictures.
 * Exchange (the link cable feature) was tested only between two emulated consoles.
 
