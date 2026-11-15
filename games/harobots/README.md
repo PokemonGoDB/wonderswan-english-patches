@@ -15,11 +15,19 @@ Names: the hero defaults to **Noboru** and his Haro to **Haro** (you can rename 
 
 **The special edition: the developers' test menu**
 
-The developers left a test menu in the game that nothing in the original can reach. The special edition (`harobots-en-special-1.0.bps`) adds it to the title menu:
+The developers left a test menu in the game that nothing in the original can reach. The special edition (`harobots-en-special-1.0.bps`, or `harobots-rev1-en-special-1.0.bps` for the Rev 1 cartridge) adds it to the title menu:
 
 * **Opening it:** on the title screen, press START; the menu reads New Game, Continue and **Debug**. Choose Debug.
 * **Using it:** one entry shows at a time. LEFT/RIGHT choose Map, Battle, Menu, Link, Sound check, From title or Ending, and A opens it. Map drops you on the town map, Battle starts a test battle, Menu opens the main menu, Ending plays the ending and the staff credits, and From title goes back to the title screen.
 * **Limits:** it's the developers' leftover tool. B does nothing (use From title to leave), the Battle and Sound check numbers aren't shown on screen, and it works with whatever is in memory, so a test battle without real progress can look broken. Play the standard patch (or Continue) for the actual game.
+
+**Two versions of the cartridge**
+
+The game exists as two dumps, which ROM catalogues call "Harobots (Japan)" and "Harobots (Japan) (Rev 1)". Each has its own patches; a patch for one is refused on the other. The English is the same in all of them.
+
+* **What Rev 1 changed:** the title screen has a third line, LICENSED BY BANDAI, with the logo, PUSH START and the two copyright lines moved up to make room; and the robot Scopedog's attack name ヘビィマシンガ, which is "Heavy Machine Gun" with its last character missing, was completed to ヘビィマシンガン. Nothing else a player can see differs.
+* **In English:** the Rev 1 title keeps LICENSED BY BANDAI (picture 36). The attack reads "Heavy MG" from either dump.
+* **The details:** [what differs between the two dumps](https://github.com/PokemonGoDB/wonderswan-english-patches/blob/main/games/harobots/rev1-differences.md) lists every byte that differs and what it is, with a script that checks it on your own dumps.
 
 **How it was made: AI translation, independent checks, human decisions**
 
@@ -30,7 +38,7 @@ The developers left a test menu in the game that nothing in the original can rea
 
 **Changelog**
 
-* **v1.0**: first release.
+* **v1.0**: first release. On 2026-11-14 the same translation was added for the Rev 1 cartridge (two more patches, after a reader asked); the patches for the first version are unchanged.
 
 **Sources consulted**
 
@@ -179,24 +187,32 @@ The developers left a test menu in the game that nothing in the original can rea
 
    ![Mini-game guide: the Beam Coat game](images/35-guide-beam-coat.png)
 
+36. Rev 1: the title screen, with LICENSED BY BANDAI
+
+   ![Rev 1: the title screen, with LICENSED BY BANDAI](images/36-rev1-title.png)
+
 **How to patch**
 
-Apply one of the BPS files to the Japanese ROM "Harobots (Japan)" (CRC32 AA525C04) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS:
+Apply the BPS file for your version of the cartridge in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), which works out which one you have, or with Floating IPS, beat or ROM Patcher JS:
 
-* Standard: `harobots-en-1.0.bps`, the result should be CRC32 0311B0F8.
-* Special edition (Debug on the title menu): `harobots-en-special-1.0.bps`, the result should be CRC32 796D9DB0.
+* First version (CRC32 AA525C04): `harobots-en-1.0.bps`, the result should be CRC32 0311B0F8. Special edition: `harobots-en-special-1.0.bps`, result 796D9DB0.
+* Rev 1 (CRC32 F75CE82C): `harobots-rev1-en-1.0.bps`, the result should be CRC32 E41891CF. Special edition: `harobots-rev1-en-special-1.0.bps`, result E4892F3D.
+
+The first version is the dump ROM catalogues call "Harobots (Japan)", and Rev 1 is "Harobots (Japan) (Rev 1)". The special edition adds Debug to the title menu.
 
 The English ROM is 4 MB (the original is 2 MB) because the translation needed more room: use an emulator or a flash cart that takes 32 Mbit WonderSwan ROMs. It's a WonderSwan (mono) game, so keep the .ws extension.
 
 You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `harobots-en-1.0.bps`, `harobots-en-special-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0).
+**Download:** the four BPS files on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0).
 
 **Known issues**
 
 * It hasn't been played start to finish by a person. If you find leftover Japanese, cut text or a crash, please tell me where it happened.
 * Link play (battles and trades with a second WonderSwan) is translated but untested, and a few rare messages (some battle rewards and errors) were checked for fit but not seen on screen.
 * Dialogue keeps the game's own fixed-width letter cells, so it looks evenly spaced like a typewriter; menus use a proportional font.
+* The Rev 1 patches were tested less than the first version's. The Rev 1 build was compared with the released one on 72 screens (the same pixels except the title), every string was checked for fit, and the opening and the special edition's Debug menu were played. The full dialogue run, the mini-game banner check and the credits pages were not run again on it, because everything except the title screen is the same data in both English builds.
+* In-game saves should move between the two versions, because the save code is the same in both; this was not tested.
 
 **Technical notes (for the curious)**
 
