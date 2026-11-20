@@ -60,6 +60,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Tanjou Debut for WonderSwan](games/tanjou-debut/README.md) (idol-raising simulation; + Original Quiz edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0) | BPS | `8B74F59A` | `E4034CDD` (Original Quiz `4CB3DAEE`) |
 | [Super Robot Taisen Compact 3](games/srw-compact-3/README.md) (Banpresto's robot-crossover strategy RPG; + Long Names and Debug editions) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0) | BPS | `188CA644` | `B5EA1DE0` (Long Names `9B68E1B8`, Debug `0BB721AC`) |
 | [RUN=DIM - Return to Earth](games/run-dim/README.md) (Digital Dream's mecha shooter with story scenes) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0) | BPS | `15C4552E` | `29BFFB91` |
+| [Vaitz Blade](games/vaitz-blade/README.md) (Bandai's monster-fusing RPG; + Debug Edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0) | BPS | `8FC9E145` | `EEA440C8` (Debug Edition `E4E38BF6`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
