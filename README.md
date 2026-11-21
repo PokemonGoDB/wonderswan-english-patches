@@ -62,6 +62,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [RUN=DIM - Return to Earth](games/run-dim/README.md) (Digital Dream's mecha shooter with story scenes) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0) | BPS | `15C4552E` | `29BFFB91` |
 | [Vaitz Blade](games/vaitz-blade/README.md) (Bandai's monster-fusing RPG; + Debug Edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0) | BPS | `8FC9E145` | `EEA440C8` (Debug Edition `E4E38BF6`) |
 | [Last Stand](games/last-stand/README.md) (Bandai's real-time strategy RPG) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0) | BPS | `CCCAF8A1` | `FC293A2E` |
+| [Raku Jongg](games/raku-jongg/README.md) (Enterbrain's falling mahjong-tile puzzle; WonderGate ranking) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0) | BPS | `FE4FF701` | `4C72E4EF` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
