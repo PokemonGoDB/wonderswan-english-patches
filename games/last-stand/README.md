@@ -15,6 +15,11 @@
 * **Words shortened to fit:** a few words are shorter than the Japanese because the original's boxes are fixed: some buttons (Promo, Assign, Flee, Party, School...), six school names (Still, Grind, Vigor, Trance, Rigor, Swift), a few country names kept to 6 letters (W.Rowa, E.Rowa, RamRon, Valkri, Kisnor, Gelhst, Katsva), "Injured" for the status bar, and the calendar plate "Yr1200 M 3".
 * **Style:** American spelling, honorifics dropped, "!?" (not "?!") throughout, a plain voice for reports and help lines, and heroes are "they" where either sex can be shown.
 
+**Two patches: Standard and Debug Edition**
+
+* **Standard** (`last-stand-en-1.0`): the translation above, and nothing else. Play this one.
+* **Debug Edition** (`last-stand-en-debug-1.0`): the same translation, plus a way into the developers' menu that is still on the cartridge. At **PUSH START BUTTON, hold Y1 and Y3 together (the top and bottom buttons of the Y pad) and press START**; keep them held for about half a second, until the screen changes to **Debug Settings**. The menu has five entries (UP and DOWN move, A chooses, B backs out of a list): **Done** goes back to the title (press START again for New Game / Continue as usual); **Start Chapter** lists chapters 1 to 7, the last battle and the ending, but **choosing one changes nothing** (nothing in the game reads the choice, in the Japanese cartridge too, so New Game still starts at the campfire); **Enemy Strength** (Normal / Weak) and **Music** (On / Off) are switches the game's code does read, but I did not play with them to see the effect; **Sound Test** has five pages of music tracks and then the sound effects SE00 to SE55 five at a time, **Next Page** goes on and wraps round, and A plays an entry (I checked that the screen stays alive, not how it sounds). The Sound Test has **no way out**: reset the console (the game's own soft reset is Y2 + Y4 + START). The labels are in English; the track names are my guesses from the Japanese (Rowa Castle, Ruins, Fort, Fortress City, Kurane, Regina Castle, Dezil Castle, Battle 1-3, Victory, Excavation 1-3, Door Opens, Final Boss, Ending), and the numbered tracks 201 to 209 are numbers in the original. It is a tool for the curious, not a way to play. Apart from the hold-and-START hook, the two patches are the same game. It was tested in an emulator only: every entry was opened and the lists paged through, not played.
+
 **How it was made: AI translation, independent checks, human decisions**
 
 * Claude read the game's script and interface format out of the ROM, wrote a story bible and a termbase, translated the game in passes, and did the hacking: a rebuilt text and menu layer with a variable-width letter renderer, and the redrawn picture labels.
@@ -40,7 +45,8 @@
 
 **Changelog**
 
-* **v1.0**: first public release.
+* **v1.0**: first public release (2026-11-19).
+* **v1.0, Debug Edition added** (2026-11-20): a second patch with a way into the developers' menu; the standard patch is unchanged.
 
 **Sources consulted**
 
@@ -96,15 +102,30 @@
 
    ![The save screen](images/11-save.png)
 
+Debug Edition only (the original's developer menu, opened by the same hold-and-START route, on the left):
+
+12. Debug Settings, the developers' menu
+
+   ![Debug Settings, the developers' menu](images/12-debug-menu.png)
+
+13. Sound Test, page 1
+
+   ![Sound Test, page 1](images/13-sound-test.png)
+
+14. The Start Chapter list (cut off at the bottom in both versions)
+
+   ![The Start Chapter list (cut off at the bottom in both versions)](images/14-chapter-list.png)
+
 **How to patch**
 
 Apply the BPS file to the Japanese ROM **Last Stand (Japan).ws** (2,097,152 bytes, CRC32 `CCCAF8A1`) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is 2,097,152 bytes:
 
 * Standard: `last-stand-en-1.0.bps`; the result should be CRC32 FC293A2E.
+* Debug Edition: `last-stand-en-debug-1.0.bps`; the result should be CRC32 71B36CE0 (also 2,097,152 bytes).
 
 It's a WonderSwan game, so keep the .ws extension. You must provide your own copy of the original Japanese game to apply it.
 
-**Download:** `last-stand-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0).
+**Download:** `last-stand-en-1.0.bps`, `last-stand-en-debug-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0).
 
 **Known issues**
 
@@ -117,6 +138,7 @@ It's a WonderSwan game, so keep the .ws extension. You must provide your own cop
 * The staff credits' name readings are not verified.
 * The footer checksum of the patched ROM was not recomputed (it is the original's). Emulators ignore it.
 * Save states made in an emulator on the Japanese ROM do not carry over to the patched ROM.
+* Debug Edition: Start Chapter does nothing (as in the Japanese game); its last two rows (Last Battle, Ending) lie below the bottom edge of the screen, so the cursor disappears there; the label "(From Chapter 2+)" copies a garbled label of the Japanese menu; in the Sound Test, a letter fragment can remain to the right of an entry after the cursor leaves it (the next entry's first letter; the Japanese version is clean); the Sound Test cannot be left except by resetting; the hold has to last about half a second.
 
 **Technical notes (for the curious)**
 
@@ -124,8 +146,8 @@ It's a WonderSwan game, so keep the .ws extension. You must provide your own cop
 * The game has a text engine for kana only. The patch adds a variable-width renderer: one byte per letter, each letter as wide as its ink plus one pixel, and word wrap in pixels in dialogue and help lines. It keeps 8 pen slots (where the last letter ended, per text context) so that menus drawn in several parts do not leave gaps, and the first letter of the hero info fields starts 2 pixels in.
 * The letters g, j, p, q and y were redrawn in their own slots of the half-width font: the round part sits on the same line as a, d, o and u, and the tail drops two rows below the line. On button plates the tail is one row, and the name-entry grid keeps its own small font.
 * Some Japanese was written into the code itself (the date plate on the month change, the empty-list messages); those words were found and rewritten there.
-* The checks are scripts that drive an emulator, take screenshots of every screen and compare the English build with the original. The BPS file is 168,372 bytes; applying it to the original gives the tested build byte for byte, checked with an independent patch applier.
-* The cartridge has an unused developer debug menu (デバッグ設定, "debug settings"). Its chapter option does nothing, and the usable parts are a sound test and an enemy strength switch. A separate Debug Edition may follow later; there is no date. This patch does not include it.
+* The checks are scripts that drive an emulator, take screenshots of every screen and compare the English build with the original. The standard BPS file is 171,356 bytes; applying it to the original gives the tested build byte for byte, checked with an independent patch applier.
+* The cartridge has an unused developer debug menu (デバッグ設定, "debug settings"). Its chapter option does nothing, and the usable parts are a sound test and an enemy strength switch. The standard patch leaves it alone and adds no way into it. The Debug Edition adds one hook in the boot loop (the instruction run right after the title script returns, at `2000:0085`, now calls a 40-byte routine placed in unused ROM at `0x12FF00`): when Y1 and Y3 are held it starts the menu's event script (script 4, translated in the standard patch too), runs the title script again, and carries on. Every other byte equals the standard patch's result (checked: 48 bytes differ). The Debug Edition patch file is 171,412 bytes.
 
 **A Note On My Justifications for AI Use**
 
