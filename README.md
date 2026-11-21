@@ -63,6 +63,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Vaitz Blade](games/vaitz-blade/README.md) (Bandai's monster-fusing RPG; + Debug Edition) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0) | BPS | `8FC9E145` | `EEA440C8` (Debug Edition `E4E38BF6`) |
 | [Last Stand](games/last-stand/README.md) (Bandai's real-time strategy RPG) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0) | BPS | `CCCAF8A1` | `FC293A2E` |
 | [Raku Jongg](games/raku-jongg/README.md) (Enterbrain's falling mahjong-tile puzzle; WonderGate ranking) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0) | BPS | `FE4FF701` | `4C72E4EF` |
+| [Super Robot Taisen Compact for WonderSwan Color](games/srw-compact-wsc/README.md) (Banpresto's robot-crossover strategy RPG, the colour remake of the first Compact) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0) | BPS | `16E0D929` | `62240306` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
