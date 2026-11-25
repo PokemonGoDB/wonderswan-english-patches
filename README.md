@@ -68,6 +68,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Tekken Card Challenge](games/tekken-card-challenge/README.md) (Namco's card-fighting spin-off of Tekken) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tekken-card-challenge-v1.0) | BPS | `E7C608E5` | `2FAA5139` |
 | [Inuyasha: Fuuun Emaki](games/inuyasha-fuuun-emaki/README.md) (Bandai's story action-adventure based on Inuyasha; + Debug Edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0) | BPS | `3FF5791F` | `739FF4F7` (Debug Edition `95E14D90`) |
 | [Inuyasha: Kagome no Sengoku Nikki](games/inuyasha-kagome-no-sengoku-nikki/README.md) (Bandai's real-time-clock virtual-companion adventure based on Inuyasha; + Debug Edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0) | BPS | `0C23D551` | `B25E410B` (Debug Edition `1209B679`) |
+| [Kiss Yori... Seaside Serenade](games/kiss-yori-seaside-serenade/README.md) (4 MiB image) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0) | BPS | `3B4C60C6` | `4F253095` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
