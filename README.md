@@ -67,6 +67,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Super Robot Taisen Compact for WonderSwan Color](games/srw-compact-wsc/README.md) (Banpresto's robot-crossover strategy RPG, the colour remake of the first Compact) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0) | BPS | `16E0D929` | `62240306` |
 | [Tekken Card Challenge](games/tekken-card-challenge/README.md) (Namco's card-fighting spin-off of Tekken) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tekken-card-challenge-v1.0) | BPS | `E7C608E5` | `2FAA5139` |
 | [Inuyasha: Fuuun Emaki](games/inuyasha-fuuun-emaki/README.md) (Bandai's story action-adventure based on Inuyasha; + Debug Edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0) | BPS | `3FF5791F` | `739FF4F7` (Debug Edition `95E14D90`) |
+| [Inuyasha: Kagome no Sengoku Nikki](games/inuyasha-kagome-no-sengoku-nikki/README.md) (Bandai's real-time-clock virtual-companion adventure based on Inuyasha; + Debug Edition) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0) | BPS | `0C23D551` | `B25E410B` (Debug Edition `1209B679`) |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
