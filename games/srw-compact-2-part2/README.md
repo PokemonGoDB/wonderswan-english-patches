@@ -37,6 +37,7 @@
 **Changelog**
 
 * **v1.0**: first public release.
+* **v1.0, Debug edition added**: a second patch whose Debug Menu opens with Y1 + START on the title; the standard patch is unchanged.
 
 **Sources consulted**
 
@@ -111,15 +112,63 @@
 
    ![Clear data import prompt (from part 1)](images/16-clear-data-import.png)
 
+Debug edition only (the original's developer screens, forced by RAM pokes, on the left; the original has no Debug menu, so picture 18 shows its Battle Test, and its forced Flag Editor draws garbage where the digits belong):
+
+17. The title menu of the Debug edition: the same as the standard patch (Y1 + START opens the Debug menu)
+
+   ![The title menu of the Debug edition: the same as the standard patch (Y1 + START opens the Debug menu)](images/17-title-menu-debug.png)
+
+18. The Debug menu (Battle Test, Viewer, Flag Editor)
+
+   ![The Debug menu (Battle Test, Viewer, Flag Editor)](images/18-debug-menu.png)
+
+19. Battle Test with English labels
+
+   ![Battle Test with English labels](images/19-battle-test.png)
+
+20. Flag Editor (the digits are readable in the Debug edition)
+
+   ![Flag Editor (the digits are readable in the Debug edition)](images/20-flag-editor.png)
+
+**Editions**
+
+Both patches go on the same Japanese ROM and give a 4,194,304-byte file; each is released on its own.
+
+| Patch | File | Result CRC32 | Result SHA-1 |
+
+| --- | --- | --- | --- |
+
+| Standard | `srw-compact-2-part2-en-1.0.bps` | `3BB0B9AF` | `300110aac78af53e0d9579f1b3b362fe8a4a4035` |
+
+| Debug | `srw-compact-2-part2-en-debug-1.0.bps` | `C8CBEAA5` | `dd960b709f7b926ef98357130bbae9e3897bf4e5` |
+
+**Debug**
+
+The same translation as the standard patch, plus a **Debug Menu**: on the title screen hold **Y1** and press **START** (at PUSH START or on the title menu). The title screen and the title menu look exactly as in the standard patch; there is no menu entry. The combination opens a small English menu with the three developer modes the cartridge still contains and the retail game never selects: **Battle Test** (choose the units and values; START plays one real battle, from a battle setup copied into RAM, and returns to the Debug menu), **Viewer** (the portraits and unit graphics) and **Flag Editor** (edits the game's flag, turn and event numbers; START returns to the Debug menu). The menu and the Battle Test labels are in English; B on the menu returns to the title. The title entries are unchanged.
+
 **How to patch**
 
 Apply the BPS file to the Japanese ROM **Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan).ws** (4,194,304 bytes, CRC32 `ECBB46DE`) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is 4,194,304 bytes:
 
 * Standard: `srw-compact-2-part2-en-1.0.bps`; the result should be CRC32 3BB0B9AF.
+* Debug edition: `srw-compact-2-part2-en-debug-1.0.bps`; the result should be CRC32 C8CBEAA5.
 
 It's a monochrome WonderSwan game, so keep the .ws extension. You must provide your own copy of the original Japanese game to apply it. The patch only fits this dump (CRC32 `ECBB46DE`); another revision is refused or gives a wrong result.
 
-**Download:** `srw-compact-2-part2-en-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0).
+**Download:** `srw-compact-2-part2-en-1.0.bps`, `srw-compact-2-part2-en-debug-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0).
+
+**Known issues (Debug edition)**
+
+* Debug edition: save states made on the standard patch do not carry over to the Debug edition, and the other way round.
+* Debug edition: the Battle Test copies the data of a real battle into RAM and sets a flag at RAM 0FF0 (the four bytes `DBG!`) that tells the end-of-battle code to return to the Debug menu. It is not proven that the game never uses that address; it was 0 in every state checked.
+* Debug edition: the Flag Editor edits RAM values only and is most meaningful with a game running; its START exit goes to the Debug menu, not to the map.
+* Debug edition: on the Battle Test exit with the Y button, one frame shows part of the old screen.
+* Debug edition: the Debug Menu is opened by holding Y1 and pressing START on the title screen (at PUSH START or on the title menu); the title screen and the title menu are exactly those of the standard patch. The standard English game does nothing with Y1 on the title, so no retail control is taken away; the combination was checked against near misses (START alone, Y1 alone, Y2 / Y3 / Y4 + START, Y1 + A / B, UP + START).
+* Debug tour (about 165,000 random-button frames per part, no hang; no kana or kanji on the debug screens, checked by pixels against the Japanese ROM as control; title screen, title menu and Start / Load / Resume identical to the standard patch, Y1 + START opens the Debug Menu, other button combinations do not): see `games/srw-compact-2/qa/debug-tour.md`. The Viewer shows the original's pictures: in part 1 face 03 is a picture with Japanese in it (a picture, not text; parts 2 and 3 were not searched for such pictures).
+
+**Technical notes (for the curious)**
+
+* The Debug edition (`srw-compact-2-part2-en-debug-1.0.bps`) is the standard build plus `tools/sr2_debug_edition.py`: a Y1 + START check in the two key tests of the title, a new mode 16h menu, English labels in mode 12h and a few code hooks in unused ROM space (3DE000h-3DFFFFh); it is a separate patch, not part of the standard patch. It was checked by applying it to the original ROM and comparing with the Debug build byte for byte; the standard build was not changed.
 
 **A Note On My Justifications for AI Use**
 
