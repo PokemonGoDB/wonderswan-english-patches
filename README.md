@@ -71,6 +71,7 @@ English translation patches for Japanese-only WonderSwan and WonderSwan Color ga
 | [Inuyasha: Kagome no Yume Nikki](games/inuyasha-kagome-no-yume-nikki/README.md) (Bandai's raising game based on Inuyasha; original logo kept, English subtitle; 8 MiB result) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-yume-nikki-v1.0) | BPS | `44453234` | `82518E21` |
 | [Kiss Yori... Seaside Serenade](games/kiss-yori-seaside-serenade/README.md) (4 MiB image) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0) | BPS | `3B4C60C6` | `4F253095` |
 | [Tokyo Majin Gakuen: Fuju Houroku](games/tokyo-majin-gakuen/README.md) (story-driven spell-card battle game) | WonderSwan | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tokyo-majin-gakuen-v1.0) | BPS | `91117D1B` | `7850C84C` |
+| [Sorobang](games/sorobang/README.md) (action puzzle; every word is picture art, redrawn in both graphics sets) | WonderSwan Color | [1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sorobang-v1.0) | BPS | `0E467D97` | `EB02A5E8` |
 
 Each game's page lists what's translated, how it was made, known issues and technical notes. The patch files are on
 the [Releases](https://github.com/PokemonGoDB/wonderswan-english-patches/releases) page.
