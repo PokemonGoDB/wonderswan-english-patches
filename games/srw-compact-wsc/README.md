@@ -132,6 +132,14 @@ Debug edition only (the original's developer screens, forced by RAM pokes, on th
 
    ![Battle Test with English labels](images/15-debug-battle-test.png)
 
+16. Status card of an enemy you have not scanned yet (new in 1.1)
+
+   ![Status card of an enemy you have not scanned yet (new in 1.1)](images/16-unknown-enemy-card.png)
+
+17. Battle with a critical hit (new in 1.1)
+
+   ![Battle with a critical hit (new in 1.1)](images/17-critical-battle.png)
+
 **Editions**
 
 Both patches go on the same Japanese ROM and give a 4,194,304-byte file; each is released on its own.
@@ -149,14 +157,6 @@ Both patches go on the same Japanese ROM and give a 4,194,304-byte file; each is
 The same translation as the standard patch, plus a visible **Debug** entry on the title menu, under the right end of Continue. It opens a small English menu with two of the developers' unused modes: **Battle Test** (choose the units, faces, attack and result values, then START plays one battle with the English battle quotes and returns to the menu) and **Viewer** (the portraits and unit sprites; START or Y1 returns). Their labels are in English, and B on the menu returns to the title. Start, Load and Continue work as in the standard patch.
 
 The cartridge has a third developer mode, a map debug screen. It is not offered: it could not be made to work (started from the title its digits are garbage, and after Battle Test it gives a white screen). The map overview is not offered either. The title menu has a hidden fourth slot that opens the clear-data transfer to the sequel. In the Debug edition that slot is replaced by Debug, so the transfer is not reachable in this edition; use the standard patch for it.
-
-16. Status card of an enemy you have not scanned yet (new in 1.1)
-
-   ![Status card of an enemy you have not scanned yet (new in 1.1)](images/16-unknown-enemy-card.png)
-
-17. Battle with a critical hit (new in 1.1)
-
-   ![Battle with a critical hit (new in 1.1)](images/17-critical-battle.png)
 
 
 **How to patch**

@@ -132,6 +132,10 @@ Debug edition only (the original's developer screens, forced by RAM pokes, on th
 
    ![Flag Editor (the digits are readable in the Debug edition)](images/20-flag-editor.png)
 
+21. Battle result caption (Critical) in the Debug edition's Battle Test: the 1.0 build on the left (caption still Japanese), 1.1 on the right; the left side is not the Japanese original (new in 1.1)
+
+   ![Battle result caption (Critical) in the Debug edition's Battle Test: the 1.0 build on the left (caption still Japanese), 1.1 on the right; the left side is not the Japanese original (new in 1.1)](images/21-battle-caption.png)
+
 **Editions**
 
 Both patches go on the same Japanese ROM and give a 4,194,304-byte file; each is released on its own.
@@ -147,10 +151,6 @@ Both patches go on the same Japanese ROM and give a 4,194,304-byte file; each is
 **Debug**
 
 The same translation as the standard patch, plus a **Debug Menu**: on the title screen hold **Y1** and press **START** (at PUSH START or on the title menu). The title screen and the title menu look exactly as in the standard patch; there is no menu entry. The combination opens a small English menu with the three developer modes the cartridge still contains and the retail game never selects: **Battle Test** (choose the units and values; START plays one real battle, from a battle setup copied into RAM, and returns to the Debug menu), **Viewer** (the portraits and unit graphics) and **Flag Editor** (edits the game's flag, turn and event numbers; START returns to the Debug menu). The menu and the Battle Test labels are in English; B on the menu returns to the title. The title entries are unchanged.
-
-21. Battle result caption (Critical) in the Debug edition's Battle Test: the 1.0 build on the left (caption still Japanese), 1.1 on the right; the left side is not the Japanese original (new in 1.1)
-
-   ![Battle result caption (Critical) in the Debug edition's Battle Test: the 1.0 build on the left (caption still Japanese), 1.1 on the right; the left side is not the Japanese original (new in 1.1)](images/21-battle-caption.png)
 
 
 **How to patch**
