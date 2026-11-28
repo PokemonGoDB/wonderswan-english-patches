@@ -1,4 +1,4 @@
-# Super Robot Taisen Compact 3 (WonderSwan Color) - AI English translation patch v1.0
+# Super Robot Taisen Compact 3 (WonderSwan Color) - AI English translation patch v1.1
 
 **Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.
 
@@ -19,9 +19,9 @@
 
 Three patches, each applied on its own to the same Japanese ROM:
 
-* **Standard** (`srw-compact-3-en-1.0.bps`): pilot names up to 6 letters (first name, nickname and last name), robot name up to 10 letters.
-* **Long Names** (`srw-compact-3-en-longnames-1.0.bps`): the same, but robot names can have up to 12 letters. Pilot names stay at 6 letters: I planned 8, but eight wide letters (W, M) did not fit the 6-cell name fields with the 12 px font and wrote over the labels.
-* **Debug** (`srw-compact-3-en-debug-1.0.bps`): the same translation as the standard patch, with a visible **Debug** entry added to the title menu. It opens the developers' own debug modes, which are in the original cartridge but cannot be reached from the title menu. Move the cursor right of LOAD (or right of CONTINUE if you have a suspended game) and press A on Debug. The menu has four entries:
+* **Standard** (`srw-compact-3-en-1.1.bps`): pilot names up to 6 letters (first name, nickname and last name), robot name up to 10 letters.
+* **Long Names** (`srw-compact-3-en-longnames-1.1.bps`): the same, but robot names can have up to 12 letters. Pilot names stay at 6 letters: I planned 8, but eight wide letters (W, M) did not fit the 6-cell name fields with the 12 px font and wrote over the labels.
+* **Debug** (`srw-compact-3-en-debug-1.1.bps`): the same translation as the standard patch, with a visible **Debug** entry added to the title menu. It opens the developers' own debug modes, which are in the original cartridge but cannot be reached from the title menu. Move the cursor right of LOAD (or right of CONTINUE if you have a suspended game) and press A on Debug. The menu has four entries:
   * **Battle Test:** the battle-animation test (background, units, portraits, attack, hit result, then the battle with its quotes). It is started with values taken from a real battle, because all-zero values freeze it. START plays the battle; afterwards the game continues on the chapter-1 map, as the original does.
   * **Viewer:** a portrait and unit-sprite viewer.
   * **Map Debug:** a map screen with the turn number, event flags and unit values, shown only as digits. The meaning of its fields is not known, so they are not labelled.
@@ -32,13 +32,13 @@ Three patches, each applied on its own to the same Japanese ROM:
 **How it was made: AI translation, independent checks, human decisions**
 
 * Claude worked out the game's text format, wrote the English, and rebuilt the ROM with variable-width fonts and a text renderer added to the cartridge, so that lines and names fit the original boxes. The ROM stays 8 MiB, like the original.
-* The final build (S17a) went through a full automated test run, QA14, of 12 checks, and all 12 passed:
+* The final build (S18b) went through a full automated test run, QA16, of 12 checks, and all 12 passed:
   * every one of the 22,287 catalogued text units of the original is covered by a translation or a reviewed exclusion, the English passes the width rules, and the strict build is byte for byte the ROM that was tested;
   * all 18,353 story messages and battle quotes were drawn by the game in the real dialogue box with the widest player names (640,274 letters drawn, nothing flagged: no Japanese, nothing past the right edge, no box with too many lines);
   * random-button walks from 52 saved states (9.68 million frames, 6.08 million letters drawn) found no Japanese on the English build; the same walks on the original flagged 4,726 times, so the check can see it;
   * all 11 ending variants were played to the credits (2,383 English screens, none flagged);
-  * every one of the 77 screens of the screen inventory was captured on both ROMs and read;
-  * a measured alignment audit found no new misaligned row (679 flagged rows were looked at, none left open), and a soak test of 2.38 million frames from 30 saved states raised no flags (12 of the 30 states react little to random presses, so they prove less).
+  * every one of the 79 screens of the screen inventory was captured on both ROMs and read;
+  * a measured alignment audit found no new misaligned row (687 flagged rows were looked at, none left open), and a soak test of 2.38 million frames from 30 saved states raised no flags (12 of the 30 states react little to random presses, so they prove less).
 * The English text was read against the Japanese by 17 read-only Claude reviewers: 135 findings, of which 127 were fixed and 6 rejected with a reason, and the other two were noted for later. A second independent read of the 12 px rewordings and the weapon names found 4 errors and 8 preferences, all fixed. Reviewers also read the captured screens beside the originals; none is left pending.
 * Every decision that was mine to make was put on three decision pages, 40 items in all (letter size, name spellings, wording, the Long Names edition, the title logo and so on), with options and pictures, and I answered every one of them.
 
@@ -51,9 +51,11 @@ Three patches, each applied on its own to the same Japanese ROM:
 * **Debug edition:** the four modes were launched and read on an earlier build of the edition (with the original as control); the final Debug ROM was built and its patch checked byte for byte, but I did not read its screens again. In the debug modes I only jumped to stages 5, 12, 25 and 39.
 * **What the checks cannot see:** the detector does not see kana drawn with codes that the English font reuses for spaces and punctuation, nor text drawn as pictures outside the pictures that were listed; those screens were checked by screenshot.
 * The game was not played from start to finish by a person, and not on real hardware.
+* **Result pictures in the animated battle (1.1):** the 15 new English result pictures were seen inside a forced animation; the other 14 were not seen in natural battles.
 
 **Changelog**
 
+* **v1.1** (2026-11-28): fixes after a player report. The status window of an enemy you have not scanned yet showed broken placeholders (and a wrong `S.Def`); they are now whole. Fifteen picture-only battle result words in the animated battle (CRITICAL, DOUBLE IMAGE, BEAM COAT, I-FIELD, MACH SP, AURA BARRIER, GETTER VISION, TRUE MACH SP, SHIELD, STEALTH CLOAK, OPEN GET, FLUID ARMOR, COUNTER, HYPER JAMMER, SWORD CUT) were still Japanese and are now English; the `???` on the Enemy tab got a 1 px margin. With battle animations off, the HIT! / MISS! / CRITICAL! captions were already English. Thanks to the player who sent screenshots. Saves keep working: the 1.0 and 1.1 builds differ only in pictures, window layout and the checksum (checked by comparing the two ROMs byte by byte; I did not load a 1.0 save into 1.1). Apply the 1.1 patch to the original Japanese ROM, not to an English ROM. It applies to all three editions.
 * **v1.0**: first public release.
 
 **Sources consulted**
@@ -119,17 +121,26 @@ Three patches, each applied on its own to the same Japanese ROM:
    ![Staff credits (the original's credits are already romanized; the English build re-centres them)](images/13-staff-credits.png)
 
 
+14. Status window of an enemy you have not scanned yet (new in 1.1)
+
+   ![Status window of an enemy you have not scanned yet (new in 1.1)](images/14-unknown-enemy.png)
+
+15. Animated battle with a critical hit (new in 1.1)
+
+   ![Animated battle with a critical hit (new in 1.1)](images/15-critical-battle.png)
+
+
 **How to patch**
 
 Apply one BPS file to the Japanese ROM **Super Robot Taisen Compact 3 (Japan).wsc** (8,388,608 bytes, CRC32 `188CA644`) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. Every result is 8,388,608 bytes:
 
-* Standard: `srw-compact-3-en-1.0.bps`; the result should be CRC32 B5EA1DE0.
-* Long Names edition: `srw-compact-3-en-longnames-1.0.bps`; the result should be CRC32 9B68E1B8.
-* Debug edition: `srw-compact-3-en-debug-1.0.bps`; the result should be CRC32 0BB721AC.
+* Standard: `srw-compact-3-en-1.1.bps`; the result should be CRC32 4E8E300D.
+* Long Names edition: `srw-compact-3-en-longnames-1.1.bps`; the result should be CRC32 DB263FA2.
+* Debug edition: `srw-compact-3-en-debug-1.1.bps`; the result should be CRC32 4BF9FFB6.
 
 It's a WonderSwan Color game, so keep the .wsc extension. You must provide your own copy of the original Japanese game to apply it. Apply only one patch to the original ROM, not one on top of another.
 
-**Download:** `srw-compact-3-en-1.0.bps`, `srw-compact-3-en-longnames-1.0.bps` and `srw-compact-3-en-debug-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0).
+**Download:** `srw-compact-3-en-1.1.bps`, `srw-compact-3-en-longnames-1.1.bps` and `srw-compact-3-en-debug-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.1).
 
 **Known issues**
 

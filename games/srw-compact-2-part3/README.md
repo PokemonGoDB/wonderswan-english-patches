@@ -1,4 +1,4 @@
-# Super Robot Taisen Compact 2 Part 3: Galactic Showdown - AI English translation patch v1.0
+# Super Robot Taisen Compact 2 Part 3: Galactic Showdown - AI English translation patch v1.1
 
 **Super Robot Taisen Compact 2 Part 3: Galactic Showdown** (スーパーロボット大戦コンパクト2 第3部 銀河決戦篇) is the third of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Dirad, Earth and space, the Dark Zone, Einst space and the epilogue at Axis. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.
 
@@ -17,7 +17,7 @@
 **How it was made: AI translation, independent checks, human decisions**
 
 * Claude worked out the game's text format (one id table, banks of messages and quotes, a names block, cut-in and prologue tables), wrote the English, redrew the picture text and rebuilt the ROM, repacking text into free space so that lines fit the original boxes. The ROM stays 4 MiB, like the original.
-* The final build (d14) went through the project's automated test run: 16 of 17 checks passed. The one that did not is the random-play soak: from one saved state the screen held still a little longer than on the original. That same flag has come up in every run since early builds; the frames were looked at each time and nothing was wrong on screen. The run includes:
+* The final build (d15) went through the project's automated test run: 16 of 17 checks passed. The one that did not is the random-play soak: from one saved state the screen held still a little longer than on the original. That same flag has come up in every run since early builds; the frames were looked at each time and nothing was wrong on screen. The run includes:
   * every string decoded, re-encoded and rebuilt byte for byte; no Japanese text candidate uncovered;
   * 17,021 text units drawn by the game's own renderer: 0 flagged; the same sweep on the original flags Japanese, so the check can see it;
   * 90 starts from saved states across the game, 323,717 frames of menus, map and dialogue: no Japanese on screen at runtime; the same run on the original sees it;
@@ -33,9 +33,11 @@
 * the hero name drawn by a message from a save made with the English keyboard (the capture shows the garble of a Japanese save)
 * FD 07 name substitutions (checked by bytes only); part 3 has no data-transfer entry on its title menu and its record writer was not reached
 * **The game was not played from start to finish by a person**, and not on real hardware.
+* **Result captions (1.1):** the five captions that depend on the defending unit (Double Image, Mach Special, True Mach Special, Getter Vision, Aura Barrier) were not reached in a real battle; real battles showed only Beam Coating and Critical. All nine were checked in the Debug edition's Battle Test.
 
 **Changelog**
 
+* **v1.1** (2026-11-28): nine battle result caption pictures (Double Image, Critical, Beam Coating, E-Field, Mach Special, Aura Barrier, Getter Vision, True Mach Special, Shield) were still Japanese in 1.0 and are now English. They turned up when we checked this game after a player sent screenshots of the same kind of fault in Compact 3: thanks to that player. Saves keep working: the 1.0 and 1.1 builds differ only in those nine pictures and the checksum (checked by comparing the two ROMs byte by byte; I did not load a 1.0 save into 1.1). Apply the 1.1 patch to the original Japanese ROM, not to an English ROM. It applies to the standard and the Debug edition.
 * **v1.0**: first public release.
 * **v1.0, Debug edition added**: a second patch whose Debug Menu opens with Y1 + START on the title; the standard patch is unchanged.
 
@@ -138,24 +140,29 @@ Both patches go on the same Japanese ROM and give a 4,194,304-byte file; each is
 
 | --- | --- | --- | --- |
 
-| Standard | `srw-compact-2-part3-en-1.0.bps` | `5ACF62C7` | `ed442e0dbc60b847ccfcc3553d4a1001df9e2ae8` |
+| Standard | `srw-compact-2-part3-en-1.1.bps` | `089E6CB5` | `5c12461b4b3cea98d94e8c9f0574b823cbf4c7ca` |
 
-| Debug | `srw-compact-2-part3-en-debug-1.0.bps` | `697E2FD4` | `e9d8a81db5e78bbb5d9041d082e45c8b5e3cc298` |
+| Debug | `srw-compact-2-part3-en-debug-1.1.bps` | `4F014CD8` | `1ba05fe11474fa137d145aac8789c2fa78084d1f` |
 
 **Debug**
 
 The same translation as the standard patch, plus a **Debug Menu**: on the title screen hold **Y1** and press **START** (at PUSH START or on the title menu). The title screen and the title menu look exactly as in the standard patch; there is no menu entry. The combination opens a small English menu with the three developer modes the cartridge still contains and the retail game never selects: **Battle Test** (choose the units and values; START plays one real battle, from a battle setup copied into RAM, and returns to the Debug menu), **Viewer** (the portraits and unit graphics) and **Flag Editor** (edits the game's flag, turn and event numbers; START returns to the Debug menu). The menu and the Battle Test labels are in English; B on the menu returns to the title. The title entries are unchanged.
 
+21. Battle result caption (Critical) in the Debug edition's Battle Test: the 1.0 build on the left (caption still Japanese), 1.1 on the right; the left side is not the Japanese original (new in 1.1)
+
+   ![Battle result caption (Critical) in the Debug edition's Battle Test: the 1.0 build on the left (caption still Japanese), 1.1 on the right; the left side is not the Japanese original (new in 1.1)](images/21-battle-caption.png)
+
+
 **How to patch**
 
 Apply the BPS file to the Japanese ROM **Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan).ws** (4,194,304 bytes, CRC32 `0B0F8981`) in your browser with the [Swan Revival patcher](https://swanrevival.com/patcher/), or with Floating IPS, beat or ROM Patcher JS. The result is 4,194,304 bytes:
 
-* Standard: `srw-compact-2-part3-en-1.0.bps`; the result should be CRC32 5ACF62C7.
-* Debug edition: `srw-compact-2-part3-en-debug-1.0.bps`; the result should be CRC32 697E2FD4.
+* Standard: `srw-compact-2-part3-en-1.1.bps`; the result should be CRC32 089E6CB5.
+* Debug edition: `srw-compact-2-part3-en-debug-1.1.bps`; the result should be CRC32 4F014CD8.
 
 It's a monochrome WonderSwan game, so keep the .ws extension. You must provide your own copy of the original Japanese game to apply it. The patch only fits this dump (CRC32 `0B0F8981`); another revision is refused or gives a wrong result.
 
-**Download:** `srw-compact-2-part3-en-1.0.bps`, `srw-compact-2-part3-en-debug-1.0.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0).
+**Download:** `srw-compact-2-part3-en-1.1.bps`, `srw-compact-2-part3-en-debug-1.1.bps` on the [release page](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.1).
 
 **Known issues (Debug edition)**
 
@@ -168,7 +175,7 @@ It's a monochrome WonderSwan game, so keep the .ws extension. You must provide y
 
 **Technical notes (for the curious)**
 
-* The Debug edition (`srw-compact-2-part3-en-debug-1.0.bps`) is the standard build plus `tools/sr2_debug_edition.py`: a Y1 + START check in the two key tests of the title, a new mode 16h menu, English labels in mode 12h and a few code hooks in unused ROM space (3DE000h-3DFFFFh); it is a separate patch, not part of the standard patch. It was checked by applying it to the original ROM and comparing with the Debug build byte for byte; the standard build was not changed.
+* The Debug edition (`srw-compact-2-part3-en-debug-1.1.bps`) is the standard build plus `tools/sr2_debug_edition.py`: a Y1 + START check in the two key tests of the title, a new mode 16h menu, English labels in mode 12h and a few code hooks in unused ROM space (3DE000h-3DFFFFh); it is a separate patch, not part of the standard patch. It was checked by applying it to the original ROM and comparing with the Debug build byte for byte; the standard build was not changed.
 
 **A Note On My Justifications for AI Use**
 
